@@ -1,0 +1,134 @@
+{
+  "gunner_start": {
+    "definition": "start",
+    "x": 0,
+    "y": -320,
+    "root": true
+  },
+  "gunner_recoil_a": {
+    "definition": "recoil_control_1",
+    "x": -224,
+    "y": -256,
+    "root": false
+  },
+  "gunner_recoil_b": {
+    "definition": "recoil_control_1",
+    "x": -224,
+    "y": -192,
+    "root": false
+  },
+  "gunner_ads_a": {
+    "definition": "ads_speed_1",
+    "x": -96,
+    "y": -128,
+    "root": false
+  },
+  "gunner_recoil_c": {
+    "definition": "recoil_control_2",
+    "x": -224,
+    "y": -64,
+    "root": false
+  },
+  "gunner_recoil_d": {
+    "definition": "recoil_control_2",
+    "x": -224,
+    "y": 0,
+    "root": false
+  },
+  "gunner_ads_b": {
+    "definition": "ads_speed_2",
+    "x": -96,
+    "y": 64,
+    "root": false
+  },
+  "gunner_recoil_e": {
+    "definition": "recoil_control_3",
+    "x": -224,
+    "y": 128,
+    "root": false
+  },
+  "gunner_recoil_f": {
+    "definition": "recoil_control_3",
+    "x": -224,
+    "y": 192,
+    "root": false
+  },
+  "gunner_reload_a": {
+    "definition": "reload_speed_1",
+    "x": 224,
+    "y": -256,
+    "root": false
+  },
+  "gunner_reload_b": {
+    "definition": "reload_speed_1",
+    "x": 224,
+    "y": -192,
+    "root": false
+  },
+  "gunner_ammo_a": {
+    "definition": "ammo_save_1",
+    "x": 96,
+    "y": -128,
+    "root": false
+  },
+  "gunner_reload_c": {
+    "definition": "reload_speed_2",
+    "x": 224,
+    "y": -64,
+    "root": false
+  },
+  "gunner_reload_d": {
+    "definition": "reload_speed_2",
+    "x": 224,
+    "y": 0,
+    "root": false
+  },
+  "gunner_ammo_b": {
+    "definition": "ammo_save_2",
+    "x": 96,
+    "y": 64,
+    "root": false
+  },
+  "gunner_reload_e": {
+    "definition": "reload_speed_3",
+    "x": 224,
+    "y": 128,
+    "root": false
+  },
+  "gunner_reload_f": {
+    "definition": "reload_speed_3",
+    "x": 224,
+    "y": 192,
+    "root": false
+  },
+  "gunner_damage_a": {
+    "definition": "gun_damage_1",
+    "x": -128,
+    "y": 288,
+    "root": false
+  },
+  "gunner_headshot_a": {
+    "definition": "headshot_multiplier_1",
+    "x": 128,
+    "y": 288,
+    "root": false
+  },
+  "gunner_damage_b": {
+    "definition": "gun_damage_2",
+    "x": -64,
+    "y": 352,
+    "root": false
+  },
+  "gunner_headshot_b": {
+    "definition": "headshot_multiplier_2",
+    "x": 64,
+    "y": 352,
+    "root": false
+  },
+  "gunner_damage_c": {
+    "definition": "gun_damage_3",
+    "x": 0,
+    "y": 416,
+    "root": false
+  }
+}

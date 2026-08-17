@@ -1,0 +1,116 @@
+{
+  "farm_start": {
+    "definition": "start",
+    "x": 0,
+    "y": -384,
+    "root": true
+  },
+  "farm_anti_farmland_trampling": {
+    "definition": "anti_farmland_trampling",
+    "x": -256,
+    "y": -288,
+    "root": false
+  },
+  "farm_easy_harvest": {
+    "definition": "easy_harvest",
+    "x": 0,
+    "y": -288,
+    "root": false
+  },
+  "farm_movement_speed_a": {
+    "definition": "movement_speed_1",
+    "x": 256,
+    "y": -288,
+    "root": false
+  },
+  "farm_movement_speed_b": {
+    "definition": "movement_speed_2",
+    "x": 256,
+    "y": -192,
+    "root": false
+  },
+  "farm_movement_speed_c": {
+    "definition": "movement_speed_3",
+    "x": 256,
+    "y": -96,
+    "root": false
+  },
+  "farm_crouch_bonemeal_a": {
+    "definition": "crouch_bonemeal_1",
+    "x": -256,
+    "y": -192,
+    "root": false
+  },
+  "farm_crouch_bonemeal_b": {
+    "definition": "crouch_bonemeal_2",
+    "x": -256,
+    "y": -96,
+    "root": false
+  },
+  "farm_crouch_bonemeal_c": {
+    "definition": "crouch_bonemeal_3",
+    "x": -256,
+    "y": 0,
+    "root": false
+  },
+  "farm_crouch_bonemeal_d": {
+    "definition": "crouch_bonemeal_4",
+    "x": -256,
+    "y": 96,
+    "root": false
+  },
+  "farm_crouch_bonemeal_e": {
+    "definition": "crouch_bonemeal_5",
+    "x": -256,
+    "y": 192,
+    "root": false
+  },
+  "farm_green_thumb_a": {
+    "definition": "green_thumb_1",
+    "x": 0,
+    "y": -192,
+    "root": false
+  },
+  "farm_green_thumb_b": {
+    "definition": "green_thumb_1",
+    "x": 0,
+    "y": -96,
+    "root": false
+  },
+  "farm_green_thumb_c": {
+    "definition": "green_thumb_2",
+    "x": 0,
+    "y": 0,
+    "root": false
+  },
+  "farm_green_thumb_d": {
+    "definition": "green_thumb_2",
+    "x": 0,
+    "y": 96,
+    "root": false
+  },
+  "farm_green_thumb_e": {
+    "definition": "green_thumb_3",
+    "x": 0,
+    "y": 192,
+    "root": false
+  },
+  "farm_green_thumb_f": {
+    "definition": "green_thumb_3",
+    "x": 0,
+    "y": 288,
+    "root": false
+  },
+  "farm_harvest_3x3": {
+    "definition": "harvest_3x3",
+    "x": -96,
+    "y": 448,
+    "root": false
+  },
+  "farm_harvest_5x5": {
+    "definition": "harvest_5x5",
+    "x": 96,
+    "y": 544,
+    "root": false
+  }
+}

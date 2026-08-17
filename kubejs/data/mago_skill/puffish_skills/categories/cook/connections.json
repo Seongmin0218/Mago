@@ -1,0 +1,82 @@
+{
+  "normal": {
+    "bidirectional": [
+      [
+        "cook_start",
+        "cook_farmers_weapon_a"
+      ],
+      [
+        "cook_farmers_weapon_a",
+        "cook_farmers_weapon_b"
+      ],
+      [
+        "cook_farmers_weapon_b",
+        "cook_farmers_weapon_c"
+      ],
+      [
+        "cook_farmers_weapon_c",
+        "cook_farmers_weapon_d"
+      ],
+      [
+        "cook_farmers_weapon_d",
+        "cook_farmers_weapon_e"
+      ],
+      [
+        "cook_farmers_weapon_e",
+        "cook_farmers_weapon_f"
+      ],
+
+      [
+        "cook_start",
+        "cook_zesty_culinary_a"
+      ],
+      [
+        "cook_zesty_culinary_a",
+        "cook_zesty_culinary_b"
+      ],
+      [
+        "cook_zesty_culinary_b",
+        "cook_zesty_culinary_c"
+      ],
+
+      [
+        "cook_start",
+        "cook_short_order_cooking_a"
+      ],
+      [
+        "cook_short_order_cooking_a",
+        "cook_short_order_cooking_b"
+      ],
+      [
+        "cook_short_order_cooking_b",
+        "cook_short_order_cooking_c"
+      ],
+      [
+        "cook_short_order_cooking_c",
+        "cook_short_order_cooking_d"
+      ],
+
+      [
+        "cook_farmers_weapon_f",
+        "cook_gourmet_food"
+      ],
+      [
+        "cook_zesty_culinary_c",
+        "cook_recipe_unlock"
+      ],
+      [
+        "cook_short_order_cooking_d",
+        "cook_preserved_food"
+      ],
+
+      [
+        "cook_gourmet_food",
+        "cook_recipe_unlock"
+      ],
+      [
+        "cook_recipe_unlock",
+        "cook_preserved_food"
+      ]
+    ]
+  }
+}

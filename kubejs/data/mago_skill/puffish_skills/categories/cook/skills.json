@@ -1,0 +1,108 @@
+{
+  "cook_start": {
+    "definition": "start",
+    "x": 0,
+    "y": -288,
+    "root": true
+  },
+
+  "cook_farmers_weapon_a": {
+    "definition": "farmers_weapon_1",
+    "x": -224,
+    "y": -192,
+    "root": false
+  },
+  "cook_farmers_weapon_b": {
+    "definition": "farmers_weapon_1",
+    "x": -224,
+    "y": -128,
+    "root": false
+  },
+  "cook_farmers_weapon_c": {
+    "definition": "farmers_weapon_2",
+    "x": -224,
+    "y": -64,
+    "root": false
+  },
+  "cook_farmers_weapon_d": {
+    "definition": "farmers_weapon_2",
+    "x": -224,
+    "y": 0,
+    "root": false
+  },
+  "cook_farmers_weapon_e": {
+    "definition": "farmers_weapon_3",
+    "x": -224,
+    "y": 64,
+    "root": false
+  },
+  "cook_farmers_weapon_f": {
+    "definition": "farmers_weapon_3",
+    "x": -224,
+    "y": 128,
+    "root": false
+  },
+
+  "cook_zesty_culinary_a": {
+    "definition": "zesty_culinary_1",
+    "x": 0,
+    "y": -192,
+    "root": false
+  },
+  "cook_zesty_culinary_b": {
+    "definition": "zesty_culinary_2",
+    "x": 0,
+    "y": -128,
+    "root": false
+  },
+  "cook_zesty_culinary_c": {
+    "definition": "zesty_culinary_3",
+    "x": 0,
+    "y": -64,
+    "root": false
+  },
+
+  "cook_short_order_cooking_a": {
+    "definition": "short_order_cooking_1",
+    "x": 224,
+    "y": -192,
+    "root": false
+  },
+  "cook_short_order_cooking_b": {
+    "definition": "short_order_cooking_1",
+    "x": 224,
+    "y": -128,
+    "root": false
+  },
+  "cook_short_order_cooking_c": {
+    "definition": "short_order_cooking_2",
+    "x": 224,
+    "y": -64,
+    "root": false
+  },
+  "cook_short_order_cooking_d": {
+    "definition": "short_order_cooking_2",
+    "x": 224,
+    "y": 0,
+    "root": false
+  },
+
+  "cook_gourmet_food": {
+    "definition": "gourmet_food",
+    "x": -224,
+    "y": 224,
+    "root": false
+  },
+  "cook_recipe_unlock": {
+    "definition": "recipe_unlock",
+    "x": 0,
+    "y": 224,
+    "root": false
+  },
+  "cook_preserved_food": {
+    "definition": "preserved_food",
+    "x": 224,
+    "y": 224,
+    "root": false
+  }
+}

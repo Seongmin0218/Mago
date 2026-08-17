@@ -1,0 +1,97 @@
+{
+  "start": {
+    "title": "광부",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "cost": 0,
+    "required_skills": 0
+  },
+  "mining_speed_1": {
+    "title": "채굴 속도 I",
+    "description": "채굴 속도가 소폭 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "mining_speed_2": {
+    "title": "채굴 속도 II",
+    "description": "채굴 속도가 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_pickaxe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.4,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "mining_luck_1": {
+    "title": "광부의 행운 I",
+    "description": "행운이 아주 조금 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:emerald"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fortune",
+          "value": 0.2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "mining_luck_2": {
+    "title": "광부의 행운 II",
+    "description": "행운이 조금 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fortune",
+          "value": 0.4,
+          "operation": "addition"
+        }
+      }
+    ]
+  }
+}

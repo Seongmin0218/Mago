@@ -1,0 +1,14 @@
+{
+  "unlocked_by_default": true,
+  "exclusive_root": false,
+  "starting_points": 0,
+  "title": "요리사",
+  "description": "조리 속도, 식욕 버프, 식칼 숙련, 고급 음식 가공 스킬트리",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "farmersdelight:cooking_pot"
+    }
+  },
+  "background": "textures/gui/advancements/backgrounds/husbandry.png"
+}

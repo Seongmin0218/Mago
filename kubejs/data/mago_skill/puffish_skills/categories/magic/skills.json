@@ -1,0 +1,62 @@
+{
+  "magic_start": {
+    "definition": "start",
+    "x": 0,
+    "y": -192,
+    "root": true
+  },
+  "magic_fire_unlock": {
+    "definition": "fire_unlock",
+    "x": -256,
+    "y": -128,
+    "root": false
+  },
+  "magic_ice_unlock": {
+    "definition": "ice_unlock",
+    "x": -128,
+    "y": -128,
+    "root": false
+  },
+  "magic_lightning_unlock": {
+    "definition": "lightning_unlock",
+    "x": 0,
+    "y": -128,
+    "root": false
+  },
+  "magic_holy_unlock": {
+    "definition": "holy_unlock",
+    "x": 128,
+    "y": -128,
+    "root": false
+  },
+  "magic_nature_unlock": {
+    "definition": "nature_unlock",
+    "x": 256,
+    "y": -128,
+    "root": false
+  },
+  "magic_blood_unlock": {
+    "definition": "blood_unlock",
+    "x": -192,
+    "y": -64,
+    "root": false
+  },
+  "magic_ender_unlock": {
+    "definition": "ender_unlock",
+    "x": -64,
+    "y": -64,
+    "root": false
+  },
+  "magic_evocation_unlock": {
+    "definition": "evocation_unlock",
+    "x": 64,
+    "y": -64,
+    "root": false
+  },
+  "magic_eldritch_unlock": {
+    "definition": "eldritch_unlock",
+    "x": 192,
+    "y": -64,
+    "root": false
+  }
+}

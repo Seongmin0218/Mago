@@ -1,0 +1,241 @@
+{
+  "start": {
+    "title": "요리사",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "farmersdelight:cooking_pot"
+      }
+    },
+    "cost": 0,
+    "required_skills": 0
+  },
+  "zesty_culinary_1": {
+    "title": "향긋한 조리 I",
+    "description": "음식을 조리하면 Appetite 효과를 얻습니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "farmersdelight:cooked_rice"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "farmers_attributes:zesty_culinary",
+          "value": 1.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "zesty_culinary_2": {
+    "title": "향긋한 조리 II",
+    "description": "조리 시 얻는 Appetite 효과의 지속시간이 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "farmersdelight:apple_cider"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "farmers_attributes:zesty_culinary",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "zesty_culinary_3": {
+    "title": "향긋한 조리 III",
+    "description": "조리 시 얻는 Appetite 효과의 지속시간이 추가로 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "farmersdelight:melon_juice"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "farmers_attributes:zesty_culinary",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "farmers_weapon_1": {
+    "title": "정갈한 칼끝 I",
+    "description": "식칼과 스킬렛 같은 농부/요리사 무기의 피해량이 소폭 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "farmersdelight:flint_knife"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "farmers_attributes:farmers_weapon",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "farmers_weapon_2": {
+    "title": "정갈한 칼끝 II",
+    "description": "식칼과 스킬렛 같은 농부/요리사 무기의 피해량이 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "farmersdelight:iron_knife"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "farmers_attributes:farmers_weapon",
+          "value": 0.75,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "farmers_weapon_3": {
+    "title": "정갈한 칼끝 III",
+    "description": "식칼과 스킬렛 같은 농부/요리사 무기의 피해량이 크게 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "farmersdelight:diamond_knife"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "farmers_attributes:farmers_weapon",
+          "value": 1.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "short_order_cooking_1": {
+    "title": "분주한 주방",
+    "description": "주변의 훈연기, 캠프파이어, 조리 냄비, 스킬렛 조리 속도가 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:smoker"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "farmers_attributes:short_order_cooking",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "short_order_cooking_2": {
+    "title": "조리 냄비 숙련",
+    "description": "주변 조리 도구의 조리 속도가 추가로 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "farmersdelight:cooking_pot"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "farmers_attributes:short_order_cooking",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "gourmet_food": {
+    "title": "고급 음식",
+    "description": "더미: 추후 KubeJS로 조리된 음식에 품질 데이터와 버프를 부여하는 후처리 시스템을 연결할 예정입니다. 현재는 태그만 부여합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "farmersdelight:beef_stew"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ps_cook_gourmet_food",
+          "lock_command": "tag @s remove ps_cook_gourmet_food"
+        }
+      }
+    ]
+  },
+  "recipe_unlock": {
+    "title": "상위 레시피 해금",
+    "description": "더미: 추후 KubeJS로 일부 상위 음식 레시피 제작 조건을 연결할 예정입니다. 현재는 태그만 부여합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:book"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ps_cook_recipe_unlock",
+          "lock_command": "tag @s remove ps_cook_recipe_unlock"
+        }
+      }
+    ]
+  },
+  "preserved_food": {
+    "title": "보존식 제조",
+    "description": "더미: 추후 KubeJS로 보존식/휴대식량 후처리 레시피를 연결할 예정입니다. 현재는 태그만 부여합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "farmersdelight:roast_chicken"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ps_cook_preserved_food",
+          "lock_command": "tag @s remove ps_cook_preserved_food"
+        }
+      }
+    ]
+  }
+}

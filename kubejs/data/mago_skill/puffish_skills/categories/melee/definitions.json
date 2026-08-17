@@ -1,0 +1,307 @@
+{
+  "start": {
+    "title": "근접전투",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 0,
+    "required_skills": 0
+  },
+  "melee_damage_1": {
+    "title": "근접 공격력 I",
+    "description": "근접 공격력이 5% 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.05,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "melee_damage_2": {
+    "title": "근접 공격력 II",
+    "description": "근접 공격력이 5% 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.05,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "melee_damage_3": {
+    "title": "근접 공격력 III",
+    "description": "근접 공격력이 5% 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 0.05,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_speed_1": {
+    "title": "공격 속도 I",
+    "description": "공격 속도가 5% 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stone_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_speed",
+          "value": 0.05,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_speed_2": {
+    "title": "공격 속도 II",
+    "description": "공격 속도가 5% 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_speed",
+          "value": 0.05,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_speed_3": {
+    "title": "공격 속도 III",
+    "description": "공격 속도가 5% 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_speed",
+          "value": 0.05,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "crit_chance_1": {
+    "title": "크리티컬률 I",
+    "description": "크리티컬 확률이 5% 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:flint"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_chance_2": {
+    "title": "크리티컬률 II",
+    "description": "크리티컬 확률이 5% 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_nugget"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_chance_3": {
+    "title": "크리티컬률 III",
+    "description": "크리티컬 확률이 5% 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gold_nugget"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_chance_4": {
+    "title": "크리티컬률 IIII",
+    "description": "크리티컬 확률이 5% 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:emerald"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_chance_5": {
+    "title": "크리티컬률 IIIII",
+    "description": "크리티컬 확률이 5% 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_damage_1": {
+    "title": "크리티컬 데미지 I",
+    "description": "크리티컬 데미지가 5% 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_axe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_damage_2": {
+    "title": "크리티컬 데미지 II",
+    "description": "크리티컬 데미지가 5% 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_axe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_damage_3": {
+    "title": "크리티컬 데미지 III",
+    "description": "크리티컬 데미지가 5% 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_axe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  }
+}

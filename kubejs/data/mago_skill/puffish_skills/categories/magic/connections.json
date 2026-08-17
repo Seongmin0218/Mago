@@ -1,0 +1,42 @@
+{
+  "normal": {
+    "bidirectional": [
+      [
+        "magic_start",
+        "magic_fire_unlock"
+      ],
+      [
+        "magic_start",
+        "magic_ice_unlock"
+      ],
+      [
+        "magic_start",
+        "magic_lightning_unlock"
+      ],
+      [
+        "magic_start",
+        "magic_holy_unlock"
+      ],
+      [
+        "magic_start",
+        "magic_nature_unlock"
+      ],
+      [
+        "magic_start",
+        "magic_blood_unlock"
+      ],
+      [
+        "magic_start",
+        "magic_ender_unlock"
+      ],
+      [
+        "magic_start",
+        "magic_evocation_unlock"
+      ],
+      [
+        "magic_start",
+        "magic_eldritch_unlock"
+      ]
+    ]
+  }
+}

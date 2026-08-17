@@ -1,0 +1,14 @@
+{
+  "unlocked_by_default": true,
+  "exclusive_root": false,
+  "starting_points": 0,
+  "title": "총기",
+  "description": "반동 제어, 재장전 숙련, 빠른 조준, 탄약 절약, 후반 화력 강화 스킬트리",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:crossbow"
+    }
+  },
+  "background": "textures/gui/advancements/backgrounds/adventure.png"
+}

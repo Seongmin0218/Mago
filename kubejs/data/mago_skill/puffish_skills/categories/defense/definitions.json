@@ -1,0 +1,265 @@
+{
+  "start": {
+    "title": "방어도",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "cost": 0,
+    "required_skills": 0
+  },
+  "max_health_1": {
+    "title": "최대 체력 I",
+    "description": "최대 체력이 1 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:apple"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "max_health_2": {
+    "title": "최대 체력 II",
+    "description": "최대 체력이 2 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 2.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "max_health_3": {
+    "title": "최대 체력 III",
+    "description": "최대 체력이 3 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_golden_apple"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 3.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "healing_1": {
+    "title": "치유 강화 I",
+    "description": "모든 종류의 치유로 회복되는 체력이 0.1 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:healing",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "healing_2": {
+    "title": "치유 강화 II",
+    "description": "모든 종류의 치유로 회복되는 체력이 0.2 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:honey_bottle"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:healing",
+          "value": 0.2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "healing_3": {
+    "title": "치유 강화 III",
+    "description": "모든 종류의 치유로 회복되는 체력이 0.3 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:healing",
+          "value": 0.3,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_1": {
+    "title": "방어 I",
+    "description": "방어가 1 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_chestplate"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor",
+          "value": 1.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_2": {
+    "title": "방어 II",
+    "description": "방어가 2 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor",
+          "value": 2.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_3": {
+    "title": "방어 III",
+    "description": "방어가 3 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_chestplate"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor",
+          "value": 3.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_toughness_1": {
+    "title": "방어 강도 I",
+    "description": "방어 강도가 0.5 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:chainmail_chestplate"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor_toughness",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_toughness_2": {
+    "title": "방어 강도 II",
+    "description": "방어 강도가 1 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_chestplate"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor_toughness",
+          "value": 1.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_toughness_3": {
+    "title": "방어 강도 III",
+    "description": "방어 강도가 1.5 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_chestplate"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor_toughness",
+          "value": 1.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  }
+}

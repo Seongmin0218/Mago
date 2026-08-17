@@ -1,0 +1,14 @@
+{
+  "unlocked_by_default": true,
+  "exclusive_root": false,
+  "starting_points": 0,
+  "title": "방어도",
+  "description": "최대 체력, 치유 강화, 방어, 방어 강도 스킬트리",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:shield"
+    }
+  },
+  "background": "textures/gui/advancements/backgrounds/adventure.png"
+}

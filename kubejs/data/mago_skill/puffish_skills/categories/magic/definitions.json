@@ -1,0 +1,112 @@
+{
+  "start": {
+    "title": "마법",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:arcane_salvage"
+      }
+    },
+    "cost": 0,
+    "required_skills": 0
+  },
+  "fire_unlock": {
+    "title": "화염 입문",
+    "description": "화염 학파 주문 사용과 각인을 해금합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "cost": 1
+  },
+  "ice_unlock": {
+    "title": "냉기 입문",
+    "description": "냉기 학파 주문 사용과 각인을 해금합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:snowball"
+      }
+    },
+    "cost": 1
+  },
+  "lightning_unlock": {
+    "title": "번개 입문",
+    "description": "번개 학파 주문 사용과 각인을 해금합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lightning_rod"
+      }
+    },
+    "cost": 1
+  },
+  "holy_unlock": {
+    "title": "신성 입문",
+    "description": "신성 학파 주문 사용과 각인을 해금합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glowstone_dust"
+      }
+    },
+    "cost": 1
+  },
+  "blood_unlock": {
+    "title": "혈마법 입문",
+    "description": "혈마법 학파 주문 사용과 각인을 해금합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "cost": 1
+  },
+  "ender_unlock": {
+    "title": "엔더 입문",
+    "description": "엔더 학파 주문 사용과 각인을 해금합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    "cost": 1
+  },
+  "evocation_unlock": {
+    "title": "소환술 입문",
+    "description": "소환술 학파 주문 사용과 각인을 해금합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:totem_of_undying"
+      }
+    },
+    "cost": 1
+  },
+  "nature_unlock": {
+    "title": "자연 입문",
+    "description": "자연 학파 주문 사용과 각인을 해금합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:oak_sapling"
+      }
+    },
+    "cost": 1
+  },
+  "eldritch_unlock": {
+    "title": "섬뜩한 지식 입문",
+    "description": "섬뜩한 지식 학파 주문 사용과 각인을 해금합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    "cost": 1
+  }
+}

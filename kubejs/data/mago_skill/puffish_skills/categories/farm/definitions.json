@@ -1,0 +1,326 @@
+{
+  "start": {
+    "title": "농부",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wheat"
+      }
+    },
+    "cost": 0,
+    "required_skills": 0
+  },
+  "anti_farmland_trampling": {
+    "title": "가벼운 발걸음",
+    "description": "농지를 밟아도 망가뜨리지 않습니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:farmland"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "farmers_attributes:anti_farmland_trampling",
+          "value": 1.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "easy_harvest": {
+    "title": "숙련된 수확",
+    "description": "성숙한 작물을 우클릭으로 수확하고 자동으로 다시 심습니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wheat"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "farmers_attributes:easy_harvest",
+          "value": 1.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "movement_speed_1": {
+    "title": "밭길 적응 I",
+    "description": "이동 속도가 아주 조금 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.003,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "movement_speed_2": {
+    "title": "밭길 적응 II",
+    "description": "이동 속도가 소폭 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_boots"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.004,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "movement_speed_3": {
+    "title": "밭길 적응 III",
+    "description": "이동 속도가 추가로 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_boots"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.005,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crouch_bonemeal_1": {
+    "title": "퇴비술 I",
+    "description": "웅크리기 중 주변 작물과 묘목에 낮은 확률로 뼛가루 효과를 적용합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bone_meal"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "farmers_attributes:crouch_bonemeal_chance",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crouch_bonemeal_2": {
+    "title": "퇴비술 II",
+    "description": "웅크리기 중 주변 작물과 묘목에 뼛가루 효과를 적용할 확률이 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:composter"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "farmers_attributes:crouch_bonemeal_chance",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crouch_bonemeal_3": {
+    "title": "퇴비술 III",
+    "description": "웅크리기 중 주변 작물과 묘목에 뼛가루 효과를 적용할 확률이 추가로 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bone_block"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "farmers_attributes:crouch_bonemeal_chance",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crouch_bonemeal_4": {
+    "title": "퇴비술 IV",
+    "description": "웅크리기 중 주변 작물과 묘목에 뼛가루 효과를 적용할 확률이 크게 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:moss_block"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "farmers_attributes:crouch_bonemeal_chance",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crouch_bonemeal_5": {
+    "title": "퇴비술 V",
+    "description": "웅크리기 중 주변 작물과 묘목에 뼛가루 효과를 적용할 확률이 최대로 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:flowering_azalea"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "farmers_attributes:crouch_bonemeal_chance",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "green_thumb_1": {
+    "title": "녹색 엄지 I",
+    "description": "직접 심은 작물 수확 시 추가 수확을 얻을 확률이 소폭 증가합니다. 대형 작물 생성은 서버 config에서 차단 권장.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:carrot"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "farmers_attributes:green_thumb",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "green_thumb_2": {
+    "title": "녹색 엄지 II",
+    "description": "직접 심은 작물 수확 시 추가 수확을 얻을 확률이 증가합니다. 대형 작물 생성은 서버 config에서 차단 권장.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:potato"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "farmers_attributes:green_thumb",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "green_thumb_3": {
+    "title": "녹색 엄지 III",
+    "description": "직접 심은 작물 수확 시 추가 수확을 얻을 확률이 크게 증가합니다. 대형 작물 생성은 서버 config에서 차단 권장.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_carrot"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "farmers_attributes:green_thumb",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "harvest_3x3": {
+    "title": "풍작의 손길",
+    "description": "더미: 추후 KubeJS로 괭이 + 웅크리기 사용 시 3x3 범위 성숙 작물 수확을 연결할 예정입니다. 현재는 태그만 부여합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_hoe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ps_farm_harvest_3x3",
+          "lock_command": "tag @s remove ps_farm_harvest_3x3"
+        }
+      }
+    ]
+  },
+  "harvest_5x5": {
+    "title": "대농장의 손길",
+    "description": "더미: 추후 KubeJS로 괭이 + 웅크리기 사용 시 5x5 범위 성숙 작물 수확을 연결할 예정입니다. 현재는 태그만 부여합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_hoe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ps_farm_harvest_5x5",
+          "lock_command": "tag @s remove ps_farm_harvest_5x5"
+        }
+      }
+    ]
+  }
+}
