@@ -1,0 +1,19 @@
+["Woodwalkers Spellbooks Configuration"]
+	#If the shapeshifting spell needs XP levels to work (default true)
+	"Requires XP" = true
+	#If the shapeshifting spell needs XP levels to work when in creative mode (default false)
+	"Requires XP On Creative" = false
+	#If set to true, players will stay transformed indefinitely (default false).
+	"Infinity Spell" = false
+	#If set to true, players will stay transformed indefinitely when in creative mode (default true).
+	"Infinity Spell On Creative" = true
+	#If players are allowed to use spell while transformed (default false).
+	"Spells while Transformed" = false
+	#Defines how long the transformation lasts per spell level (1-6).
+	#Should be a list of 6 integers, where each element in the list
+	#corresponds to the duration at that level (starting from 1)
+	"Spell Duration per Level" = [30, 45, 75, 90, 120, 240]
+	#Defines how much xp the shapeshifting spell costs per level (1-6).
+	#Should be a list of 6 integers, where each element in the list
+	#corresponds to the xp level needed at that level (starting from 1)
+	"Xp Level Cost" = [6, 5, 4, 3, 2, 1]

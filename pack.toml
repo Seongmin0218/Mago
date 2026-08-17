@@ -1,0 +1,13 @@
+name = "Hippocampal Pain"
+author = "Balvenie"
+version = "0.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "0e5f2e47d10bef21d763ba7e441224367a2fefb89ed904d040bdc364b9b0666d"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.233"

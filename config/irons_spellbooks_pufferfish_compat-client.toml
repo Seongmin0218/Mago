@@ -1,0 +1,13 @@
+[SelectedInnateSpell]
+	#How the selected-innate-spell badge appears. Always = persistent; Contextual = fades in on change/cast then fades out; Never = hidden.
+	#Allowed Values: Always, Contextual, Never
+	display = "Always"
+	#Pixel offset from the default position (just left of the offhand slot, aligned with the hotbar).
+	xOffset = 0
+	yOffset = 0
+
+[InnateWheel]
+	#If true, the spell wheel size ignores the GUI scale option.
+	ignoreGuiScale = false
+	#If ignoreGuiScale is enabled, apply this multiplier to the wheel's size.
+	ignoreGuiScaleSizeMultiplier = 1.0

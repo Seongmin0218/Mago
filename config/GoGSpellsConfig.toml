@@ -1,0 +1,183 @@
+#GoG Spells Config
+["Summon Ender Dragon Girl Spell"]
+	#Whether the Spell can be obtained from loot chests
+	summonEnderDragonGirlAllowLooting = false
+	# Default: 35.0
+	# Range: 1.0 ~ 2.147483647E9
+	summonedEnderDragonGirlBaseHealth = 35.0
+	#Determines how much bonus health summoned creatures gain from your Spell Power.
+	# Default: 0.30000001192092896
+	# Range: 0.0 ~ 2.147483647E9
+	summonedEnderDragonGirlBonusHealthSpellPowerRatio = 0.30000001192092896
+	# Default: 6.0
+	# Range: 0.0 ~ 2.147483647E9
+	summonedEnderDragonGirlBaseAttackDamage = 6.0
+	#Determines how much bonus attack damage summoned creatures gain from your Spell Power.
+	# Default: 0.30000001192092896
+	# Range: 0.0 ~ 2.147483647E9
+	summonedEnderDragonGirlBonusATKSpellPowerRatio = 0.30000001192092896
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	gaiaBlessingExtraDropRateEnderDragonGirl = 0.1
+
+["Summon Nine Tails Spell"]
+	#Whether the Spell can be obtained from loot chests
+	summonNineTailsAllowLooting = false
+	# Default: 35.0
+	# Range: 1.0 ~ 2.147483647E9
+	summonedNineTailsBaseHealth = 35.0
+	#Determines how much bonus health summoned creatures gain from your Spell Power.
+	# Default: 0.30000001192092896
+	# Range: 0.0 ~ 2.147483647E9
+	summonedNineTailsBonusHealthSpellPowerRatio = 0.30000001192092896
+	# Default: 6.0
+	# Range: 0.0 ~ 2.147483647E9
+	summonedNineTailsBaseAttackDamage = 6.0
+	#Determines how much bonus attack damage summoned creatures gain from your Spell Power.
+	# Default: 0.30000001192092896
+	# Range: 0.0 ~ 2.147483647E9
+	summonedNineTailsBonusATKSpellPowerRatio = 0.30000001192092896
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	gaiaBlessingExtraDropRateNineTails = 0.1
+
+["Summon Werecat Spell"]
+	#Whether the Spell can be obtained from loot chests
+	summonWerecatAllowLooting = false
+	# Default: 18.0
+	# Range: 1.0 ~ 2.147483647E9
+	summonedWerecatBaseHealth = 18.0
+	#Determines how much bonus health summoned creatures gain from your Spell Power.
+	# Default: 0.20000000298023224
+	# Range: 0.0 ~ 2.147483647E9
+	summonedWerecatBonusHealthSpellPowerRatio = 0.20000000298023224
+	# Default: 4.0
+	# Range: 0.0 ~ 2.147483647E9
+	summonedWerecatBaseAttackDamage = 4.0
+	#Determines how much bonus attack damage summoned creatures gain from your Spell Power.
+	# Default: 0.20000000298023224
+	# Range: 0.0 ~ 2.147483647E9
+	summonedWerecatBonusATKSpellPowerRatio = 0.20000000298023224
+
+["Summon Sludge Girl Spell"]
+	#Whether the Spell can be obtained from loot chests
+	summonSludgeGirlAllowLooting = false
+	# Default: 18.0
+	# Range: 1.0 ~ 2.147483647E9
+	summonedSludgeGirlBaseHealth = 18.0
+	#Determines how much bonus health summoned creatures gain from your Spell Power.
+	# Default: 0.20000000298023224
+	# Range: 0.0 ~ 2.147483647E9
+	summonedSludgeGirlBonusHealthSpellPowerRatio = 0.20000000298023224
+	# Default: 3.5
+	# Range: 0.0 ~ 2.147483647E9
+	summonedSludgeGirlBaseAttackDamage = 3.5
+	#Determines how much bonus attack damage summoned creatures gain from your Spell Power.
+	# Default: 0.20000000298023224
+	# Range: 0.0 ~ 2.147483647E9
+	summonedSludgeGirlBonusATKSpellPowerRatio = 0.20000000298023224
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	gaiaBlessingExtraDropRateSludgeGirl = 0.1
+
+["Summon Yuki Onna Spell"]
+	#Whether the Spell can be obtained from loot chests
+	summonYukiOnnaAllowLooting = false
+	# Default: 35.0
+	# Range: 1.0 ~ 2.147483647E9
+	summonedYukiOnnaBaseHealth = 35.0
+	#Determines how much bonus health summoned creatures gain from your Spell Power.
+	# Default: 0.30000001192092896
+	# Range: 0.0 ~ 2.147483647E9
+	summonedYukiOnnaBonusHealthSpellPowerRatio = 0.30000001192092896
+	# Default: 6.0
+	# Range: 0.0 ~ 2.147483647E9
+	summonedYukiOnnaBaseAttackDamage = 6.0
+	#Determines how much bonus attack damage summoned creatures gain from your Spell Power.
+	# Default: 0.30000001192092896
+	# Range: 0.0 ~ 2.147483647E9
+	summonedYukiOnnaBonusATKSpellPowerRatio = 0.30000001192092896
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	gaiaBlessingExtraDropRateYukiOnna = 0.1
+
+["Summon Mummy Spell"]
+	#Whether the Spell can be obtained from loot chests
+	summonMummyAllowLooting = false
+	# Default: 24.0
+	# Range: 1.0 ~ 2.147483647E9
+	summonedMummyBaseHealth = 24.0
+	#Determines how much bonus health summoned creatures gain from your Spell Power.
+	# Default: 0.30000001192092896
+	# Range: 0.0 ~ 2.147483647E9
+	summonedMummyBonusHealthSpellPowerRatio = 0.30000001192092896
+	# Default: 3.0
+	# Range: 0.0 ~ 2.147483647E9
+	summonedMummyBaseAttackDamage = 3.0
+	#Determines how much bonus attack damage summoned creatures gain from your Spell Power.
+	# Default: 0.20000000298023224
+	# Range: 0.0 ~ 2.147483647E9
+	summonedMummyBonusATKSpellPowerRatio = 0.20000000298023224
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	gaiaBlessingExtraDropRateMummy = 0.1
+
+["Summon Valkyrie Spell"]
+	#Whether the Spell can be obtained from loot chests
+	summonValkyrieAllowLooting = false
+	# Default: 75.0
+	# Range: 1.0 ~ 2.147483647E9
+	summonedValkyrieBaseHealth = 75.0
+	#Determines how much bonus health summoned creatures gain from your Spell Power.
+	# Default: 0.4000000059604645
+	# Range: 0.0 ~ 2.147483647E9
+	summonedValkyrieBonusHealthSpellPowerRatio = 0.4000000059604645
+	# Default: 10.0
+	# Range: 0.0 ~ 2.147483647E9
+	summonedValkyrieBaseAttackDamage = 10.0
+	#Determines how much bonus attack damage summoned creatures gain from your Spell Power.
+	# Default: 0.30000001192092896
+	# Range: 0.0 ~ 2.147483647E9
+	summonedValkyrieBonusATKSpellPowerRatio = 0.30000001192092896
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	gaiaBlessingExtraDropRateValkyrie = 0.1
+
+["Walpurgis Night / Summon Witch(GoG) Spell"]
+	#Whether the Spell can be obtained from loot chests
+	summonWitchAllowLooting = false
+	# Default: 25.0
+	# Range: 1.0 ~ 2.147483647E9
+	summonedWitchBaseHealth = 25.0
+	#Determines how much bonus health summoned creatures gain from your Spell Power.
+	# Default: 0.30000001192092896
+	# Range: 0.0 ~ 2.147483647E9
+	summonedWitchBonusHealthSpellPowerRatio = 0.30000001192092896
+	# Default: 6.0
+	# Range: 0.0 ~ 2.147483647E9
+	summonedWitchBaseAttackDamage = 6.0
+	#Determines how much bonus attack damage summoned creatures gain from your Spell Power.
+	# Default: 0.5
+	# Range: 0.0 ~ 2.147483647E9
+	summonedWitchBonusATKSpellPowerRatio = 0.5
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	gaiaBlessingExtraDropRateWitch = 0.1
+
+["Summon Arachne Spell"]
+	#Whether the Spell can be obtained from loot chests
+	summonArachneAllowLooting = false
+	# Default: 18.0
+	# Range: 1.0 ~ 2.147483647E9
+	summonedArachneBaseHealth = 18.0
+	#Determines how much bonus health summoned creatures gain from your Spell Power.
+	# Default: 0.30000001192092896
+	# Range: 0.0 ~ 2.147483647E9
+	summonedArachneBonusHealthSpellPowerRatio = 0.30000001192092896
+	# Default: 5.0
+	# Range: 0.0 ~ 2.147483647E9
+	summonedArachneBaseAttackDamage = 5.0
+	#Determines how much bonus attack damage summoned creatures gain from your Spell Power.
+	# Default: 0.20000000298023224
+	# Range: 0.0 ~ 2.147483647E9
+	summonedArachneBonusATKSpellPowerRatio = 0.20000000298023224

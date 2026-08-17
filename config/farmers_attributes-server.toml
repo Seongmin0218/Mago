@@ -1,0 +1,55 @@
+	[attributes.anti_farmland_trampling]
+		#Force Anti Farmland Trampling to always be active for all players, ignoring the attribute level.
+		forceAntiFarmlandTrampling = false
+
+	[attributes.easy_harvest]
+		#Force Easy Harvest to always be active for all players, ignoring the attribute level.
+		forceEasyHarvest = false
+		#Blocks that are blacklisted from the Easy Harvesting. Use registry names, e.g. minecraft:wheat
+		easy_harvest_blacklist = ["minecraft:torchflower_crop", "minecraft:cave_vines", "minecraft:cave_vines_plant", "farmersdelight:tomatoes"]
+		#If true, Easy Harvest will harvest the whole plant above the targeted block. Works for sugar canes and kelp-likes.
+		easyHarvestWholePlant = true
+
+	[attributes.crouch_bonemeal_chance]
+		#Crouch Bonemeal range in blocks
+		# Default: 4
+		# Range: 0 ~ 16
+		crouchBonemealRange = 4
+		#Crouch Bonemeal cooldown in ticks, only used when holding the crouch key
+		# Default: 20
+		# Range: 0 ~ 600
+		crouchBonemealCooldown = 20
+
+	[attributes.zesty_culinary]
+		#Radius in blocks for the appetite effect AoE from campfire cooking
+		# Default: 8
+		# Range: 0 ~ 32
+		zestyAoeRadiusCook = 8
+		#Radius in blocks for the appetite effect AoE from food placement
+		# Default: 5
+		# Range: 0 ~ 32
+		zestyAoeRadiusPlace = 5
+
+	[attributes.green_thumb]
+		#Blocks that are blacklisted from the Green Thumb attribute, for both large crops and drop increase. Use registry names, e.g. minecraft:wheat
+		green_thumb_blacklist = ["minecraft:torchflower_crop"]
+		#Blocks that are allowed to be converted into large crops by the Green Thumb attribute. Includes all available large crops by default, remove as needed.
+		green_thumb_large_crops_allowed = ["minecraft:beetroots", "minecraft:carrots", "minecraft:potatoes"]
+		#Used for crops not listed above. Multiplier for the crop drops which are affected by Green Thumb. set 1 to disable.
+		# Default: 2
+		# Range: 1 ~ 10
+		green_thumb_drop_multiplier = 2
+
+	[attributes.short_order_cooking]
+		#Range in blocks for the Short Order Cooking attribute to affect cooking stations
+		# Default: 2
+		# Range: 0 ~ 16
+		shortOrderCookingRange = 2
+
+[effects]
+	#Multiplier for all beneficial food effects when the appetite effect is active when the amplifier > 1.
+	#the formula is 1+(value*amplifier)
+	#E.g. set this to 0.5 for 1.5x duration at amplifier 1.
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	appetiteEffectDurationMultiplier = 0.5

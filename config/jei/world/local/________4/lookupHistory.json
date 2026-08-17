@@ -1,0 +1,12 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"farmersdelight:rice_panicle"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:ammo","components":{"minecraft:max_stack_size":60,"minecraft:custom_data":{"AmmoId":"tacz:9mm"}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz_c:bullet_core"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz_c:bullet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz_c:brass_cylinder"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz_c:annealed_brass_cylinder"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz_c:case_9mm"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz_c:casefull_9mm"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"iceandfire:dragonsteel_lightning_sword"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

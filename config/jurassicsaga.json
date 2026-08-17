@@ -1,0 +1,8 @@
+{
+  "theme": "DEFAULT",
+  "visibleFeedback": false,
+  "rotateHeadWithVehicle": false,
+  "aggressiveAnimals": false,
+  "experimentalFeatures": false,
+  "carCollisionTest": false
+}

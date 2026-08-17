@@ -1,0 +1,10 @@
+#IFC Integrations — Activar/Desactivar entidades
+[entidades]
+	#Activa/desactiva la Sirena. Si está OFF, no reemplaza la sirena de Ice and Fire.
+	sirenas = true
+	#Activa/desactiva la Gorgona. Si está OFF, no reemplaza la gorgona de Ice and Fire.
+	gorgonas = true
+	#Activa/desactiva las Hadas (Dryad, Sylph, Oceanide, etc.). Si está OFF, no reemplaza las hadas de Ice and Fire.
+	hadas = true
+	#Activa/desactiva los Fantasmas. Si está OFF, no reemplaza el fantasma de Ice and Fire ni spawnea al morir aldeanos.
+	fantasmas = true

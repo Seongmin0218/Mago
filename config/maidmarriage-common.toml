@@ -1,0 +1,87 @@
+#General settings for Maid Marriage.
+[general]
+	#Allow a player to marry multiple maids.
+	haremMode = false
+	#Favorability threshold to marry.
+	# Default: 192
+	# Range: 0 ~ 384
+	requiredFavorability = 192
+	#Conception chance after each romance scene. Range: 0.0~1.0
+	# Default: 0.6
+	# Range: 0.0 ~ 1.0
+	pregnancyChance = 0.6
+	#Days required from conception to childbirth.
+	# Default: 5
+	# Range: 1 ~ 120
+	pregnancyBirthDays = 5
+	#Days required for child maid to grow into an adult maid.
+	# Default: 10
+	# Range: 3 ~ 120
+	childGrowthDays = 10
+	#Days without romance before entering longing mood.
+	# Default: 3
+	# Range: 1 ~ 30
+	longingDays = 3
+	#Enable clingy maid behavior and longing mood display.
+	clingyMaidEnabled = true
+	#Server authority: enable postpartum recovery effects. Clients cannot disable this in the in-game config screen.
+	postpartumRecoveryEnabled = true
+	#How maids address the player in dialogue. Empty means use player username.
+	maidAddressing = ""
+	#How child maids address the player in dialogue.
+	childMaidAddressing = "爸爸"
+	#External dialogue script path. Relative paths are resolved under the config folder.
+	dialogueScriptPath = "maidmarriage/custom-dialogues.json"
+
+#Heart Pact voice settings.
+[voice]
+	#Enable Heart Pact dialogue voice playback when prepared voice files are available.
+	heartPactVoiceEnabled = false
+	#Dialogue locale/script name used by Heart Pact voice files, for example ja_jp, zh_cn or en_us.
+	heartPactVoiceScriptName = "ja_jp"
+	#TTS-only self-reference replacement for {maid} in Heart Pact voice text.
+	heartPactTtsMaidName = ""
+	#TTS-only replacement for {child} in Heart Pact voice text. Empty means use locale default.
+	heartPactTtsChildName = ""
+	#TTS-only replacement for {player} in Heart Pact voice text. Empty means use current addressing / player username.
+	heartPactTtsPlayerName = ""
+	#TTS-only replacement for {player_maid} in Heart Pact voice text. Empty means use current maid addressing / player username.
+	heartPactTtsPlayerMaidName = ""
+	#Heart Pact dialogue voice volume.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	heartPactVoiceVolume = 1.0
+
+#Rhythm game settings.
+[rhythm_game]
+	#Rhythm game hit key.
+	#Allowed Values: J, K, L, SEMICOLON, SPACE
+	rhythmHitKey = "J"
+	#Always skip rhythm game and settle with skip chance.
+	rhythmAlwaysSkip = false
+
+#Action key and interaction settings.
+[action_keys]
+	#Head-pat / lift interaction key.
+	#Allowed Values: O, P, I, U, J, K, L, SEMICOLON, SPACE
+	petHeadKey = "O"
+	#Unified interaction key.
+	#Allowed Values: O, P, I, U, J, K, L, SEMICOLON, SPACE
+	interactionKey = "J"
+	#Extra height offset for lift little maid pose.
+	# Default: 0.1
+	# Range: -0.2 ~ 1.5
+	liftHeight = 0.1
+	#Lock distance used by standing hug pose.
+	# Default: 0.8
+	# Range: 0.1 ~ 2.0
+	hugDistance = 0.8
+
+#Debug settings.
+[debug]
+	#Enable developer-only hotkeys and debug data tools.
+	enableDebugTools = false
+	#Show pregnancy countdown in top-left corner with seconds.
+	showPregnancyDebugCountdown = false
+	#Show dialogue UI action execution tips in the top-left corner.
+	showUiActionDebug = false

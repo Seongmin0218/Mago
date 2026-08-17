@@ -1,0 +1,17 @@
+[pillager_guns]
+	#Percent chance (0-100) that a spawning pillager is given a gun.
+	# Default: 100
+	# Range: 0 ~ 100
+	spawnChance = 100
+	#Percent chance (0-100) that a pillager drops its gun when it dies.
+	# Default: 2
+	# Range: 0 ~ 100
+	dropChance = 2
+	#Aim inaccuracy in degrees applied to every shot. 0 = perfect aim, higher = worse.
+	# Default: 15.0
+	# Range: 0.0 ~ 180.0
+	spreadDegrees = 15.0
+	#Gun IDs pillagers can spawn with, e.g. ["tacz:ak47", "tacz:m4a1"].
+	#A random entry is chosen per pillager.
+	#Leave empty ([]) to use ALL registered TACZ guns.
+	guns = []

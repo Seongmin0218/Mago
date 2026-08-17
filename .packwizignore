@@ -1,0 +1,139 @@
+# ============================================================
+# Git metadata / development files
+# ============================================================
+
+/.git/
+/.github/
+
+/.gitignore
+/.gitattributes
+/.packwizignore
+
+/README.md
+
+
+# ============================================================
+# Minecraft runtime data
+# ============================================================
+
+/saves/
+/world/
+/worlds/
+
+/logs/
+/crash-reports/
+/screenshots/
+
+/backups/
+/backup/
+/simplebackups/
+
+/dumps/
+/debug/
+/downloads/
+
+
+# ============================================================
+# Actual mod JARs
+# Packwiz uses *.pw.toml metadata instead
+# ============================================================
+
+/mods/*.jar
+/mods/**/*.jar
+
+
+# ============================================================
+# Local resource/shader downloads
+# ============================================================
+
+/shaderpacks/*.zip
+/shaderpacks/**/*.zip
+
+/resourcepacks/*.zip
+/resourcepacks/**/*.zip
+
+
+# ============================================================
+# User-specific Minecraft settings
+# ============================================================
+
+/options.txt
+/optionsof.txt
+/optionsshaders.txt
+
+/servers.dat
+/servers.dat_old
+
+/usercache.json
+/usernamecache.json
+
+/eula.txt
+
+
+# ============================================================
+# Player map data
+# ============================================================
+
+/XaeroWaypoints/
+/XaeroWorldMap/
+/journeymap/
+
+
+# ============================================================
+# Launcher/runtime generated
+# ============================================================
+
+/libraries/
+/natives/
+/assets/
+/versions/
+
+/cache/
+/caches/
+
+
+# ============================================================
+# KubeJS generated/dev-only
+# ============================================================
+
+/kubejs/exported/
+/kubejs/documentation/
+
+/.probe/
+/probejs/
+
+
+# ============================================================
+# IDE / OS
+# ============================================================
+
+/.idea/
+/.vscode/
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ============================================================
+# Temporary/exported packs
+# ============================================================
+
+*.log
+*.tmp
+*.bak
+
+*.mrpack
+
+# Local/runtime generated data
+/local/
+
+/mods/*.jar
+/mods/**/*.jar
+
+/mods/*.jar.disabled
+/mods/**/*.jar.disabled
+
+/config/yes_steve_model/
+
+/xaero/

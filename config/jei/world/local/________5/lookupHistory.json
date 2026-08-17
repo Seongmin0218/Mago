@@ -1,0 +1,11 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"legendarysurvivaloverhaul:purified_water_bottle"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:copper_spell_book","components":{"irons_spellbooks:spell_container":{"mustEquip":true,"data":[],"maxSpells":5,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"apprenticecodex:isekai_travel_guidebook","components":{"irons_spellbooks:spell_container":{"mustEquip":true,"data":[{"id":"apprenticecodex:healing_bloom","index":0,"level":1,"locked":true},{"id":"apprenticecodex:companion_trunk","index":1,"level":1,"locked":true}],"maxSpells":2,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"legendarysurvivaloverhaul:plaster"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:iron_backpack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hazennstuff:arcane_sea_shell"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:shield"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"iceandfire:dragonbone_sword"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

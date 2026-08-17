@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"iceandfire:dragonbone_sword"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"iceandfire:dragonbone_bow"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

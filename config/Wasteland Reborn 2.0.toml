@@ -1,0 +1,91 @@
+	[structures.homestructure_1]
+		#Spawn chance for homestructure_1 [0..1]. 0 disables structure, 1 is very frequent.
+		# Default: 0.04
+		# Range: 0.0 ~ 1.0
+		chance = 0.04
+
+	[structures.ruins_1]
+		#Spawn chance for ruins_1 [0..1]. 0 disables structure, 1 is very frequent.
+		# Default: 0.03
+		# Range: 0.0 ~ 1.0
+		chance = 0.03
+
+	[structures.ruins_2]
+		#Spawn chance for ruins_2 [0..1]. 0 disables structure, 1 is very frequent.
+		# Default: 0.03
+		# Range: 0.0 ~ 1.0
+		chance = 0.03
+
+	[structures.cobblestone_1]
+		#Spawn chance for cobblestone_1 [0..1]. 0 disables structure, 1 is very frequent.
+		# Default: 0.025
+		# Range: 0.0 ~ 1.0
+		chance = 0.025
+
+	[structures.stone_1]
+		#Spawn chance for stone_1 [0..1]. 0 disables structure, 1 is very frequent.
+		# Default: 0.025
+		# Range: 0.0 ~ 1.0
+		chance = 0.025
+
+	[structures.tree_2]
+		#Spawn chance for tree_2 [0..1]. 0 disables structure, 1 is very frequent.
+		# Default: 0.05
+		# Range: 0.0 ~ 1.0
+		chance = 0.05
+
+	[structures.seeds_1]
+		#Spawn chance for seeds_1 [0..1]. 0 disables structure, 1 is very frequent.
+		# Default: 0.03
+		# Range: 0.0 ~ 1.0
+		chance = 0.03
+
+	[structures.spacing]
+		#Structure grid spacing for dungeon-like structures. Higher value = much rarer.
+		# Default: 56
+		# Range: 4 ~ 4096
+		dungeons = 56
+		#Structure grid spacing for tree_2. Higher value = much rarer.
+		# Default: 72
+		# Range: 4 ~ 4096
+		tree_2 = 72
+		#Mutual exclusion radius between dungeon and tree structure sets in chunks.
+		# Default: 20
+		# Range: 0 ~ 512
+		exclusion_chunks = 20
+		#Structure grid spacing for ruined cities. 80 is roughly woodland mansion rarity.
+		# Default: 80
+		# Range: 16 ~ 4096
+		city_1 = 80
+
+	[structures.separation]
+		#Minimal distance between dungeon-like structure attempts. Must be lower than dungeon spacing.
+		# Default: 20
+		# Range: 1 ~ 4095
+		dungeons = 20
+		#Minimal distance between tree_2 structure attempts. Must be lower than tree spacing.
+		# Default: 24
+		# Range: 1 ~ 4095
+		tree_2 = 24
+		#Minimal distance between ruined city attempts. Must be lower than city spacing.
+		# Default: 32
+		# Range: 1 ~ 4095
+		city_1 = 32
+
+	[structures.city_1]
+		#Enable rare ruined city clusters (mansion-level rarity).
+		enabled = true
+
+[radiation]
+	#How often to attempt playing radiation ambience in wasteland dimension (ticks).
+	# Default: 1200
+	# Range: 100 ~ 24000
+	interval_ticks = 1200
+	#Per-player probability [0..1] to hear radiation ambience every interval.
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	chance = 0.3
+	#Radiation ambience volume.
+	# Default: 0.9
+	# Range: 0.0 ~ 4.0
+	volume = 0.9

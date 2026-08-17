@@ -1,0 +1,159 @@
+# ============================================================
+# Minecraft runtime data
+# ============================================================
+
+/saves/
+/world/
+/worlds/
+
+/logs/
+/crash-reports/
+/screenshots/
+
+/backups/
+/backup/
+/simplebackups/
+
+/dumps/
+/debug/
+/downloads/
+
+
+# ============================================================
+# Actual mod binaries
+# Packwiz metadata (*.pw.toml) is tracked instead
+# ============================================================
+
+/mods/*.jar
+/mods/**/*.jar
+
+
+# ============================================================
+# Downloaded resource/shader binaries
+# Add exceptions later if the pack itself ships any of these
+# ============================================================
+
+/shaderpacks/*.zip
+/shaderpacks/**/*.zip
+
+/resourcepacks/*.zip
+/resourcepacks/**/*.zip
+
+
+# ============================================================
+# Minecraft local/user settings
+# ============================================================
+
+/options.txt
+/optionsof.txt
+/optionsshaders.txt
+
+/servers.dat
+/servers.dat_old
+
+/usercache.json
+/usernamecache.json
+
+/eula.txt
+
+
+# ============================================================
+# Maps / player-specific data
+# ============================================================
+
+/XaeroWaypoints/
+/XaeroWorldMap/
+/journeymap/
+
+
+# ============================================================
+# Launcher / runtime generated folders
+# ============================================================
+
+/libraries/
+/natives/
+/assets/
+/versions/
+
+/cache/
+/caches/
+
+
+# ============================================================
+# KubeJS / development generated data
+# ============================================================
+
+/kubejs/exported/
+/kubejs/documentation/
+
+/.probe/
+/probejs/
+
+
+# ============================================================
+# IDE
+# ============================================================
+
+/.idea/
+/.vscode/
+
+
+# ============================================================
+# OS junk
+# ============================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ============================================================
+# Temporary / exported files
+# ============================================================
+
+*.log
+*.tmp
+*.bak
+
+*.mrpack
+
+# CurseForge launcher / instance metadata
+/.curseclient
+/minecraftinstance.json
+/user-prefs.json
+
+# Runtime caches
+/.cache/
+/cache/
+/dynamic-data-pack-cache/
+/dynamic-resource-pack-cache/
+/local/
+
+# Mixin / mod generated runtime data
+/.mixin.out/
+/.sable/
+
+# Command / temporary files
+/command_history.txt
+/temp_image_dump.png
+/win_event*.txt
+
+# Backups
+/XaeroWaypoints_BACKUP*/
+/tacz_backup/
+
+# Video/FFmpeg runtime data
+/vista_ffmpeg_bin/
+/vista_ffmpeg_sources.json
+
+# Misc player-specific data
+/ponders_watched.json
+
+/mods/*.jar.disabled
+/mods/**/*.jar.disabled
+
+/.mixin.out/
+
+/config/yes_steve_model/
+
+/xaero/

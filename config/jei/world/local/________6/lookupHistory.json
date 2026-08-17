@@ -1,0 +1,10 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"create:powered_latch"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hazennstuff:spectrum"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hazennstuff:excalibur_fragment"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hazennstuff:tidal_wave"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"copycats:copycat_catwalk"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:splash_potion","components":{"minecraft:potion_contents":{"potion":"immersiveaddictives:nicotine_withdrawal_4"}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tacz:modern_kinetic_gun","components":{"minecraft:custom_data":{"HasBulletInBarrel":1,"GunFireMode":"SEMI","GunId":"tacz:m95","GunCurrentAmmoCount":5}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

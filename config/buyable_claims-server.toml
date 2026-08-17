@@ -1,0 +1,83 @@
+#Buyable Claims Configuration
+#Allows players to purchase additional FTB Chunks claim chunks using Lightman's Currency
+[general]
+	#Allow players not in a team to purchase chunks for themselves
+	#If false, players must be in an FTB Team to use the shop
+	allowSoloPlayers = true
+
+#Claim Chunk Settings
+[claim_chunks]
+	#Base price for the first claim chunk (in the smallest currency unit - copper coins)
+	#Default: 1000 (equivalent to 10 gold coins in default LC config)
+	# Default: 1000
+	# Range: 1 ~ 9223372036854775807
+	basePrice = 1000
+	#Price multiplier for each subsequent claim chunk purchased
+	#Formula: basePrice * (scaling ^ chunksPurchased)
+	#1.0 = no scaling (flat price)
+	#1.1 = 10% increase per chunk
+	#1.5 = 50% increase per chunk
+	# Default: 1.1
+	# Range: 1.0 ~ 10.0
+	priceScaling = 1.1
+	#Maximum number of additional claim chunks a player/team can purchase
+	#Set to -1 for unlimited
+	# Default: 100
+	# Range: -1 ~ 10000
+	maxPurchasable = 100
+
+#Force Load Chunk Settings
+[force_load_chunks]
+	#Base price for the first force-loaded chunk
+	#Force-load chunks are more valuable. Default: 5000 (50 gold coins)
+	# Default: 5000
+	# Range: 1 ~ 9223372036854775807
+	basePrice = 5000
+	#Price multiplier for each subsequent force-load chunk purchased
+	# Default: 1.15
+	# Range: 1.0 ~ 10.0
+	priceScaling = 1.15
+	#Maximum number of additional force-load chunks a player/team can purchase
+	#Set to -1 for unlimited
+	# Default: 25
+	# Range: -1 ~ 1000
+	maxPurchasable = 25
+
+#Claim Chunk Package Discounts
+#Buy multiple chunks at once for a discount
+[claim_packages]
+	#Number of chunks in the '5-pack' button (set to 0 to disable)
+	# Default: 5
+	# Range: 0 ~ 100
+	pack5Amount = 5
+	#Discount for the 5-pack (0.1 = 10% off)
+	# Default: 0.1
+	# Range: 0.0 ~ 0.99
+	pack5Discount = 0.1
+	#Number of chunks in the '10-pack' button (set to 0 to disable)
+	# Default: 10
+	# Range: 0 ~ 100
+	pack10Amount = 10
+	#Discount for the 10-pack (0.2 = 20% off)
+	# Default: 0.2
+	# Range: 0.0 ~ 0.99
+	pack10Discount = 0.2
+
+#Force Load Chunk Package Discounts
+[forceload_packages]
+	#Number of force-load chunks in the '5-pack' button (set to 0 to disable)
+	# Default: 5
+	# Range: 0 ~ 100
+	pack5Amount = 5
+	#Discount for the 5-pack
+	# Default: 0.1
+	# Range: 0.0 ~ 0.99
+	pack5Discount = 0.1
+	#Number of force-load chunks in the '10-pack' button (set to 0 to disable)
+	# Default: 10
+	# Range: 0 ~ 100
+	pack10Amount = 10
+	#Discount for the 10-pack
+	# Default: 0.2
+	# Range: 0.0 ~ 0.99
+	pack10Discount = 0.2
