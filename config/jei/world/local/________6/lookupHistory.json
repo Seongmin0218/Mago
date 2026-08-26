@@ -1,5 +1,6 @@
 [
   {"version":1},
+  {"ingredient":{"id":"irons_spellbooks:scroll","components":{"irons_spellbooks:spell_container":{"mustEquip":false,"data":[{"id":"irons_spellbooks:starfall","index":0,"level":10,"locked":true}],"maxSpells":1,"spellWheel":false}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"create:powered_latch"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"hazennstuff:spectrum"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"hazennstuff:excalibur_fragment"},"type":"item_stack","bookmarkType":"INGREDIENT"},

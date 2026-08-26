@@ -1,0 +1,4 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"traveloptics:mechanized_wraithblade","components":{"irons_spellbooks:spell_container":{"mustEquip":false,"data":[{"id":"irons_spellbooks:counterspell","index":0,"level":1,"locked":true}],"maxSpells":1,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
