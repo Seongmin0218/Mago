@@ -152,7 +152,7 @@
 	cooldown = 15
 	#Whether the Eternal Steak can be eaten
 	#Allowed Values: true, false
-	enabled = true
+	enabled = false
 
 [everlasting_beef]
 	#The duration in seconds the Everlasting Beef goes on cooldown for after being eaten
@@ -166,7 +166,7 @@
 	enabled = true
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
-	generateAsLoot = true
+	generateAsLoot = false
 
 [feral_claws]
 	#How much the Feral Claws increase the wearer's attack speed

@@ -95,5 +95,8 @@
     "api_type": "system",
     "enabled": true,
     "icon": "touhou_little_maid:textures/gui/ai_chat/system.png"
+  },
+  "tma_mimo_tts": {
+    "api_type": "tma_mimo_tts"
   }
 }

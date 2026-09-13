@@ -9,6 +9,7 @@
   "apprenticecodex:search_beacon": null,
   "apprenticecodex:spell_dispenser": null,
   "corpse:corpse": null,
+  "ftbquests:barrier": null,
   "iceandfire:dragon": null,
   "iceandfire:dragon_egg_block": null,
   "iceandfire:dragon_egg_entity": null,
@@ -59,6 +60,8 @@
   "kaleidoscope_cookery:steamer": null,
   "kaleidoscope_cookery:stockpot": null,
   "kaleidoscope_cookery:table": null,
+  "kaleidoscope_tavern:barrel": null,
+  "kaleidoscope_world_liquor:freezer": null,
   "lightmanscurrency:model_variant": null,
   "lightmanscurrency:paygate": null,
   "minecraft:animal_owner": null,
@@ -117,5 +120,8 @@
   "touhou_little_maid:picnic_mat": null,
   "touhou_little_maid:shrine_lamp": null,
   "touhou_little_maid:tombstone": null,
+  "twilightforest:chiseled_bookshelf_spawner": null,
+  "twilightforest:drying_rack": null,
+  "twilightforest:quest_ram_wool": null,
   "yes_steve_model:model_info": null
 }

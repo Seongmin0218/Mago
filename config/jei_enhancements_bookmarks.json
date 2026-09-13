@@ -1,0 +1,40 @@
+{
+  "nextGroupId": 1,
+  "groups": {
+    "0": {
+      "expanded": true,
+      "craftingChain": false,
+      "linkedGroupId": -1
+    }
+  },
+  "items": [
+    {
+      "groupId": 0,
+      "itemKey": "crystal_chronicles:fire_chakram:570314718",
+      "factor": 1,
+      "amount": 1,
+      "type": 1
+    },
+    {
+      "groupId": 0,
+      "itemKey": "irons_spellbooks:pyrium_ingot",
+      "factor": 2,
+      "amount": 2,
+      "type": 2
+    },
+    {
+      "groupId": 0,
+      "itemKey": "crystal_chronicles:volcanite_shard",
+      "factor": 2,
+      "amount": 2,
+      "type": 2
+    },
+    {
+      "groupId": 0,
+      "itemKey": "irons_spellbooks:weapon_parts",
+      "factor": 1,
+      "amount": 1,
+      "type": 2
+    }
+  ]
+}

@@ -47,6 +47,11 @@
 	# Default: 0
 	# Range: 0 ~ 100000
 	maxLinkDistance = 0
+	#the max single packet size
+	#the unit is mb
+	# Default: 50
+	# Range: 10 ~ 1000
+	maxPacketSize = 50
 
 #Setting to configure tooltips on skinned items.
 [tooltip]

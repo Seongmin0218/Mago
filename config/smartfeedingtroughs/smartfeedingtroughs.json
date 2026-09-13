@@ -1,0 +1,6 @@
+{
+  "range": 16,
+  "maxClaimedAnimals": 24,
+  "troughClaimCheckInterval": 600,
+  "feedChance": 0.5
+}

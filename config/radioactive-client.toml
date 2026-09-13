@@ -1,0 +1,26 @@
+#If disabled, extra data from the mod will not show up in item tooltips.
+"Show Item Tooltips" = true
+#If enabled, radiation counters/detectors will not click when you're being irradiated.
+"Make Counters Shut Up" = false
+#Controls how fast counters click. Higher numbers make more clicks.
+"Counter Click Rate" = 300.0
+#Controls the pitch of counter clicks. Higher numbers mean higher pitch.
+"Counter Click Pitch" = 0.8
+
+["Radiation Bar"]
+	#If disabled, radiation counters will not show the extra overlay in the bottom-left of the screen.
+	"Show Radiation Scale" = true
+	#Controls the horizontal position of the radiation bar, from the left side of the screen.
+	"Radiation Bar X Position" = 100.0
+	#Controls the vertical position of the radiation bar, from the top of the screen.
+	"Radiation Bar Y Position" = 0.0
+	#Controls the visual horizontal scale of the radiation bar. The actual width will be the texture width multiplied by this number.
+	"Radiation Bar Width" = 1.0
+	#Controls the visual height of the radiation bar. The actual height will be the texture height multiplied by this number.
+	"Radiation Bar Height" = 1.0
+	#Sets the texture of the radiation bar.
+	"Radiation Bar Texture" = "radioactive:textures/radbar.png"
+	#If disabled, the radiation bar's background will not show.
+	"Show Background" = true
+	#Sets the texture of the radiation bar's background. Should be the same size as the radiation bar itself.
+	"Radiation Bar Background Texture" = "radioactive:textures/radbar_bg.png"

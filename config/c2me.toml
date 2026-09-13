@@ -102,6 +102,8 @@ globalExecutorParallelism = "default"
 	useEndBiomeCache = "default"
 	# (Default: true) Whether to enable StructureWeightSampler optimizations to accelerate world generation
 	# 
+	# Set to false for the following reasons: 
+	# Incompatible with twilightforest@4.8.3345 (*) (defined in c2me) 
 	optimizeStructureWeightSampler = "default"
 	# (Default: true) Enables the built-in integrations with other worldgen mods in density function compiler.
 	# 
@@ -133,6 +135,8 @@ globalExecutorParallelism = "default"
 	# 
 	# This should not affect other worldgen behavior and game mechanics in general
 	# 
+	# Set to false for the following reasons: 
+	# Incompatible with twilightforest@4.8.3345 (*) (defined in c2me) 
 	suppressGhostMushrooms = "default"
 	# (Default: true) Whether to synchronize the management of player tickets
 	# 

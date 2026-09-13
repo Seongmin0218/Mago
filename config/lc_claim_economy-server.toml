@@ -1,0 +1,147 @@
+#Lightman's Currency: FTB Claim Economy server configuration
+[general]
+	#Cost in copper units (main coin chain) to claim one chunk. Default: 10000 copper = 1 Diamond coin.
+	# Default: 10000
+	# Range: 0 ~ 9223372036854775807
+	claimPrice = 10000
+	#The first N claimed chunks per team or player are free to claim and exempt from protection upkeep
+	# Default: 0
+	# Range: > 0
+	freeChunks = 1
+	#Land chunks (state territory) pay the protection price once per group of this many chunks; the billable land chunk count is rounded up to the next full group (minimum 1 group when any land chunk is billable). Build chunks always pay per chunk. A value of 1 makes land cost the same as build.
+	# Default: 5
+	# Range: > 1
+	landChunkGroupSize = 5
+	#Fraction of the claim price refunded when unclaiming a chunk (0 = none, 1 = full refund, 0.8 = 80%)
+	# Default: 0.8
+	# Range: 0.0 ~ 1.0
+	unclaimRefundRatio = 0.8
+	#Upkeep cost in copper units per force-loaded chunk per upkeep period (force-loading itself is free). Default: 1 Netherite coin (100000 copper).
+	# Default: 100000
+	# Range: 0 ~ 9223372036854775807
+	forceLoadUpkeepPrice = 100000
+	#How often upkeep is charged, in real-time minutes
+	# Default: 60
+	# Range: 1 ~ 10080
+	upkeepPeriodMinutes = 60
+	#If true, prevents use of Lightman's Currency's Coin Mint block server-wide, so players can't mint their own money out of raw materials and bypass the claim economy. Lightman's Currency also has its own mint/melt recipe restrictions in its own config; this option is a full, simple on/off switch independent of that.
+	disableCoinMint = true
+
+#Per-protection base prices added to upkeep calculation (b in c = b * n)
+[protectionPrices]
+	#Price when mob griefing protection is enabled (Allow Mob Griefing = false). Default: 80 copper.
+	# Default: 80
+	# Range: 0 ~ 9223372036854775807
+	mobGriefProtectionPrice = 80
+	#Price when explosion protection is enabled (Allow Explosion Damage = false). Default: 70 copper (second cheapest).
+	# Default: 70
+	# Range: 0 ~ 9223372036854775807
+	explosionProtectionPrice = 70
+	#Price when PvP is disabled (Allow PvP Combat = false). Default: 50 copper (cheapest protection).
+	# Default: 50
+	# Range: 0 ~ 9223372036854775807
+	pvpDisablePrice = 50
+	#Price when block interact mode is not public. Default: 100 copper.
+	# Default: 100
+	# Range: 0 ~ 9223372036854775807
+	blockInteractProtectionPrice = 100
+	#Price when block edit mode is not public. Default: 100 copper.
+	# Default: 100
+	# Range: 0 ~ 9223372036854775807
+	blockEditProtectionPrice = 100
+	#Price when entity interact mode is not public. Default: 100 copper.
+	# Default: 100
+	# Range: 0 ~ 9223372036854775807
+	entityInteractProtectionPrice = 100
+
+#War declarations between claim teams (teams or solo players with claimed chunks)
+[war]
+	#Enable the war system. When false, war costs are ignored, war actions are blocked, and the war button is hidden on clients.
+	warEnabled = true
+	#Flat multiplier x for outgoing war cost. Declaring war on a team costs x * their base upkeep per period, regardless of how many wars you have declared.
+	# Default: 2.0
+	# Range: 0.0 ~ 100.0
+	warOutgoingCostMultiplier = 2.0
+	#Incoming war exponent l. With base upkeep b and k incoming wars, the incoming surcharge is b * sum(l^n for n=0..k-1). First incoming war uses l^0 = 1.
+	# Default: 1.2
+	# Range: 1.0 ~ 100.0
+	warCostMultiplier = 1.2
+	#If true, new wars can only be declared during a recurring weekly window (e.g. weekends only). Does not affect ending an existing war, cancelling a pending declare, or the automatic suspend/restore of outgoing wars a team can't currently afford - those are always allowed.
+	warDeclarationWindowEnabled = false
+	#Day the war declaration window opens, UTC. One of: MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY.
+	warDeclarationWindowStartDay = "FRIDAY"
+	#Hour (0-23, UTC) on warDeclarationWindowStartDay that the window opens.
+	# Default: 22
+	# Range: 0 ~ 23
+	warDeclarationWindowStartHourUtc = 22
+	#Day the war declaration window closes, UTC. Same values as warDeclarationWindowStartDay. Can be earlier in the week than the start day, in which case the window wraps around the end of the week (e.g. start SUNDAY, end FRIDAY covers Sun-Fri, closed Fri-Sun).
+	warDeclarationWindowEndDay = "SUNDAY"
+	#Hour (0-23, UTC) on warDeclarationWindowEndDay that the window closes.
+	# Default: 22
+	# Range: 0 ~ 23
+	warDeclarationWindowEndHourUtc = 22
+	#If true, a team's purchased explosion protection is bypassed entirely - for ALL explosions, not just ones caused by the war opponent - on any chunk belonging to a team that has been at war (incoming or outgoing) for longer than siegeModeGraceHours below. Intended for packs with large-scale explosive weapons (missiles, artillery, nukes) where war should mean a claim can actually be damaged rather than staying economically-costly-but-physically-safe. This only removes this mod's own explosion protection; it has no effect on any defense/interception system the weapon mod itself provides - a team with the right in-game defenses can still stop an attack even while sieged. PvP and block-edit protection are unaffected by this setting; a besieged team's build stays otherwise protected from direct griefing. Off by default.
+	siegeModeEnabled = false
+	#Grace period, in hours, between a team first entering a state of war and siegeModeEnabled actually starting to bypass their explosion protection. Gives the defender warning to prepare (build up defenses, move valuables, etc.) rather than becoming vulnerable the instant a war is declared. Measured from the team's own first war of the current streak - it does not reset for each additional war while already at war, and clears once they have no active wars at all. 0 means no grace period (vulnerable immediately). Has no effect unless siegeModeEnabled is true.
+	# Default: 12
+	# Range: 0 ~ 720
+	siegeModeGraceHours = 12
+	#A team (solo or party) must have more than this many claimed chunks before it can declare war or be targeted by one. Protects small/new teams - especially solo players on larger servers - from being drawn into war before they have much at stake. 0 disables this check (default, matches prior behavior). See also warEnabled's sibling per-team escape hatch: any team can independently opt out of war entirely via /lcce war peaceful, regardless of size.
+	# Default: 0
+	# Range: > 0
+	warMinClaimedChunks = 0
+
+#Order in which protections are disabled when upkeep cannot be paid (first = dropped first). Use FTB property id paths without namespace.
+[protectionDismantle]
+	#Land-chunk protections dismantled first when upkeep fails
+	protectionDismantleOrderLand = ["land_block_edit_mode", "land_block_interact_mode"]
+	#Build-chunk protections dismantled after all land protections are off
+	protectionDismantleOrderBuild = ["entity_interact_mode", "block_edit_mode", "block_interact_mode", "allow_mob_griefing", "allow_explosions", "allow_pvp"]
+
+#Debug-only features for development and testing
+[debug]
+	#Allow /lcce seed_test_teams, clear_test_teams, and count_test_teams. Keep disabled on production servers.
+	debugTestTeamCommands = false
+
+#Optional built-in web server for a live leaderboard/info page. Off by default.
+[web]
+	#If true, starts a small built-in HTTP server serving a live leaderboard and server info page. That leaderboard page itself is always read-only and unauthenticated. Anyone who can reach the configured port/address can view it, including player names, chunk counts, and account balances - keep the port firewalled/off if that's sensitive on your server. See webDashboardEnabled below for the separate, login-gated player dashboard.
+	webEnabled = false
+	#Port the built-in web server listens on, if webEnabled is true.
+	# Default: 8123
+	# Range: 1 ~ 65535
+	webPort = 8123
+	#Address the built-in web server binds to. "0.0.0.0" listens on all network interfaces (reachable from other machines); "127.0.0.1" restricts it to the local machine only (e.g. to sit behind your own reverse proxy).
+	webBindAddress = "0.0.0.0"
+	#Maximum number of entries shown per leaderboard (balance, claimed chunks) on the web page.
+	# Default: 10
+	# Range: 1 ~ 100
+	webLeaderboardSize = 10
+	#If true (and webEnabled is also true), adds a login-gated player dashboard at /dashboard where team members can view and manage their own team's land, protections, and wars from a browser. FTB Chunks/Teams only - has no effect on the Open Parties and Claims backend. Players log in with a short one-time code generated in-game via /lcce web login (no passwords are stored or transmitted). This server has no built-in HTTPS - if it's reachable from outside your LAN, put a reverse proxy with TLS in front of it, since session cookies otherwise travel in plain HTTP.
+	webDashboardEnabled = false
+	#How long a dashboard login session stays valid after the player logs in, in minutes.
+	# Default: 720
+	# Range: 1 ~ 43200
+	webSessionMinutes = 720
+	#How long a one-time login code from /lcce web login stays valid before it expires unused, in minutes.
+	# Default: 5
+	# Range: 1 ~ 60
+	webLoginCodeMinutes = 5
+
+#Cosmetic customization for the web leaderboard and dashboard pages - no functional effect.
+[webTheme]
+	#Site name shown in the page title and header of both the leaderboard and dashboard pages.
+	webSiteName = "Claim Economy"
+	#Accent color (CSS hex, e.g. "#4f8cff") used for headings, highlights, and buttons on both web pages.
+	webAccentColor = "#88C0D0"
+	#Optional logo image URL shown next to the site name in the header. Leave blank for no logo. Loaded directly by each visitor's browser - can be any publicly reachable image URL.
+	webLogoUrl = ""
+	#Optional raw CSS appended after the built-in stylesheet on both web pages, for customization beyond the accent color above (fonts, layout tweaks, etc.). Empty by default.
+	webCustomCss = ""
+
+#Server flavor: one-time bonus for claiming first (FTB Chunks only)
+[flavor]
+	#One-time reward, in copper units, paid to whichever team claims the very first chunk on this server. Default: 5 diamond coins (50000 copper). Set to 0 to disable.
+	# Default: 50000
+	# Range: 0 ~ 9223372036854775807
+	pioneerBonusAmount = 0

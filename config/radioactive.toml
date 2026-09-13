@@ -1,0 +1,84 @@
+#If true, hides that annoying text wall whenever you join a game. Does not affect error reports.
+"Disable Join Message" = false
+
+["General Radiation Options"]
+	#Whether to use the old radiation system exclusively. This may be required for mods made for 1.x.x, but may break mods for 2.x.x. Also required for datapacks, unless the newer V3 is used..
+	"Use Old Radiation System" = false
+	#The amount of radiation received will be multiplied by this number. This will not show up in tooltips. Use 0 to disable all radiation.
+	"Radiation Multiplier" = 1.0
+	#The amount of radiation removed by DamageSource will be multiplied by this number. Use 0 to disable all radiation.
+	"Decontamination Multiplier" = 1.0
+	#Smaller number here => faster radiation effect progression => harder game. Use at the risk of your sanity and friendships.
+	"Radiation Effects Scaling" = 100.0
+	#Smaller number => slower damage increase from Radiation Sickness. Default 1.5.
+	"Radiation Sickness Scaling" = 1.5
+
+["Old Radiation System"]
+	#Whether or not to allow radioactive items to affect a player holding them
+	"Enable Inventory Radiation" = true
+	#Whether or not to allow entities to irradiate others by holding something radioactive nearby
+	"Enable Proximity Radiation" = true
+	#Whether or not to allow entities to irradiate others by existing nearby
+	"Enable Entity Radiation" = true
+	#Whether or not to allow blocks to irradiate entities near them
+	"Enable Block Radiation" = true
+	#Whether or not to allow weapons to irradiate hit entities
+	"Enable Weapon Hit Radiation" = true
+	#Range (in blocks) that blocks irradiate things from
+	"Block Radiation Range" = 16.0
+
+["New Radiation System"]
+	#If false, all 'Irradiate' damage types will become normal damage types, but without the damage cooldown (unless the previous option is ticked)
+	"Enable Irradiate Damage Types" = true
+	#As with the previous option, but for the 'Decontamination' damage types.
+	"Enable Decontaminate Damage Types" = true
+	#If true, radiation resistance will be applied to decontamination damage as well.
+	"Rad-Resistance Affects Decontamination" = false
+	#If true, radiation will be applied only to players, and will use a synced data tag to store radiation. If false, NBT tags will be used instead.
+	"Irradiate Only Players" = false
+
+	["New Radiation System".v3]
+		#Whether or not to use version 3 radiation, a more performant version of the Old Radiation System. Does not require Old Radiation System to be enabled.
+		"Use V3 Radiation" = true
+		#Whether or not to allow radioactive items to affect a player holding them. This IS separate to the one in the 'Old Radiation System' area.
+		"Enable Inventory Radiation" = true
+		#A list of item registry names to make radioactive. Should be in the form <mod>:<item_id>=<rads_per_tick>, e.g. minecraft:dirt=2 makes dirt radioactive, giving 40 RADs per second.
+		"Inventory Radiation Definition" = ["radioactive:test=1"]
+		#Whether or not to allow entities to irradiate others by holding something radioactive nearby. This IS separate to the one in the 'Old Radiation System' area.
+		"Enable Proximity Radiation" = true
+		#Like Inventory Radiation Definition, but with an extra part, range. Range should be specified after amount, separated by a ~, e.g. minecraft:dirt=2~4 makes dirt give 40 RADs per second to all entities (unless 'Irradiate Only Players' is enabled) within 4 blocks.
+		"Proximity Radiation Definition" = ["radioactive:test=1~4"]
+		#Whether or not to allow blocks to irradiate entities near them. This IS separate to the one in the 'Old Radiation System' area.
+		"Enable Block Radiation" = true
+		#Like Proximity Radiation Definition, but for blocks.
+		"Block Radiation Definition" = ["radioactive:test_block=1~4"]
+		#Whether or not to allow biomes to irradiate entities in them.
+		"Enable Biome Radiation" = true
+		#A list of biome registry names to make radioactive, in the form id=amount per tick
+		"Biome Radiation Definition" = ["radioactive:test_biome=4"]
+		#Allow some items to remove radiation from players that use them.
+		"Enable Curative Items" = true
+		#If enabled, curative items won't make zombie cure noises when used.
+		"Make Cures Shut Up" = false
+		#A list of item ids, with the amount of radiation they remove, in the form <item>=<absolute cure> or <item>=<percentage cure>%. Is affected by the "Rad-Resistance Affects Decontamination" option.
+		"Curative Item Definition" = ["radioactive:test_cure=400", "radioactive:test_cure_2=30%"]
+		#A list of cures which will use themselves up when their animation finishes. Only the item id is needed, not the amount of radiation cured. These items must be defined in the "Curative Item Definition" first.
+		"Force-Depleting Cure List" = ["radioactive:test_cure"]
+		#A list of cures which will have no animation, but are usable anyway. The same rules as the "Force-Depleting Cure List" apply here.
+		"Fast Cure List" = ["radioactive:test_cure_2"]
+		#Defines rad-resistance of armor items. Form: <mod>:<id>=<percentage>, e.g.  minecraft:iron_helmet=10 gives an iron helmet 10% rad-resistance, and bloons:bloon_lead_helmet=25 gives a Bloon Lead Helmet (from the Bloons Mod) 25% radiation resistance.
+		"Radiation Resistance Definition" = ["radioactive:test_prot_helmet=10", "radioactive:test_prot_chestplate=20", "radioactive:test_prot_leggings=15", "radioactive:test_prot_boots=10"]
+		#Defines a list of radiation counter items. Each entry should be a single registry name.
+		"Counter List" = ["radioactive:counter"]
+		#Defines a list of radiation detector items.
+		"Detector List" = [" "]
+		#A list of entities that should not receive radiation damage, or effects. Can still be irradiated, but won't feel it at all.
+		"Immune Entities" = [" "]
+
+["Radiation Resistance"]
+	#Percentage rad-resistance the player has without armor. Range: 0-100, default 0
+	"Base Player Radiation Resistance" = 0.0
+	#Highest percentage rad-resistance a player can have. May be helpful on servers to keep radiation dangerous. Range 0-100, default 100.
+	"Maximum Radiation Resistance" = 100.0
+	#Radiation resistance will be multiplied by this number before being applied to radiation. Default 1.
+	"Radiation Resistance Multiplier" = 1.0
