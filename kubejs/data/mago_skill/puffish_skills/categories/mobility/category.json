@@ -2,12 +2,12 @@
   "unlocked_by_default": true,
   "exclusive_root": false,
   "starting_points": 0,
-  "title": "방어",
-  "description": "체력, 방어력, 방어 강도, 자연 회복을 장기적으로 성장시키는 통상 스킬트리",
+  "title": "이동",
+  "description": "달리기, 수영, 낙하, 험지 이동 성능을 점진적으로 강화하는 통상 스킬트리",
   "icon": {
     "type": "item",
     "data": {
-      "item": "minecraft:shield"
+      "item": "minecraft:feather"
     }
   },
   "background": "textures/gui/advancements/backgrounds/adventure.png"

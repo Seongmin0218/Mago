@@ -1,272 +1,80 @@
 {
-	"x2yof9g6t5tl5p0k": {
-		"definition": "start",
-		"x": 0,
-		"y": -192,
-		"root": true
-	},
-	"dkaxvngrrq6bw105": {
-		"definition": "mining_speed_1",
-		"x": -128,
-		"y": -128,
-		"root": false
-	},
-	"y01js02zr6e7df9z": {
-		"definition": "mining_speed_1",
-		"x": -128,
-		"y": -64,
-		"root": false
-	},
-	"s1o3v0s54glon2gj": {
-		"definition": "mining_speed_1",
-		"x": -128,
-		"y": 0,
-		"root": false
-	},
-	"nhg0vfsuqmqhk7sd": {
-		"definition": "mining_speed_2",
-		"x": -128,
-		"y": 64,
-		"root": false
-	},
-	"rfadmiesbqy0lqzc": {
-		"definition": "mining_speed_1",
-		"x": -128,
-		"y": 128,
-		"root": false
-	},
-	"l23sa2psyfhbkcjv": {
-		"definition": "mining_speed_1",
-		"x": -128,
-		"y": 192,
-		"root": false
-	},
-	"q1obnkgurq51aeeg": {
-		"definition": "mining_speed_1",
-		"x": -128,
-		"y": 256,
-		"root": false
-	},
-	"5bpgrdkce6ybwg10": {
-		"definition": "mining_speed_2",
-		"x": -128,
-		"y": 320,
-		"root": false
-	},
-	"lg5imt4mr7sv3jcf": {
-		"definition": "mining_speed_1",
-		"x": -64,
-		"y": -64,
-		"root": false
-	},
-	"8vzb4ofvvvduze38": {
-		"definition": "mining_speed_1",
-		"x": -192,
-		"y": -64,
-		"root": false
-	},
-	"2aimbybw2uphnhhz": {
-		"definition": "mining_speed_2",
-		"x": -64,
-		"y": 0,
-		"root": false
-	},
-	"liu01jxw82spexgl": {
-		"definition": "mining_speed_2",
-		"x": -192,
-		"y": 0,
-		"root": false
-	},
-	"3waf76g3tx2di7p0": {
-		"definition": "mining_speed_1",
-		"x": -192,
-		"y": 64,
-		"root": false
-	},
-	"fkt75x7gl2zk1cxi": {
-		"definition": "mining_speed_1",
-		"x": -64,
-		"y": 64,
-		"root": false
-	},
-	"zlmbjg1rjlcl6sm3": {
-		"definition": "mining_speed_1",
-		"x": -192,
-		"y": 128,
-		"root": false
-	},
-	"ldqyoxw238n6g2z9": {
-		"definition": "mining_speed_1",
-		"x": -64,
-		"y": 128,
-		"root": false
-	},
-	"18kr9p7bdsxzfx53": {
-		"definition": "mining_speed_2",
-		"x": -192,
-		"y": 192,
-		"root": false
-	},
-	"r3drfiaiuibrcqr5": {
-		"definition": "mining_speed_2",
-		"x": -64,
-		"y": 192,
-		"root": false
-	},
-	"an58eumdnwi82vff": {
-		"definition": "mining_speed_1",
-		"x": -192,
-		"y": 256,
-		"root": false
-	},
-	"x8e4a1uj2pbujy7u": {
-		"definition": "mining_speed_1",
-		"x": -64,
-		"y": 256,
-		"root": false
-	},
-	"8alfw7c6xp9mv2a8": {
-		"definition": "mining_speed_2",
-		"x": -192,
-		"y": 320,
-		"root": false
-	},
-	"ydkvh6wv96o3jckd": {
-		"definition": "mining_speed_2",
-		"x": -64,
-		"y": 320,
-		"root": false
-	},
-	"dp9ttg70a91kns4b": {
-		"definition": "mining_luck_1",
-		"x": 128,
-		"y": -128,
-		"root": false
-	},
-	"t0b9ndyy90gj2dgc": {
-		"definition": "mining_luck_1",
-		"x": 128,
-		"y": -64,
-		"root": false
-	},
-	"zoo66c9njqgnhc2m": {
-		"definition": "mining_luck_1",
-		"x": 128,
-		"y": 0,
-		"root": false
-	},
-	"syz24suwukw1v7nq": {
-		"definition": "mining_luck_1",
-		"x": 128,
-		"y": 128,
-		"root": false
-	},
-	"ukwrwn5hesilee3h": {
-		"definition": "mining_luck_1",
-		"x": 128,
-		"y": 192,
-		"root": false
-	},
-	"11fzyjgv11b8cm96": {
-		"definition": "mining_luck_1",
-		"x": 128,
-		"y": 256,
-		"root": false
-	},
-	"1id56h61o0qr96iq": {
-		"definition": "mining_luck_1",
-		"x": 64,
-		"y": -64,
-		"root": false
-	},
-	"olfmc83xddj7wvzm": {
-		"definition": "mining_luck_1",
-		"x": 192,
-		"y": -64,
-		"root": false
-	},
-	"8zv9r8d4n15n0pu9": {
-		"definition": "mining_luck_1",
-		"x": 192,
-		"y": 64,
-		"root": false
-	},
-	"e0wcua035bajg079": {
-		"definition": "mining_luck_1",
-		"x": 192,
-		"y": 128,
-		"root": false
-	},
-	"bkobknq5xtvsca6k": {
-		"definition": "mining_luck_1",
-		"x": 64,
-		"y": 64,
-		"root": false
-	},
-	"dacaxsijl1rafmc1": {
-		"definition": "mining_luck_1",
-		"x": 64,
-		"y": 128,
-		"root": false
-	},
-	"1bwoqpqmzmla7p6p": {
-		"definition": "mining_luck_1",
-		"x": 64,
-		"y": 256,
-		"root": false
-	},
-	"892l70banurh5j0v": {
-		"definition": "mining_luck_1",
-		"x": 192,
-		"y": 256,
-		"root": false
-	},
-	"ss5uab68ntj7qx5g": {
-		"definition": "mining_luck_2",
-		"x": 64,
-		"y": 0,
-		"root": false
-	},
-	"2s3689ej3fydk0m3": {
-		"definition": "mining_luck_2",
-		"x": 192,
-		"y": 0,
-		"root": false
-	},
-	"s5qn2e3abb3szqua": {
-		"definition": "mining_luck_2",
-		"x": 64,
-		"y": 192,
-		"root": false
-	},
-	"f04j2uzgp16rcy82": {
-		"definition": "mining_luck_2",
-		"x": 192,
-		"y": 192,
-		"root": false
-	},
-	"95wstysavnry3vjm": {
-		"definition": "mining_luck_2",
-		"x": 64,
-		"y": 320,
-		"root": false
-	},
-	"wv1a2kvvdbaj6arc": {
-		"definition": "mining_luck_2",
-		"x": 128,
-		"y": 320,
-		"root": false
-	},
-	"eppi2lhgkaivnnf5": {
-		"definition": "mining_luck_2",
-		"x": 192,
-		"y": 320,
-		"root": false
-	},
-	"siv3f6lgovayzyv1": {
-		"definition": "mining_luck_2",
-		"x": 128,
-		"y": 64,
-		"root": false
-	}
+  "mine_start": {
+    "definition": "start",
+    "x": 0,
+    "y": -160,
+    "root": true
+  },
+  "mine_speed_1": {
+    "definition": "mining_speed_1",
+    "x": 0,
+    "y": -96,
+    "root": false
+  },
+  "mine_speed_2": {
+    "definition": "mining_speed_2",
+    "x": 0,
+    "y": -40,
+    "root": false
+  },
+  "mine_speed_3": {
+    "definition": "mining_speed_3",
+    "x": 0,
+    "y": 16,
+    "root": false
+  },
+  "mine_speed_4": {
+    "definition": "mining_speed_4",
+    "x": 0,
+    "y": 72,
+    "root": false
+  },
+  "mine_submerged_1": {
+    "definition": "submerged_1",
+    "x": -112,
+    "y": -96,
+    "root": false
+  },
+  "mine_submerged_2": {
+    "definition": "submerged_2",
+    "x": -112,
+    "y": -40,
+    "root": false
+  },
+  "mine_submerged_3": {
+    "definition": "submerged_3",
+    "x": -112,
+    "y": 16,
+    "root": false
+  },
+  "mine_submerged_4": {
+    "definition": "submerged_4",
+    "x": -112,
+    "y": 72,
+    "root": false
+  },
+  "mine_fortune_1": {
+    "definition": "fortune_1",
+    "x": 112,
+    "y": -96,
+    "root": false
+  },
+  "mine_fortune_2": {
+    "definition": "fortune_2",
+    "x": 112,
+    "y": -40,
+    "root": false
+  },
+  "mine_fortune_3": {
+    "definition": "fortune_3",
+    "x": 112,
+    "y": 16,
+    "root": false
+  },
+  "mine_fortune_4": {
+    "definition": "fortune_4",
+    "x": 112,
+    "y": 72,
+    "root": false
+  }
 }

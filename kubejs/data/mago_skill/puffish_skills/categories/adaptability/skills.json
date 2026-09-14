@@ -1,0 +1,176 @@
+{
+  "adapt_start": {
+    "definition": "start",
+    "x": 0,
+    "y": -208,
+    "root": true
+  },
+  "adapt_cold_1": {
+    "definition": "cold_1",
+    "x": -168,
+    "y": -144,
+    "root": false
+  },
+  "adapt_cold_2": {
+    "definition": "cold_2",
+    "x": -168,
+    "y": -96,
+    "root": false
+  },
+  "adapt_cold_3": {
+    "definition": "cold_3",
+    "x": -168,
+    "y": -48,
+    "root": false
+  },
+  "adapt_cold_4": {
+    "definition": "cold_4",
+    "x": -168,
+    "y": 0,
+    "root": false
+  },
+  "adapt_cold_5": {
+    "definition": "cold_5",
+    "x": -168,
+    "y": 48,
+    "root": false
+  },
+  "adapt_cold_6": {
+    "definition": "cold_6",
+    "x": -168,
+    "y": 96,
+    "root": false
+  },
+  "adapt_cold_7": {
+    "definition": "cold_7",
+    "x": -168,
+    "y": 144,
+    "root": false
+  },
+  "adapt_cold_8": {
+    "definition": "cold_8",
+    "x": -168,
+    "y": 192,
+    "root": false
+  },
+  "adapt_heat_1": {
+    "definition": "heat_1",
+    "x": 168,
+    "y": -144,
+    "root": false
+  },
+  "adapt_heat_2": {
+    "definition": "heat_2",
+    "x": 168,
+    "y": -96,
+    "root": false
+  },
+  "adapt_heat_3": {
+    "definition": "heat_3",
+    "x": 168,
+    "y": -48,
+    "root": false
+  },
+  "adapt_heat_4": {
+    "definition": "heat_4",
+    "x": 168,
+    "y": 0,
+    "root": false
+  },
+  "adapt_heat_5": {
+    "definition": "heat_5",
+    "x": 168,
+    "y": 48,
+    "root": false
+  },
+  "adapt_heat_6": {
+    "definition": "heat_6",
+    "x": 168,
+    "y": 96,
+    "root": false
+  },
+  "adapt_heat_7": {
+    "definition": "heat_7",
+    "x": 168,
+    "y": 144,
+    "root": false
+  },
+  "adapt_heat_8": {
+    "definition": "heat_8",
+    "x": 168,
+    "y": 192,
+    "root": false
+  },
+  "adapt_oxygen_1": {
+    "definition": "oxygen_1",
+    "x": 0,
+    "y": -144,
+    "root": false
+  },
+  "adapt_oxygen_2": {
+    "definition": "oxygen_2",
+    "x": 0,
+    "y": -96,
+    "root": false
+  },
+  "adapt_oxygen_3": {
+    "definition": "oxygen_3",
+    "x": 0,
+    "y": -48,
+    "root": false
+  },
+  "adapt_oxygen_4": {
+    "definition": "oxygen_4",
+    "x": 0,
+    "y": 0,
+    "root": false
+  },
+  "adapt_oxygen_5": {
+    "definition": "oxygen_5",
+    "x": 0,
+    "y": 48,
+    "root": false
+  },
+  "adapt_oxygen_6": {
+    "definition": "oxygen_6",
+    "x": 0,
+    "y": 96,
+    "root": false
+  },
+  "adapt_thermal_1": {
+    "definition": "thermal_1",
+    "x": 0,
+    "y": 192,
+    "root": false
+  },
+  "adapt_thermal_2": {
+    "definition": "thermal_2",
+    "x": 0,
+    "y": 240,
+    "root": false
+  },
+  "adapt_thermal_3": {
+    "definition": "thermal_3",
+    "x": 0,
+    "y": 288,
+    "root": false
+  },
+  "adapt_thermal_4": {
+    "definition": "thermal_4",
+    "x": 0,
+    "y": 336,
+    "root": false
+  },
+  "adapt_thermal_5": {
+    "definition": "thermal_5",
+    "x": 0,
+    "y": 384,
+    "root": false
+  },
+  "adapt_thermal_6": {
+    "definition": "thermal_6",
+    "x": 0,
+    "y": 432,
+    "root": false
+  }
+}

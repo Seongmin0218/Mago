@@ -2,8 +2,8 @@
   "unlocked_by_default": true,
   "exclusive_root": false,
   "starting_points": 0,
-  "title": "광부",
-  "description": "광부 스킬트리",
+  "title": "채광",
+  "description": "채굴 속도, 수중 채굴, 채굴 행운을 장기적으로 성장시키는 통상 스킬트리",
   "icon": {
     "type": "item",
     "data": {

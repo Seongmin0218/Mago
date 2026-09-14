@@ -1,0 +1,644 @@
+{
+  "start": {
+    "title": "이동",
+    "description": "기본 기동 능력과 지형 대응력을 강화합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "cost": 0,
+    "required_skills": 0
+  },
+  "speed_1": {
+    "title": "민첩성 I",
+    "description": "이동 속도가 +1.5% 증가합니다. 이 계열만 누적 시 약 +1.5%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.015,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "swim_1": {
+    "title": "수영 숙련 I",
+    "description": "수중 이동 페널티 완화 계수가 +10%p 증가합니다. 누적 완화 계수: 10%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:kelp"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.water_movement_efficiency",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "safe_fall_1": {
+    "title": "가벼운 착지 I",
+    "description": "안전 낙하 거리가 +0.5블록 증가합니다. 누적 +0.5블록.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:hay_block"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "fall_reduce_1": {
+    "title": "충격 완화 I",
+    "description": "낙하 피해 배율이 5%p 감소합니다. 누적 낙하 피해 감소: 5%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.fall_damage_multiplier",
+          "value": -0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "terrain_1": {
+    "title": "험지 적응 I",
+    "description": "방해 지형 이동 페널티 완화 계수가 +10%p 증가합니다. 누적 완화 계수: 10%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:dirt_path"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_efficiency",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "speed_2": {
+    "title": "민첩성 II",
+    "description": "이동 속도가 +1.5% 증가합니다. 이 계열만 누적 시 약 +3.0%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.015,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "swim_2": {
+    "title": "수영 숙련 II",
+    "description": "수중 이동 페널티 완화 계수가 +10%p 증가합니다. 누적 완화 계수: 20%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:prismarine_shard"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.water_movement_efficiency",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "safe_fall_2": {
+    "title": "가벼운 착지 II",
+    "description": "안전 낙하 거리가 +0.5블록 증가합니다. 누적 +1.0블록.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:white_wool"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "fall_reduce_2": {
+    "title": "충격 완화 II",
+    "description": "낙하 피해 배율이 5%p 감소합니다. 누적 낙하 피해 감소: 10%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:chainmail_boots"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.fall_damage_multiplier",
+          "value": -0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "terrain_2": {
+    "title": "험지 적응 II",
+    "description": "방해 지형 이동 페널티 완화 계수가 +10%p 증가합니다. 누적 완화 계수: 20%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:mud"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_efficiency",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "speed_3": {
+    "title": "민첩성 III",
+    "description": "이동 속도가 +1.5% 증가합니다. 이 계열만 누적 시 약 +4.6%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.015,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "swim_3": {
+    "title": "수영 숙련 III",
+    "description": "수중 이동 페널티 완화 계수가 +10%p 증가합니다. 누적 완화 계수: 30%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:prismarine_crystals"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.water_movement_efficiency",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "safe_fall_3": {
+    "title": "가벼운 착지 III",
+    "description": "안전 낙하 거리가 +0.5블록 증가합니다. 누적 +1.5블록.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:slime_ball"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "fall_reduce_3": {
+    "title": "충격 완화 III",
+    "description": "낙하 피해 배율이 5%p 감소합니다. 누적 낙하 피해 감소: 15%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_boots"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.fall_damage_multiplier",
+          "value": -0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "terrain_3": {
+    "title": "험지 적응 III",
+    "description": "방해 지형 이동 페널티 완화 계수가 +10%p 증가합니다. 누적 완화 계수: 30%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:soul_sand"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_efficiency",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "speed_4": {
+    "title": "민첩성 IV",
+    "description": "이동 속도가 +1.5% 증가합니다. 이 계열만 누적 시 약 +6.1%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.015,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "swim_4": {
+    "title": "수영 숙련 IV",
+    "description": "수중 이동 페널티 완화 계수가 +10%p 증가합니다. 누적 완화 계수: 40%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:tropical_fish"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.water_movement_efficiency",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "safe_fall_4": {
+    "title": "가벼운 착지 IV",
+    "description": "안전 낙하 거리가 +0.5블록 증가합니다. 누적 +2.0블록.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:slime_block"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "fall_reduce_4": {
+    "title": "충격 완화 IV",
+    "description": "낙하 피해 배율이 5%p 감소합니다. 누적 낙하 피해 감소: 20%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_boots"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.fall_damage_multiplier",
+          "value": -0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "terrain_4": {
+    "title": "험지 적응 IV",
+    "description": "방해 지형 이동 페널티 완화 계수가 +10%p 증가합니다. 누적 완화 계수: 40%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:honey_block"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_efficiency",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "speed_5": {
+    "title": "민첩성 V",
+    "description": "이동 속도가 +1.5% 증가합니다. 이 계열만 누적 시 약 +7.7%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_boots"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.015,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "swim_5": {
+    "title": "수영 숙련 V",
+    "description": "수중 이동 페널티 완화 계수가 +10%p 증가합니다. 누적 완화 계수: 50%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nautilus_shell"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.water_movement_efficiency",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "safe_fall_5": {
+    "title": "가벼운 착지 V",
+    "description": "안전 낙하 거리가 +0.5블록 증가합니다. 누적 +2.5블록.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "fall_reduce_5": {
+    "title": "충격 완화 V",
+    "description": "낙하 피해 배율이 5%p 감소합니다. 누적 낙하 피해 감소: 25%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_boots"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.fall_damage_multiplier",
+          "value": -0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "terrain_5": {
+    "title": "험지 적응 V",
+    "description": "방해 지형 이동 페널티 완화 계수가 +10%p 증가합니다. 누적 완화 계수: 50%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cobweb"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_efficiency",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "speed_6": {
+    "title": "민첩성 VI",
+    "description": "이동 속도가 +1.5% 증가합니다. 이 계열만 누적 시 약 +9.3%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_boots"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.015,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "swim_6": {
+    "title": "수영 숙련 VI",
+    "description": "수중 이동 페널티 완화 계수가 +10%p 증가합니다. 누적 완화 계수: 60%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:heart_of_the_sea"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.water_movement_efficiency",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "safe_fall_6": {
+    "title": "가벼운 착지 VI",
+    "description": "안전 낙하 거리가 +0.5블록 증가합니다. 누적 +3.0블록.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:phantom_membrane"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "fall_reduce_6": {
+    "title": "충격 완화 VI",
+    "description": "낙하 피해 배율이 5%p 감소합니다. 누적 낙하 피해 감소: 30%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_boots"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.fall_damage_multiplier",
+          "value": -0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "terrain_6": {
+    "title": "험지 적응 VI",
+    "description": "방해 지형 이동 페널티 완화 계수가 +10%p 증가합니다. 누적 완화 계수: 60%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:slime_block"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_efficiency",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  }
+}

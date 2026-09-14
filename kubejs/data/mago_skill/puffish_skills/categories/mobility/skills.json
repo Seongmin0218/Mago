@@ -1,0 +1,188 @@
+{
+  "mobility_start": {
+    "definition": "start",
+    "x": 0,
+    "y": -160,
+    "root": true
+  },
+  "mob_speed_1": {
+    "definition": "speed_1",
+    "x": -224,
+    "y": -96,
+    "root": false
+  },
+  "mob_speed_2": {
+    "definition": "speed_2",
+    "x": -224,
+    "y": -44,
+    "root": false
+  },
+  "mob_speed_3": {
+    "definition": "speed_3",
+    "x": -224,
+    "y": 8,
+    "root": false
+  },
+  "mob_speed_4": {
+    "definition": "speed_4",
+    "x": -224,
+    "y": 60,
+    "root": false
+  },
+  "mob_speed_5": {
+    "definition": "speed_5",
+    "x": -224,
+    "y": 112,
+    "root": false
+  },
+  "mob_speed_6": {
+    "definition": "speed_6",
+    "x": -224,
+    "y": 164,
+    "root": false
+  },
+  "mob_swim_1": {
+    "definition": "swim_1",
+    "x": -112,
+    "y": -96,
+    "root": false
+  },
+  "mob_swim_2": {
+    "definition": "swim_2",
+    "x": -112,
+    "y": -44,
+    "root": false
+  },
+  "mob_swim_3": {
+    "definition": "swim_3",
+    "x": -112,
+    "y": 8,
+    "root": false
+  },
+  "mob_swim_4": {
+    "definition": "swim_4",
+    "x": -112,
+    "y": 60,
+    "root": false
+  },
+  "mob_swim_5": {
+    "definition": "swim_5",
+    "x": -112,
+    "y": 112,
+    "root": false
+  },
+  "mob_swim_6": {
+    "definition": "swim_6",
+    "x": -112,
+    "y": 164,
+    "root": false
+  },
+  "mob_fall_1": {
+    "definition": "safe_fall_1",
+    "x": 0,
+    "y": -96,
+    "root": false
+  },
+  "mob_fall_2": {
+    "definition": "safe_fall_2",
+    "x": 0,
+    "y": -44,
+    "root": false
+  },
+  "mob_fall_3": {
+    "definition": "safe_fall_3",
+    "x": 0,
+    "y": 8,
+    "root": false
+  },
+  "mob_fall_4": {
+    "definition": "safe_fall_4",
+    "x": 0,
+    "y": 60,
+    "root": false
+  },
+  "mob_fall_5": {
+    "definition": "safe_fall_5",
+    "x": 0,
+    "y": 112,
+    "root": false
+  },
+  "mob_fall_6": {
+    "definition": "safe_fall_6",
+    "x": 0,
+    "y": 164,
+    "root": false
+  },
+  "mob_reduce_1": {
+    "definition": "fall_reduce_1",
+    "x": 112,
+    "y": -96,
+    "root": false
+  },
+  "mob_reduce_2": {
+    "definition": "fall_reduce_2",
+    "x": 112,
+    "y": -44,
+    "root": false
+  },
+  "mob_reduce_3": {
+    "definition": "fall_reduce_3",
+    "x": 112,
+    "y": 8,
+    "root": false
+  },
+  "mob_reduce_4": {
+    "definition": "fall_reduce_4",
+    "x": 112,
+    "y": 60,
+    "root": false
+  },
+  "mob_reduce_5": {
+    "definition": "fall_reduce_5",
+    "x": 112,
+    "y": 112,
+    "root": false
+  },
+  "mob_reduce_6": {
+    "definition": "fall_reduce_6",
+    "x": 112,
+    "y": 164,
+    "root": false
+  },
+  "mob_terrain_1": {
+    "definition": "terrain_1",
+    "x": 224,
+    "y": -96,
+    "root": false
+  },
+  "mob_terrain_2": {
+    "definition": "terrain_2",
+    "x": 224,
+    "y": -44,
+    "root": false
+  },
+  "mob_terrain_3": {
+    "definition": "terrain_3",
+    "x": 224,
+    "y": 8,
+    "root": false
+  },
+  "mob_terrain_4": {
+    "definition": "terrain_4",
+    "x": 224,
+    "y": 60,
+    "root": false
+  },
+  "mob_terrain_5": {
+    "definition": "terrain_5",
+    "x": 224,
+    "y": 112,
+    "root": false
+  },
+  "mob_terrain_6": {
+    "definition": "terrain_6",
+    "x": 224,
+    "y": 164,
+    "root": false
+  }
+}

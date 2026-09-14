@@ -1,0 +1,603 @@
+{
+  "start": {
+    "title": "적응력",
+    "description": "혹한, 폭염, 급격한 기후 변화와 수중 환경에 대한 적응력을 장기적으로 강화합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:turtle_helmet"
+      }
+    },
+    "cost": 0,
+    "required_skills": 0
+  },
+  "cold_1": {
+    "title": "한랭 적응 I",
+    "description": "추위 저항이 +0.5 증가합니다. 누적 추위 저항: +0.5.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:snowball"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "legendarysurvivaloverhaul:cold_resistance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "heat_1": {
+    "title": "고온 적응 I",
+    "description": "더위 저항이 +0.5 증가합니다. 누적 더위 저항: +0.5.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:magma_cream"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "legendarysurvivaloverhaul:heat_resistance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "cold_2": {
+    "title": "한랭 적응 II",
+    "description": "추위 저항이 +0.5 증가합니다. 누적 추위 저항: +1.0.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:snow_block"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "legendarysurvivaloverhaul:cold_resistance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "heat_2": {
+    "title": "고온 적응 II",
+    "description": "더위 저항이 +0.5 증가합니다. 누적 더위 저항: +1.0.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:magma_block"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "legendarysurvivaloverhaul:heat_resistance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "cold_3": {
+    "title": "한랭 적응 III",
+    "description": "추위 저항이 +0.5 증가합니다. 누적 추위 저항: +1.5.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ice"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "legendarysurvivaloverhaul:cold_resistance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "heat_3": {
+    "title": "고온 적응 III",
+    "description": "더위 저항이 +0.5 증가합니다. 누적 더위 저항: +1.5.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "legendarysurvivaloverhaul:heat_resistance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "cold_4": {
+    "title": "한랭 적응 IV",
+    "description": "추위 저항이 +0.5 증가합니다. 누적 추위 저항: +2.0.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:packed_ice"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "legendarysurvivaloverhaul:cold_resistance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "heat_4": {
+    "title": "고온 적응 IV",
+    "description": "더위 저항이 +0.5 증가합니다. 누적 더위 저항: +2.0.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "legendarysurvivaloverhaul:heat_resistance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "cold_5": {
+    "title": "한랭 적응 V",
+    "description": "추위 저항이 +0.5 증가합니다. 누적 추위 저항: +2.5.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blue_ice"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "legendarysurvivaloverhaul:cold_resistance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "heat_5": {
+    "title": "고온 적응 V",
+    "description": "더위 저항이 +0.5 증가합니다. 누적 더위 저항: +2.5.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fire_charge"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "legendarysurvivaloverhaul:heat_resistance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "cold_6": {
+    "title": "한랭 적응 VI",
+    "description": "추위 저항이 +0.5 증가합니다. 누적 추위 저항: +3.0.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:powder_snow_bucket"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "legendarysurvivaloverhaul:cold_resistance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "heat_6": {
+    "title": "고온 적응 VI",
+    "description": "더위 저항이 +0.5 증가합니다. 누적 더위 저항: +3.0.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lava_bucket"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "legendarysurvivaloverhaul:heat_resistance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "cold_7": {
+    "title": "한랭 적응 VII",
+    "description": "추위 저항이 +0.5 증가합니다. 누적 추위 저항: +3.5.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_boots"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "legendarysurvivaloverhaul:cold_resistance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "heat_7": {
+    "title": "고온 적응 VII",
+    "description": "더위 저항이 +0.5 증가합니다. 누적 더위 저항: +3.5.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_boots"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "legendarysurvivaloverhaul:heat_resistance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "cold_8": {
+    "title": "한랭 적응 VIII",
+    "description": "추위 저항이 +0.5 증가합니다. 누적 추위 저항: +4.0.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_chestplate"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "legendarysurvivaloverhaul:cold_resistance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "heat_8": {
+    "title": "고온 적응 VIII",
+    "description": "더위 저항이 +0.5 증가합니다. 누적 더위 저항: +4.0.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_chestplate"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "legendarysurvivaloverhaul:heat_resistance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "thermal_1": {
+    "title": "기후 적응 I",
+    "description": "종합 온도 저항이 +0.5 증가합니다. 누적 종합 온도 저항: +0.5. 한랭 적응 IV와 고온 적응 IV를 모두 요구합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "legendarysurvivaloverhaul:thermal_resistance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ],
+    "required_skills": 2
+  },
+  "thermal_2": {
+    "title": "기후 적응 II",
+    "description": "종합 온도 저항이 +0.5 증가합니다. 누적 종합 온도 저항: +1.0.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_hide"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "legendarysurvivaloverhaul:thermal_resistance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "thermal_3": {
+    "title": "기후 적응 III",
+    "description": "종합 온도 저항이 +0.5 증가합니다. 누적 종합 온도 저항: +1.5.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:firework_star"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "legendarysurvivaloverhaul:thermal_resistance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "thermal_4": {
+    "title": "기후 적응 IV",
+    "description": "종합 온도 저항이 +0.5 증가합니다. 누적 종합 온도 저항: +2.0.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "legendarysurvivaloverhaul:thermal_resistance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "thermal_5": {
+    "title": "기후 적응 V",
+    "description": "종합 온도 저항이 +0.5 증가합니다. 누적 종합 온도 저항: +2.5.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "legendarysurvivaloverhaul:thermal_resistance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "thermal_6": {
+    "title": "기후 적응 VI",
+    "description": "종합 온도 저항이 +0.5 증가합니다. 누적 종합 온도 저항: +3.0.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "legendarysurvivaloverhaul:thermal_resistance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "oxygen_1": {
+    "title": "폐활량 I",
+    "description": "산소 보너스가 +0.25 증가합니다. 누적 +0.25, 매 틱 공기 소모를 피할 확률은 약 20%입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glass_bottle"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.oxygen_bonus",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "oxygen_2": {
+    "title": "폐활량 II",
+    "description": "산소 보너스가 +0.25 증가합니다. 누적 +0.50, 매 틱 공기 소모를 피할 확률은 약 33%입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:kelp"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.oxygen_bonus",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "oxygen_3": {
+    "title": "폐활량 III",
+    "description": "산소 보너스가 +0.25 증가합니다. 누적 +0.75, 매 틱 공기 소모를 피할 확률은 약 43%입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:tropical_fish"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.oxygen_bonus",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "oxygen_4": {
+    "title": "폐활량 IV",
+    "description": "산소 보너스가 +0.25 증가합니다. 누적 +1.00, 매 틱 공기 소모를 피할 확률은 약 50%입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:pufferfish"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.oxygen_bonus",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "oxygen_5": {
+    "title": "폐활량 V",
+    "description": "산소 보너스가 +0.25 증가합니다. 누적 +1.25, 매 틱 공기 소모를 피할 확률은 약 56%입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nautilus_shell"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.oxygen_bonus",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "oxygen_6": {
+    "title": "폐활량 VI",
+    "description": "산소 보너스가 +0.25 증가합니다. 누적 +1.50, 매 틱 공기 소모를 피할 확률은 약 60%입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:heart_of_the_sea"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.oxygen_bonus",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  }
+}

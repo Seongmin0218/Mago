@@ -2,11 +2,9 @@
   "version": 3,
   "categories": [
     "mine",
-    "farm",
-    "cook",
-    "melee",
+    "adaptability",
+    "combat",
     "defense",
-    "gunner",
-    "magic"
+    "mobility"
   ]
 }

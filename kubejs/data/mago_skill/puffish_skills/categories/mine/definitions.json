@@ -1,6 +1,7 @@
 {
   "start": {
-    "title": "광부",
+    "title": "채광",
+    "description": "채광 관련 기본 능력을 강화합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -11,8 +12,29 @@
     "required_skills": 0
   },
   "mining_speed_1": {
-    "title": "채굴 속도 I",
-    "description": "채굴 속도가 소폭 증가합니다.",
+    "title": "채굴 숙련 I",
+    "description": "블록 파괴 속도가 +5% 증가합니다. 누적 보너스: +5%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stone_pickaxe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "mining_speed_2": {
+    "title": "채굴 숙련 II",
+    "description": "블록 파괴 속도가 +5% 증가합니다. 누적 보너스: +10%.",
     "icon": {
       "type": "item",
       "data": {
@@ -24,16 +46,37 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:mining_speed",
-          "value": 0.2,
+          "attribute": "minecraft:player.block_break_speed",
+          "value": 0.05,
           "operation": "addition"
         }
       }
     ]
   },
-  "mining_speed_2": {
-    "title": "채굴 속도 II",
-    "description": "채굴 속도가 증가합니다.",
+  "mining_speed_3": {
+    "title": "채굴 숙련 III",
+    "description": "블록 파괴 속도가 +5% 증가합니다. 누적 보너스: +15%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_pickaxe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "mining_speed_4": {
+    "title": "채굴 숙련 IV",
+    "description": "블록 파괴 속도가 +5% 증가합니다. 누적 보너스: +20%.",
     "icon": {
       "type": "item",
       "data": {
@@ -45,16 +88,142 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:mining_speed",
-          "value": 0.4,
+          "attribute": "minecraft:player.block_break_speed",
+          "value": 0.05,
           "operation": "addition"
         }
       }
     ]
   },
-  "mining_luck_1": {
-    "title": "광부의 행운 I",
-    "description": "행운이 아주 조금 증가합니다.",
+  "submerged_1": {
+    "title": "수중 채굴 I",
+    "description": "수중 채굴 속도 계수가 +20%p 증가합니다. 기본 20% 기준 현재 40% 수준입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:prismarine_shard"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.submerged_mining_speed",
+          "value": 0.2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "submerged_2": {
+    "title": "수중 채굴 II",
+    "description": "수중 채굴 속도 계수가 +20%p 증가합니다. 기본 20% 기준 현재 60% 수준입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:prismarine_crystals"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.submerged_mining_speed",
+          "value": 0.2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "submerged_3": {
+    "title": "수중 채굴 III",
+    "description": "수중 채굴 속도 계수가 +20%p 증가합니다. 기본 20% 기준 현재 80% 수준입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nautilus_shell"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.submerged_mining_speed",
+          "value": 0.2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "submerged_4": {
+    "title": "수중 채굴 IV",
+    "description": "수중 채굴 속도 계수가 +20%p 증가합니다. 기본 20% 기준 현재 100% 수준입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:heart_of_the_sea"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.submerged_mining_speed",
+          "value": 0.2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "fortune_1": {
+    "title": "채굴 행운 I",
+    "description": "채굴 Fortune 수치가 +0.25 증가합니다. 누적 +0.25, 바닐라 행운 I의 25% 수준입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:coal"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fortune",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "fortune_2": {
+    "title": "채굴 행운 II",
+    "description": "채굴 Fortune 수치가 +0.25 증가합니다. 누적 +0.50, 바닐라 행운 I의 50% 수준입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fortune",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "fortune_3": {
+    "title": "채굴 행운 III",
+    "description": "채굴 Fortune 수치가 +0.25 증가합니다. 누적 +0.75, 바닐라 행운 I의 75% 수준입니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -67,15 +236,15 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "puffish_attributes:fortune",
-          "value": 0.2,
+          "value": 0.25,
           "operation": "addition"
         }
       }
     ]
   },
-  "mining_luck_2": {
-    "title": "광부의 행운 II",
-    "description": "행운이 조금 증가합니다.",
+  "fortune_4": {
+    "title": "채굴 행운 IV",
+    "description": "채굴 Fortune 수치가 +0.25 증가합니다. 누적 +1.00으로 바닐라 행운 I과 동일한 단계가 됩니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -88,7 +257,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "puffish_attributes:fortune",
-          "value": 0.4,
+          "value": 0.25,
           "operation": "addition"
         }
       }

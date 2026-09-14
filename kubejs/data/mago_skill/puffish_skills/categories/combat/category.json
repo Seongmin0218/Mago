@@ -2,12 +2,12 @@
   "unlocked_by_default": true,
   "exclusive_root": false,
   "starting_points": 0,
-  "title": "방어",
-  "description": "체력, 방어력, 방어 강도, 자연 회복을 장기적으로 성장시키는 통상 스킬트리",
+  "title": "전투",
+  "description": "전문화 이전의 근접 공격, 공격 속도, 활 계열 피해를 꾸준히 강화하는 통상 스킬트리",
   "icon": {
     "type": "item",
     "data": {
-      "item": "minecraft:shield"
+      "item": "minecraft:iron_sword"
     }
   },
   "background": "textures/gui/advancements/backgrounds/adventure.png"

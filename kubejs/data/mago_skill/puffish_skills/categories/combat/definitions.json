@@ -1,0 +1,392 @@
+{
+  "start": {
+    "title": "전투",
+    "description": "전문화와 무관하게 사용할 수 있는 기본 전투 능력을 강화합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 0,
+    "required_skills": 0
+  },
+  "melee_damage_1": {
+    "title": "근접 숙련 I",
+    "description": "일반 공격력이 +2% 증가합니다. 이 계열만 누적 시 약 +2.0%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_speed_1": {
+    "title": "공격 템포 I",
+    "description": "공격 속도가 +2% 증가합니다. 이 계열만 누적 시 약 +2.0%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_axe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "arrow_damage_1": {
+    "title": "사격 숙련 I",
+    "description": "화살 피해 계수가 +2%p 증가합니다. 누적 화살 피해 보너스: +2%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:arrow"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:arrow_damage",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "melee_damage_2": {
+    "title": "근접 숙련 II",
+    "description": "일반 공격력이 +2% 증가합니다. 이 계열만 누적 시 약 +4.0%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stone_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_speed_2": {
+    "title": "공격 템포 II",
+    "description": "공격 속도가 +2% 증가합니다. 이 계열만 누적 시 약 +4.0%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stone_axe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "arrow_damage_2": {
+    "title": "사격 숙련 II",
+    "description": "화살 피해 계수가 +2%p 증가합니다. 누적 화살 피해 보너스: +4%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:arrow_damage",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "melee_damage_3": {
+    "title": "근접 숙련 III",
+    "description": "일반 공격력이 +2% 증가합니다. 이 계열만 누적 시 약 +6.1%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_speed_3": {
+    "title": "공격 템포 III",
+    "description": "공격 속도가 +2% 증가합니다. 이 계열만 누적 시 약 +6.1%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_axe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "arrow_damage_3": {
+    "title": "사격 숙련 III",
+    "description": "화살 피해 계수가 +2%p 증가합니다. 누적 화살 피해 보너스: +6%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spectral_arrow"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:arrow_damage",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "melee_damage_4": {
+    "title": "근접 숙련 IV",
+    "description": "일반 공격력이 +2% 증가합니다. 이 계열만 누적 시 약 +8.2%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_speed_4": {
+    "title": "공격 템포 IV",
+    "description": "공격 속도가 +2% 증가합니다. 이 계열만 누적 시 약 +8.2%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_axe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "arrow_damage_4": {
+    "title": "사격 숙련 IV",
+    "description": "화살 피해 계수가 +2%p 증가합니다. 누적 화살 피해 보너스: +8%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:crossbow"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:arrow_damage",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "melee_damage_5": {
+    "title": "근접 숙련 V",
+    "description": "일반 공격력이 +2% 증가합니다. 이 계열만 누적 시 약 +10.4%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_speed_5": {
+    "title": "공격 템포 V",
+    "description": "공격 속도가 +2% 증가합니다. 이 계열만 누적 시 약 +10.4%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_axe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "arrow_damage_5": {
+    "title": "사격 숙련 V",
+    "description": "화살 피해 계수가 +2%p 증가합니다. 누적 화살 피해 보너스: +10%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:tipped_arrow"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:arrow_damage",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "melee_damage_6": {
+    "title": "근접 숙련 VI",
+    "description": "일반 공격력이 +2% 증가합니다. 이 계열만 누적 시 약 +12.6%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_speed_6": {
+    "title": "공격 템포 VI",
+    "description": "공격 속도가 +2% 증가합니다. 이 계열만 누적 시 약 +12.6%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_axe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "arrow_damage_6": {
+    "title": "사격 숙련 VI",
+    "description": "화살 피해 계수가 +2%p 증가합니다. 누적 화살 피해 보너스: +12%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:target"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:arrow_damage",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  }
+}

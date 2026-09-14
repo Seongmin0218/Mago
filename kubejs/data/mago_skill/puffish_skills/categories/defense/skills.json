@@ -2,295 +2,151 @@
   "defense_start": {
     "definition": "start",
     "x": 0,
-    "y": -544,
+    "y": -160,
     "root": true
   },
-  "max_health_row_1_left": {
-    "definition": "max_health_1",
-    "x": -640,
-    "y": -448,
+  "def_health_1": {
+    "definition": "health_1",
+    "x": -168,
+    "y": -96,
     "root": false
   },
-  "max_health_row_1_center": {
-    "definition": "max_health_1",
-    "x": -576,
-    "y": -448,
+  "def_health_2": {
+    "definition": "health_2",
+    "x": -168,
+    "y": -44,
     "root": false
   },
-  "max_health_row_1_right": {
-    "definition": "max_health_1",
-    "x": -512,
-    "y": -448,
+  "def_health_3": {
+    "definition": "health_3",
+    "x": -168,
+    "y": 8,
     "root": false
   },
-  "max_health_row_2_left": {
-    "definition": "max_health_1",
-    "x": -640,
-    "y": -352,
+  "def_health_4": {
+    "definition": "health_4",
+    "x": -168,
+    "y": 60,
     "root": false
   },
-  "max_health_row_2_center": {
-    "definition": "max_health_1",
-    "x": -576,
-    "y": -352,
+  "def_health_5": {
+    "definition": "health_5",
+    "x": -168,
+    "y": 112,
     "root": false
   },
-  "max_health_row_2_right": {
-    "definition": "max_health_1",
-    "x": -512,
-    "y": -352,
+  "def_health_6": {
+    "definition": "health_6",
+    "x": -168,
+    "y": 164,
     "root": false
   },
-  "max_health_row_3_left": {
-    "definition": "max_health_2",
-    "x": -640,
-    "y": -256,
-    "root": false
-  },
-  "max_health_row_3_center": {
-    "definition": "max_health_2",
-    "x": -576,
-    "y": -256,
-    "root": false
-  },
-  "max_health_row_3_right": {
-    "definition": "max_health_2",
-    "x": -512,
-    "y": -256,
-    "root": false
-  },
-  "max_health_row_4_left": {
-    "definition": "max_health_3",
-    "x": -640,
-    "y": -160,
-    "root": false
-  },
-  "max_health_row_4_center": {
-    "definition": "max_health_2",
-    "x": -576,
-    "y": -160,
-    "root": false
-  },
-  "max_health_row_4_right": {
-    "definition": "max_health_3",
-    "x": -512,
-    "y": -160,
-    "root": false
-  },
-  "healing_row_1_left": {
-    "definition": "healing_1",
-    "x": -256,
-    "y": -448,
-    "root": false
-  },
-  "healing_row_1_center": {
-    "definition": "healing_1",
-    "x": -192,
-    "y": -448,
-    "root": false
-  },
-  "healing_row_1_right": {
-    "definition": "healing_1",
-    "x": -128,
-    "y": -448,
-    "root": false
-  },
-  "healing_row_2_left": {
-    "definition": "healing_1",
-    "x": -256,
-    "y": -352,
-    "root": false
-  },
-  "healing_row_2_center": {
-    "definition": "healing_1",
-    "x": -192,
-    "y": -352,
-    "root": false
-  },
-  "healing_row_2_right": {
-    "definition": "healing_1",
-    "x": -128,
-    "y": -352,
-    "root": false
-  },
-  "healing_row_3_left": {
-    "definition": "healing_2",
-    "x": -256,
-    "y": -256,
-    "root": false
-  },
-  "healing_row_3_center": {
-    "definition": "healing_2",
-    "x": -192,
-    "y": -256,
-    "root": false
-  },
-  "healing_row_3_right": {
-    "definition": "healing_2",
-    "x": -128,
-    "y": -256,
-    "root": false
-  },
-  "healing_row_4_left": {
-    "definition": "healing_3",
-    "x": -256,
-    "y": -160,
-    "root": false
-  },
-  "healing_row_4_center": {
-    "definition": "healing_2",
-    "x": -192,
-    "y": -160,
-    "root": false
-  },
-  "healing_row_4_right": {
-    "definition": "healing_3",
-    "x": -128,
-    "y": -160,
-    "root": false
-  },
-  "armor_row_1_left": {
+  "def_armor_1": {
     "definition": "armor_1",
-    "x": 128,
-    "y": -448,
+    "x": -56,
+    "y": -96,
     "root": false
   },
-  "armor_row_1_center": {
-    "definition": "armor_1",
-    "x": 192,
-    "y": -448,
-    "root": false
-  },
-  "armor_row_1_right": {
-    "definition": "armor_1",
-    "x": 256,
-    "y": -448,
-    "root": false
-  },
-  "armor_row_2_left": {
-    "definition": "armor_1",
-    "x": 128,
-    "y": -352,
-    "root": false
-  },
-  "armor_row_2_center": {
-    "definition": "armor_1",
-    "x": 192,
-    "y": -352,
-    "root": false
-  },
-  "armor_row_2_right": {
-    "definition": "armor_1",
-    "x": 256,
-    "y": -352,
-    "root": false
-  },
-  "armor_row_3_left": {
+  "def_armor_2": {
     "definition": "armor_2",
-    "x": 128,
-    "y": -256,
+    "x": -56,
+    "y": -44,
     "root": false
   },
-  "armor_row_3_center": {
-    "definition": "armor_2",
-    "x": 192,
-    "y": -256,
-    "root": false
-  },
-  "armor_row_3_right": {
-    "definition": "armor_2",
-    "x": 256,
-    "y": -256,
-    "root": false
-  },
-  "armor_row_4_left": {
+  "def_armor_3": {
     "definition": "armor_3",
-    "x": 128,
-    "y": -160,
+    "x": -56,
+    "y": 8,
     "root": false
   },
-  "armor_row_4_center": {
-    "definition": "armor_2",
-    "x": 192,
-    "y": -160,
+  "def_armor_4": {
+    "definition": "armor_4",
+    "x": -56,
+    "y": 60,
     "root": false
   },
-  "armor_row_4_right": {
-    "definition": "armor_3",
-    "x": 256,
-    "y": -160,
+  "def_armor_5": {
+    "definition": "armor_5",
+    "x": -56,
+    "y": 112,
     "root": false
   },
-  "armor_toughness_row_1_left": {
-    "definition": "armor_toughness_1",
-    "x": 512,
-    "y": -448,
+  "def_armor_6": {
+    "definition": "armor_6",
+    "x": -56,
+    "y": 164,
     "root": false
   },
-  "armor_toughness_row_1_center": {
-    "definition": "armor_toughness_1",
-    "x": 576,
-    "y": -448,
+  "def_tough_1": {
+    "definition": "toughness_1",
+    "x": 56,
+    "y": -96,
     "root": false
   },
-  "armor_toughness_row_1_right": {
-    "definition": "armor_toughness_1",
-    "x": 640,
-    "y": -448,
+  "def_tough_2": {
+    "definition": "toughness_2",
+    "x": 56,
+    "y": -44,
     "root": false
   },
-  "armor_toughness_row_2_left": {
-    "definition": "armor_toughness_1",
-    "x": 512,
-    "y": -352,
+  "def_tough_3": {
+    "definition": "toughness_3",
+    "x": 56,
+    "y": 8,
     "root": false
   },
-  "armor_toughness_row_2_center": {
-    "definition": "armor_toughness_1",
-    "x": 576,
-    "y": -352,
+  "def_tough_4": {
+    "definition": "toughness_4",
+    "x": 56,
+    "y": 60,
     "root": false
   },
-  "armor_toughness_row_2_right": {
-    "definition": "armor_toughness_1",
-    "x": 640,
-    "y": -352,
+  "def_tough_5": {
+    "definition": "toughness_5",
+    "x": 56,
+    "y": 112,
     "root": false
   },
-  "armor_toughness_row_3_left": {
-    "definition": "armor_toughness_2",
-    "x": 512,
-    "y": -256,
+  "def_tough_6": {
+    "definition": "toughness_6",
+    "x": 56,
+    "y": 164,
     "root": false
   },
-  "armor_toughness_row_3_center": {
-    "definition": "armor_toughness_2",
-    "x": 576,
-    "y": -256,
+  "def_regen_1": {
+    "definition": "regen_1",
+    "x": 168,
+    "y": -96,
     "root": false
   },
-  "armor_toughness_row_3_right": {
-    "definition": "armor_toughness_2",
-    "x": 640,
-    "y": -256,
+  "def_regen_2": {
+    "definition": "regen_2",
+    "x": 168,
+    "y": -44,
     "root": false
   },
-  "armor_toughness_row_4_left": {
-    "definition": "armor_toughness_3",
-    "x": 512,
-    "y": -160,
+  "def_regen_3": {
+    "definition": "regen_3",
+    "x": 168,
+    "y": 8,
     "root": false
   },
-  "armor_toughness_row_4_center": {
-    "definition": "armor_toughness_2",
-    "x": 576,
-    "y": -160,
+  "def_regen_4": {
+    "definition": "regen_4",
+    "x": 168,
+    "y": 60,
     "root": false
   },
-  "armor_toughness_row_4_right": {
-    "definition": "armor_toughness_3",
-    "x": 640,
-    "y": -160,
+  "def_regen_5": {
+    "definition": "regen_5",
+    "x": 168,
+    "y": 112,
+    "root": false
+  },
+  "def_regen_6": {
+    "definition": "regen_6",
+    "x": 168,
+    "y": 164,
     "root": false
   }
 }

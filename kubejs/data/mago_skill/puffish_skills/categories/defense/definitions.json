@@ -1,6 +1,7 @@
 {
   "start": {
-    "title": "방어도",
+    "title": "방어",
+    "description": "생존을 위한 기초 신체 능력과 방어 능력을 강화합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -10,9 +11,9 @@
     "cost": 0,
     "required_skills": 0
   },
-  "max_health_1": {
-    "title": "최대 체력 I",
-    "description": "최대 체력이 1 증가합니다.",
+  "health_1": {
+    "title": "체력 단련 I",
+    "description": "최대 체력이 +2 증가합니다. 누적 +2 HP = 하트 +1칸.",
     "icon": {
       "type": "item",
       "data": {
@@ -24,121 +25,16 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "generic.max_health",
-          "value": 1.0,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "max_health_2": {
-    "title": "최대 체력 II",
-    "description": "최대 체력이 2 증가합니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:golden_apple"
-      }
-    },
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "generic.max_health",
+          "attribute": "minecraft:generic.max_health",
           "value": 2.0,
           "operation": "addition"
         }
       }
     ]
   },
-  "max_health_3": {
-    "title": "최대 체력 III",
-    "description": "최대 체력이 3 증가합니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:enchanted_golden_apple"
-      }
-    },
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "generic.max_health",
-          "value": 3.0,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "healing_1": {
-    "title": "치유 강화 I",
-    "description": "모든 종류의 치유로 회복되는 체력이 0.1 증가합니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:glistering_melon_slice"
-      }
-    },
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "puffish_attributes:healing",
-          "value": 0.1,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "healing_2": {
-    "title": "치유 강화 II",
-    "description": "모든 종류의 치유로 회복되는 체력이 0.2 증가합니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:honey_bottle"
-      }
-    },
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "puffish_attributes:healing",
-          "value": 0.2,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "healing_3": {
-    "title": "치유 강화 III",
-    "description": "모든 종류의 치유로 회복되는 체력이 0.3 증가합니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:ghast_tear"
-      }
-    },
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "puffish_attributes:healing",
-          "value": 0.3,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
   "armor_1": {
-    "title": "방어 I",
-    "description": "방어가 1 증가합니다.",
+    "title": "방어 훈련 I",
+    "description": "방어력이 +0.5 증가합니다. 누적 방어력 보너스: +0.5.",
     "icon": {
       "type": "item",
       "data": {
@@ -150,20 +46,20 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "generic.armor",
-          "value": 1.0,
+          "attribute": "minecraft:generic.armor",
+          "value": 0.5,
           "operation": "addition"
         }
       }
     ]
   },
-  "armor_2": {
-    "title": "방어 II",
-    "description": "방어가 2 증가합니다.",
+  "toughness_1": {
+    "title": "충격 내성 I",
+    "description": "방어 강도가 +0.5 증가합니다. 누적 방어 강도 보너스: +0.5.",
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:iron_chestplate"
+        "item": "minecraft:leather"
       }
     },
     "cost": 1,
@@ -171,37 +67,58 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "generic.armor",
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "regen_1": {
+    "title": "회복력 I",
+    "description": "자연 회복량이 +5% 증가합니다. 누적 자연 회복 보너스: +5%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sweet_berries"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "health_2": {
+    "title": "체력 단련 II",
+    "description": "최대 체력이 +2 증가합니다. 누적 +4 HP = 하트 +2칸.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cooked_beef"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
           "value": 2.0,
           "operation": "addition"
         }
       }
     ]
   },
-  "armor_3": {
-    "title": "방어 III",
-    "description": "방어가 3 증가합니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:diamond_chestplate"
-      }
-    },
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "generic.armor",
-          "value": 3.0,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "armor_toughness_1": {
-    "title": "방어 강도 I",
-    "description": "방어 강도가 0.5 증가합니다.",
+  "armor_2": {
+    "title": "방어 훈련 II",
+    "description": "방어력이 +0.5 증가합니다. 누적 방어력 보너스: +1.0.",
     "icon": {
       "type": "item",
       "data": {
@@ -213,16 +130,247 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "generic.armor_toughness",
+          "attribute": "minecraft:generic.armor",
           "value": 0.5,
           "operation": "addition"
         }
       }
     ]
   },
-  "armor_toughness_2": {
-    "title": "방어 강도 II",
-    "description": "방어 강도가 1 증가합니다.",
+  "toughness_2": {
+    "title": "충격 내성 II",
+    "description": "방어 강도가 +0.5 증가합니다. 누적 방어 강도 보너스: +1.0.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "regen_2": {
+    "title": "회복력 II",
+    "description": "자연 회복량이 +5% 증가합니다. 누적 자연 회복 보너스: +10%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "health_3": {
+    "title": "체력 단련 III",
+    "description": "최대 체력이 +2 증가합니다. 누적 +6 HP = 하트 +3칸.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_3": {
+    "title": "방어 훈련 III",
+    "description": "방어력이 +0.5 증가합니다. 누적 방어력 보너스: +1.5.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "toughness_3": {
+    "title": "충격 내성 III",
+    "description": "방어 강도가 +0.5 증가합니다. 누적 방어 강도 보너스: +1.5.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "regen_3": {
+    "title": "회복력 III",
+    "description": "자연 회복량이 +5% 증가합니다. 누적 자연 회복 보너스: +15%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:honey_bottle"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "health_4": {
+    "title": "체력 단련 IV",
+    "description": "최대 체력이 +2 증가합니다. 누적 +8 HP = 하트 +4칸.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:honey_bottle"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_4": {
+    "title": "방어 훈련 IV",
+    "description": "방어력이 +0.5 증가합니다. 누적 방어력 보너스: +2.0.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_chestplate"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "toughness_4": {
+    "title": "충격 내성 IV",
+    "description": "방어 강도가 +0.5 증가합니다. 누적 방어 강도 보너스: +2.0.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "regen_4": {
+    "title": "회복력 IV",
+    "description": "자연 회복량이 +5% 증가합니다. 누적 자연 회복 보너스: +20%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_carrot"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "health_5": {
+    "title": "체력 단련 V",
+    "description": "최대 체력이 +2 증가합니다. 누적 +10 HP = 하트 +5칸.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_golden_apple"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_5": {
+    "title": "방어 훈련 V",
+    "description": "방어력이 +0.5 증가합니다. 누적 방어력 보너스: +2.5.",
     "icon": {
       "type": "item",
       "data": {
@@ -234,16 +382,79 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "generic.armor_toughness",
-          "value": 1.0,
+          "attribute": "minecraft:generic.armor",
+          "value": 0.5,
           "operation": "addition"
         }
       }
     ]
   },
-  "armor_toughness_3": {
-    "title": "방어 강도 III",
-    "description": "방어 강도가 1.5 증가합니다.",
+  "toughness_5": {
+    "title": "충격 내성 V",
+    "description": "방어 강도가 +0.5 증가합니다. 누적 방어 강도 보너스: +2.5.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_scrap"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "regen_5": {
+    "title": "회복력 V",
+    "description": "자연 회복량이 +5% 증가합니다. 누적 자연 회복 보너스: +25%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "health_6": {
+    "title": "체력 단련 VI",
+    "description": "최대 체력이 +2 증가합니다. 누적 +12 HP = 하트 +6칸.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:totem_of_undying"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_6": {
+    "title": "방어 훈련 VI",
+    "description": "방어력이 +0.5 증가합니다. 누적 방어력 보너스: +3.0.",
     "icon": {
       "type": "item",
       "data": {
@@ -255,9 +466,51 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "generic.armor_toughness",
-          "value": 1.5,
+          "attribute": "minecraft:generic.armor",
+          "value": 0.5,
           "operation": "addition"
+        }
+      }
+    ]
+  },
+  "toughness_6": {
+    "title": "충격 내성 VI",
+    "description": "방어 강도가 +0.5 증가합니다. 누적 방어 강도 보너스: +3.0.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "regen_6": {
+    "title": "회복력 VI",
+    "description": "자연 회복량이 +5% 증가합니다. 누적 자연 회복 보너스: +30%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.05,
+          "operation": "multiply_base"
         }
       }
     ]

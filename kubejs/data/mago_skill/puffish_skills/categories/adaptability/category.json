@@ -2,12 +2,12 @@
   "unlocked_by_default": true,
   "exclusive_root": false,
   "starting_points": 0,
-  "title": "방어",
-  "description": "체력, 방어력, 방어 강도, 자연 회복을 장기적으로 성장시키는 통상 스킬트리",
+  "title": "적응력",
+  "description": "중반부까지 이어지는 온도 및 호흡 환경 적응 통상 스킬트리",
   "icon": {
     "type": "item",
     "data": {
-      "item": "minecraft:shield"
+      "item": "minecraft:turtle_helmet"
     }
   },
   "background": "textures/gui/advancements/backgrounds/adventure.png"

@@ -1,0 +1,50 @@
+{
+  "level_limit": 18,
+  "reset_on_death": false,
+
+  "experience_per_level": {
+    "type": "values",
+    "data": {
+      "values": [
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ]
+    }
+  },
+
+  "sources": [
+    {
+      "type": "puffish_skills:deal_damage",
+      "data": {
+        "variables": {
+          "damage": {
+            "operations": [
+              {
+                "type": "get_dealt_damage"
+              }
+            ]
+          }
+        },
+        "experience": "damage * 0.25"
+      }
+    }
+  ]
+}
