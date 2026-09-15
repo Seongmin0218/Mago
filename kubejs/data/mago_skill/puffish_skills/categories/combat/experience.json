@@ -1,6 +1,5 @@
 {
   "level_limit": 18,
-  "reset_on_death": false,
 
   "experience_per_level": {
     "type": "values",

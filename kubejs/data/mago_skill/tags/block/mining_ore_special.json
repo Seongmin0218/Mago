@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#c:ores/netherite_scrap",
+      "required": false
+    },
+
+    {
+      "id": "hazennstuff:dreadstone_ore",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:solar_core_blackstone_ore",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:solar_core_netherrack_ore",
+      "required": false
+    }
+  ]
+}

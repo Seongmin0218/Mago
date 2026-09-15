@@ -1,0 +1,96 @@
+{
+  "level_limit": 28,
+
+  "experience_per_level": {
+    "type": "values",
+    "data": {
+      "values": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+
+        175,
+        175,
+        175,
+        175,
+        175,
+        175,
+        175,
+
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+
+        275,
+        275,
+        275,
+        275,
+        275,
+        275,
+        275
+      ]
+    }
+  },
+
+  "sources": [
+    {
+      "type": "puffish_skills:take_damage",
+      "data": {
+        "variables": {
+          "is_fire": {
+            "operations": [
+              {
+                "type": "get_damage_source"
+              },
+              {
+                "type": "get_type"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "damage_type": "#minecraft:is_fire"
+                }
+              }
+            ]
+          },
+
+          "is_freezing": {
+            "operations": [
+              {
+                "type": "get_damage_source"
+              },
+              {
+                "type": "get_type"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "damage_type": "#minecraft:is_freezing"
+                }
+              }
+            ]
+          }
+        },
+
+        "experience": [
+          {
+            "condition": "is_fire",
+            "expression": "1"
+          },
+          {
+            "condition": "is_freezing",
+            "expression": "1"
+          }
+        ]
+      }
+    }
+  ]
+}

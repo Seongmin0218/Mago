@@ -1,0 +1,48 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:deepslate",
+    "minecraft:basalt",
+    "minecraft:blackstone",
+
+    {
+      "id": "supplementaries:ashen_basalt",
+      "required": false
+    },
+
+    {
+      "id": "deeperdarker:gloomslate",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:sculk_stone",
+      "required": false
+    },
+
+    {
+      "id": "quark:myalite",
+      "required": false
+    },
+    {
+      "id": "quark:permafrost",
+      "required": false
+    },
+
+    {
+      "id": "northstar:mars_deep_stone",
+      "required": false
+    },
+    {
+      "id": "northstar:mercury_deep_stone",
+      "required": false
+    },
+    {
+      "id": "northstar:moon_deep_stone",
+      "required": false
+    },
+    {
+      "id": "northstar:venus_deep_stone",
+      "required": false
+    }
+  ]
+}

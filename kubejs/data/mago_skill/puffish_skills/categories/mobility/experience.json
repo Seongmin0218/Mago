@@ -1,0 +1,153 @@
+{
+  "level_limit": 30,
+
+  "experience_per_level": {
+    "type": "values",
+    "data": {
+      "values": [
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+        50000,
+
+        75000,
+        75000,
+        75000,
+        75000,
+        75000,
+        75000,
+
+        100000,
+        100000,
+        100000,
+        100000,
+        100000,
+        100000,
+
+        125000,
+        125000,
+        125000,
+        125000,
+        125000,
+        125000,
+
+        150000,
+        150000,
+        150000,
+        150000,
+        150000,
+        150000
+      ]
+    }
+  },
+
+  "sources": [
+    {
+      "type": "puffish_skills:increase_stat",
+      "data": {
+        "variables": {
+          "is_walk": {
+            "operations": [
+              {
+                "type": "get_stat"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "stat": "minecraft.custom:minecraft.walk_one_cm"
+                }
+              }
+            ]
+          },
+
+          "is_crouch": {
+            "operations": [
+              {
+                "type": "get_stat"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "stat": "minecraft.custom:minecraft.crouch_one_cm"
+                }
+              }
+            ]
+          },
+
+          "is_sprint": {
+            "operations": [
+              {
+                "type": "get_stat"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "stat": "minecraft.custom:minecraft.sprint_one_cm"
+                }
+              }
+            ]
+          },
+
+          "is_swim": {
+            "operations": [
+              {
+                "type": "get_stat"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "stat": "minecraft.custom:minecraft.swim_one_cm"
+                }
+              }
+            ]
+          },
+
+          "is_underwater_walk": {
+            "operations": [
+              {
+                "type": "get_stat"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "stat": "minecraft.custom:minecraft.walk_under_water_one_cm"
+                }
+              }
+            ]
+          },
+
+          "is_climb": {
+            "operations": [
+              {
+                "type": "get_stat"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "stat": "minecraft.custom:minecraft.climb_one_cm"
+                }
+              }
+            ]
+          },
+
+          "amount": {
+            "operations": [
+              {
+                "type": "get_increase_amount"
+              }
+            ]
+          }
+        },
+
+        "experience": [
+          {
+            "condition": "is_walk | is_crouch | is_sprint | is_swim | is_underwater_walk | is_climb",
+            "expression": "amount"
+          }
+        ]
+      }
+    }
+  ]
+}

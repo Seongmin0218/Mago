@@ -1,0 +1,67 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#c:ores/gold",
+      "required": false
+    },
+    {
+      "id": "#c:ores/redstone",
+      "required": false
+    },
+    {
+      "id": "#c:ores/lapis",
+      "required": false
+    },
+    {
+      "id": "#c:ores/aluminum",
+      "required": false
+    },
+    {
+      "id": "#c:ores/lead",
+      "required": false
+    },
+    {
+      "id": "#c:ores/nickel",
+      "required": false
+    },
+    {
+      "id": "#c:ores/silver",
+      "required": false
+    },
+    {
+      "id": "#c:ores/uranium",
+      "required": false
+    },
+    {
+      "id": "#c:ores/glowstone",
+      "required": false
+    },
+
+    {
+      "id": "create_new_age:thorium_ore",
+      "required": false
+    },
+    {
+      "id": "create_the_air_wars:amalgam_ore",
+      "required": false
+    },
+
+    {
+      "id": "jurassicreborn:amber_ore",
+      "required": false
+    },
+    {
+      "id": "jurassicreborn:deepslate_amber_ore",
+      "required": false
+    },
+    {
+      "id": "jurassicreborn:ice_shard_ore",
+      "required": false
+    },
+    {
+      "id": "jurassicreborn:deepslate_ice_shard_ore",
+      "required": false
+    }
+  ]
+}

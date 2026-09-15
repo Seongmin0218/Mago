@@ -1,0 +1,82 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#c:ores/diamond",
+      "required": false
+    },
+    {
+      "id": "#c:ores/emerald",
+      "required": false
+    },
+    {
+      "id": "#c:ores/mithril",
+      "required": false
+    },
+    {
+      "id": "#c:ores/sapphire",
+      "required": false
+    },
+    {
+      "id": "#c:ores/titanium",
+      "required": false
+    },
+    {
+      "id": "#c:ores/tungsten",
+      "required": false
+    },
+    {
+      "id": "#c:ores/jade",
+      "required": false
+    },
+
+    {
+      "id": "create_the_air_wars:deep_state_amalgam_ore",
+      "required": false
+    },
+    {
+      "id": "create_the_air_wars:titanium_ore",
+      "required": false
+    },
+
+    {
+      "id": "hazennstuff:chlorophyte_ore",
+      "required": false
+    },
+
+    {
+      "id": "hazennstuff:zenalite_abysslate_ore",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:zenalite_deepslate_ore",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:zenalite_end_stone_ore",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:zenalite_stone_ore",
+      "required": false
+    },
+    {
+      "id": "hazennstuff:zenalite_voidstone_ore",
+      "required": false
+    },
+
+    {
+      "id": "legendary_monsters:enderitium_ore",
+      "required": false
+    },
+
+    {
+      "id": "born_in_chaos_v1:infected_diamond_ore",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:infected_deepslate_diamond_ore",
+      "required": false
+    }
+  ]
+}

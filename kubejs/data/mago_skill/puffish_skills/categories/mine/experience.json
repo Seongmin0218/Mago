@@ -1,0 +1,145 @@
+{
+  "level_limit": 12,
+
+  "experience_per_level": {
+    "type": "values",
+    "data": {
+      "values": [
+        800,
+        800,
+        800,
+        800,
+
+        1400,
+        1400,
+        1400,
+        1400,
+
+        2000,
+        2000,
+        2000,
+        2000
+      ]
+    }
+  },
+
+  "sources": [
+    {
+      "type": "puffish_skills:mine_block",
+      "data": {
+        "variables": {
+          "is_stone": {
+            "operations": [
+              {
+                "type": "get_mined_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "#mago_skill:mining_stone"
+                }
+              }
+            ]
+          },
+
+          "is_hard_stone": {
+            "operations": [
+              {
+                "type": "get_mined_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "#mago_skill:mining_hard_stone"
+                }
+              }
+            ]
+          },
+
+          "is_common_ore": {
+            "operations": [
+              {
+                "type": "get_mined_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "#mago_skill:mining_ore_common"
+                }
+              }
+            ]
+          },
+
+          "is_advanced_ore": {
+            "operations": [
+              {
+                "type": "get_mined_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "#mago_skill:mining_ore_advanced"
+                }
+              }
+            ]
+          },
+
+          "is_rare_ore": {
+            "operations": [
+              {
+                "type": "get_mined_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "#mago_skill:mining_ore_rare"
+                }
+              }
+            ]
+          },
+
+          "is_special_ore": {
+            "operations": [
+              {
+                "type": "get_mined_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "#mago_skill:mining_ore_special"
+                }
+              }
+            ]
+          }
+        },
+
+        "experience": [
+          {
+            "condition": "is_stone",
+            "expression": "1"
+          },
+          {
+            "condition": "is_hard_stone",
+            "expression": "2"
+          },
+          {
+            "condition": "is_common_ore",
+            "expression": "12"
+          },
+          {
+            "condition": "is_advanced_ore",
+            "expression": "20"
+          },
+          {
+            "condition": "is_rare_ore",
+            "expression": "40"
+          },
+          {
+            "condition": "is_special_ore",
+            "expression": "60"
+          }
+        ]
+      }
+    }
+  ]
+}

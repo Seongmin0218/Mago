@@ -1,0 +1,129 @@
+{
+  "level_limit": 24,
+
+  "experience_per_level": {
+    "type": "values",
+    "data": {
+      "values": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+
+        150,
+        150,
+        150,
+        150,
+        150,
+        150,
+
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+
+        300,
+        300,
+        300,
+        300,
+        300,
+        300
+      ]
+    }
+  },
+
+  "sources": [
+    {
+      "type": "puffish_skills:take_damage",
+      "data": {
+        "variables": {
+          "damage": {
+            "operations": [
+              {
+                "type": "get_taken_damage"
+              }
+            ]
+          },
+
+          "is_melee": {
+            "operations": [
+              {
+                "type": "get_damage_source"
+              },
+              {
+                "type": "puffish_skills:is_melee"
+              }
+            ]
+          },
+
+          "is_projectile": {
+            "operations": [
+              {
+                "type": "get_damage_source"
+              },
+              {
+                "type": "puffish_skills:is_projectile"
+              }
+            ]
+          },
+
+          "is_magic": {
+            "operations": [
+              {
+                "type": "get_damage_source"
+              },
+              {
+                "type": "puffish_skills:is_magic"
+              }
+            ]
+          },
+
+          "is_combat_damage": {
+            "operations": [
+              {
+                "type": "get_damage_source"
+              },
+              {
+                "type": "get_type"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "damage_type": "#minecraft:panic_causes"
+                }
+              }
+            ]
+          },
+
+          "is_environmental": {
+            "operations": [
+              {
+                "type": "get_damage_source"
+              },
+              {
+                "type": "get_type"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "damage_type": "#minecraft:panic_environmental_causes"
+                }
+              }
+            ]
+          }
+        },
+
+        "experience": [
+          {
+            "condition": "(is_melee | is_projectile | is_magic | is_combat_damage) & !is_environmental",
+            "expression": "damage"
+          }
+        ]
+      }
+    }
+  ]
+}

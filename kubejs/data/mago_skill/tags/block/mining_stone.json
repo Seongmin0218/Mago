@@ -1,0 +1,79 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stone",
+    "minecraft:granite",
+    "minecraft:diorite",
+    "minecraft:andesite",
+    "minecraft:tuff",
+    "minecraft:netherrack",
+
+    {
+      "id": "quark:jasper",
+      "required": false
+    },
+    {
+      "id": "quark:limestone",
+      "required": false
+    },
+    {
+      "id": "quark:shale",
+      "required": false
+    },
+
+    {
+      "id": "northstar:mars_stone",
+      "required": false
+    },
+    {
+      "id": "northstar:mercury_stone",
+      "required": false
+    },
+    {
+      "id": "northstar:moon_stone",
+      "required": false
+    },
+    {
+      "id": "northstar:venus_stone",
+      "required": false
+    },
+
+    {
+      "id": "crystal_chronicles:aurum",
+      "required": false
+    },
+    {
+      "id": "crystal_chronicles:bismite",
+      "required": false
+    },
+    {
+      "id": "crystal_chronicles:crustone",
+      "required": false
+    },
+    {
+      "id": "crystal_chronicles:holy_marble",
+      "required": false
+    },
+    {
+      "id": "crystal_chronicles:pumice",
+      "required": false
+    },
+    {
+      "id": "crystal_chronicles:pyrite",
+      "required": false
+    },
+    {
+      "id": "crystal_chronicles:thunderstone",
+      "required": false
+    },
+
+    {
+      "id": "asterismarcanum:lumine",
+      "required": false
+    },
+    {
+      "id": "asterismarcanum:umbral_lumine",
+      "required": false
+    }
+  ]
+}
