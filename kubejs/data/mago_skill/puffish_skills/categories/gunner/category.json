@@ -3,7 +3,7 @@
   "exclusive_root": false,
   "starting_points": 0,
   "title": "거너",
-  "description": "총기 사용권을 제한하지 않습니다. License I~V를 스킬포인트로 성장시키며, 총기 특화 스탯과 제작 티어를 강화하는 전투 전문화입니다.",
+  "description": "총기 자체의 사용권은 제한하지 않습니다. 소형화기 → 개인화기 → 주특기 → 공용화기 → 중화기 전문화로 성장하며, 공통 화력과 총기군별 재장전·반동 제어 능력을 강화합니다.",
   "icon": {
     "type": "item",
     "data": {

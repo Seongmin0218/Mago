@@ -1,7 +1,7 @@
 {
   "start": {
     "title": "거너 전문화",
-    "description": "거너 전문화를 활성화합니다. 총기 사용 자체에는 제한을 두지 않으며, 거너 전직 시 총기 제조 라이선스 자격도 영구 지급됩니다.",
+    "description": "거너 전문화를 활성화합니다. 총기 사용 자체는 제한하지 않습니다. 전문화 최초 해금 시 총기 제작 라이선스 아이템을 지급받습니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -21,110 +21,70 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "tag @s add mago_gun_manufacturing_license"
+          "command": "give @s kubejs:gun_manufacturing_license"
         }
       }
     ]
   },
+
   "license_1": {
-    "title": "운용 License I · Pistol",
-    "description": "거너 License I. 기초 총기 숙련과 제작 Tier I 자격의 기준이 됩니다. 일반 재료 중심.",
+    "title": "소형화기 전문화",
+    "description": "권총 계열 숙련을 해금합니다. Pistol Reload Speed와 Recoil 관련 스킬에 진입할 수 있습니다.",
     "icon": {
       "type": "item",
       "data": {
         "item": "minecraft:iron_nugget"
       }
     },
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "unlock_command": "tag @s add mago_gunner_license_1",
-          "lock_command": "tag @s remove mago_gunner_license_1"
-        }
-      }
-    ]
+    "cost": 1
   },
+
   "license_2": {
-    "title": "운용 License II · SMG",
-    "description": "거너 License II. 중급 총기 숙련과 제작 Tier II 자격의 기준이 됩니다. 일반·희귀 재료 중심.",
+    "title": "개인화기 전문화",
+    "description": "SMG 계열 숙련을 해금합니다. SMG Reload Speed와 Recoil 관련 스킬에 진입할 수 있습니다.",
     "icon": {
       "type": "item",
       "data": {
         "item": "minecraft:copper_ingot"
       }
     },
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "unlock_command": "tag @s add mago_gunner_license_2",
-          "lock_command": "tag @s remove mago_gunner_license_2"
-        }
-      }
-    ]
+    "cost": 1
   },
+
   "license_3": {
-    "title": "운용 License III · Rifle / Shotgun / 일부 SR",
-    "description": "거너 License III. 제작 Tier III부터 고급 재료와 보스 부산물이 레시피에 들어가기 시작합니다.",
+    "title": "주특기 전문화",
+    "description": "AR과 Shotgun 계열 숙련을 해금합니다. Rifle 및 Shotgun Reload Speed와 Recoil 관련 스킬에 진입할 수 있습니다.",
     "icon": {
       "type": "item",
       "data": {
         "item": "minecraft:gold_ingot"
       }
     },
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "unlock_command": "tag @s add mago_gunner_license_3",
-          "lock_command": "tag @s remove mago_gunner_license_3"
-        }
-      }
-    ]
+    "cost": 1
   },
+
   "license_4": {
-    "title": "운용 License IV · MG / 고화력 SR",
-    "description": "거너 License IV. 상위 총기 제작용 고급 재료와 상위 보스 부산물 요구 단계입니다.",
+    "title": "공용화기 전문화",
+    "description": "MG와 Sniper Rifle 계열 숙련을 해금합니다. 일반 MG 및 SR Reload Speed와 Recoil 관련 스킬에 진입할 수 있습니다.",
     "icon": {
       "type": "item",
       "data": {
         "item": "minecraft:diamond"
       }
     },
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "unlock_command": "tag @s add mago_gunner_license_4",
-          "lock_command": "tag @s remove mago_gunner_license_4"
-        }
-      }
-    ]
+    "cost": 1
   },
+
   "license_5": {
-    "title": "운용 License V · Heavy",
-    "description": "거너 License V. 최상위 총기·중화기 제작용 최고급 재료와 최상위 보스 부산물 요구 단계입니다.",
+    "title": "중화기 전문화",
+    "description": "미니건과 폭발화기 계열의 최종 숙련 단계입니다. Heavy Weapon 계열 Reload Speed와 Recoil 관련 스킬에 진입할 수 있습니다.",
     "icon": {
       "type": "item",
       "data": {
         "item": "minecraft:netherite_ingot"
       }
     },
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:command",
-        "data": {
-          "unlock_command": "tag @s add mago_gunner_license_5",
-          "lock_command": "tag @s remove mago_gunner_license_5"
-        }
-      }
-    ]
+    "cost": 1
   },
   "gun_damage_1": {
     "title": "화력 증폭 1",
