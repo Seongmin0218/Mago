@@ -1,0 +1,916 @@
+{
+  "start": {
+    "title": "궁수",
+    "description": "궁수 전문화의 시작점입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "cost": 0,
+    "required_skills": 0
+  },
+  "arrow_damage_1": {
+    "title": "화살 피해 I",
+    "description": "화살 피해가 +6.3%p 증가합니다. 궁수 전문화 누적 보너스: +6.3%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:arrow"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:arrow_damage",
+          "value": 0.063,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "arrow_damage_2": {
+    "title": "화살 피해 II",
+    "description": "화살 피해가 +6.3%p 증가합니다. 궁수 전문화 누적 보너스: +12.6%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spectral_arrow"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:arrow_damage",
+          "value": 0.063,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "arrow_damage_3": {
+    "title": "화살 피해 III",
+    "description": "화살 피해가 +6.3%p 증가합니다. 궁수 전문화 누적 보너스: +18.9%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:tipped_arrow"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:arrow_damage",
+          "value": 0.063,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "arrow_damage_4": {
+    "title": "화살 피해 IV",
+    "description": "화살 피해가 +6.3%p 증가합니다. 궁수 전문화 누적 보너스: +25.2%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:arrow_damage",
+          "value": 0.063,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "arrow_damage_5": {
+    "title": "화살 피해 V",
+    "description": "화살 피해가 +6.3%p 증가합니다. 궁수 전문화 누적 보너스: +31.5%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:crossbow"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:arrow_damage",
+          "value": 0.063,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "arrow_damage_6": {
+    "title": "화살 피해 VI",
+    "description": "화살 피해가 +6.3%p 증가합니다. 궁수 전문화 누적 보너스: +37.8%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:target"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:arrow_damage",
+          "value": 0.063,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "arrow_damage_7": {
+    "title": "화살 피해 VII",
+    "description": "화살 피해가 +6.3%p 증가합니다. 궁수 전문화 누적 보너스: +44.1%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:flint"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:arrow_damage",
+          "value": 0.063,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "arrow_damage_8": {
+    "title": "화살 피해 VIII",
+    "description": "화살 피해가 +6.3%p 증가합니다. 궁수 전문화 누적 보너스: +50.4%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:arrow_damage",
+          "value": 0.063,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "arrow_damage_9": {
+    "title": "화살 피해 IX",
+    "description": "화살 피해가 +6.3%p 증가합니다. 궁수 전문화 누적 보너스: +56.7%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:arrow_damage",
+          "value": 0.063,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "arrow_damage_10": {
+    "title": "화살 피해 X",
+    "description": "화살 피해가 +6.3%p 증가합니다. 궁수 전문화 누적 보너스: +63.0%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:arrow_damage",
+          "value": 0.063,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "draw_speed_1": {
+    "title": "장전 숙련 I",
+    "description": "활·석궁 Draw Speed가 +5%p 증가합니다. 누적 보너스: +5%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:string"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:draw_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "draw_speed_2": {
+    "title": "장전 숙련 II",
+    "description": "활·석궁 Draw Speed가 +5%p 증가합니다. 누적 보너스: +10%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:tripwire_hook"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:draw_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "draw_speed_3": {
+    "title": "장전 숙련 III",
+    "description": "활·석궁 Draw Speed가 +5%p 증가합니다. 누적 보너스: +15%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:draw_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "draw_speed_4": {
+    "title": "장전 숙련 IV",
+    "description": "활·석궁 Draw Speed가 +5%p 증가합니다. 누적 보너스: +20%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:crossbow"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:draw_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "draw_speed_5": {
+    "title": "장전 숙련 V",
+    "description": "활·석궁 Draw Speed가 +5%p 증가합니다. 누적 보너스: +25%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:draw_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "draw_speed_6": {
+    "title": "장전 숙련 VI",
+    "description": "활·석궁 Draw Speed가 +5%p 증가합니다. 누적 보너스: +30%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:draw_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "draw_speed_7": {
+    "title": "장전 숙련 VII",
+    "description": "활·석궁 Draw Speed가 +5%p 증가합니다. 누적 보너스: +35%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wind_charge"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:draw_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "draw_speed_8": {
+    "title": "장전 숙련 VIII",
+    "description": "활·석궁 Draw Speed가 +5%p 증가합니다. 누적 보너스: +40%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:phantom_membrane"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:draw_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "draw_speed_9": {
+    "title": "장전 숙련 IX",
+    "description": "활·석궁 Draw Speed가 +5%p 증가합니다. 누적 보너스: +45%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:draw_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "draw_speed_10": {
+    "title": "장전 숙련 X",
+    "description": "활·석궁 Draw Speed가 +5%p 증가합니다. 누적 보너스: +50%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_upgrade_smithing_template"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:draw_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_chance_1": {
+    "title": "정밀 사격 I",
+    "description": "치명타 확률이 +10%p 증가합니다. 궁수 전문화 누적 보너스: +10%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:flint"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_chance_2": {
+    "title": "정밀 사격 II",
+    "description": "치명타 확률이 +10%p 증가합니다. 궁수 전문화 누적 보너스: +20%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_nugget"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_chance_3": {
+    "title": "정밀 사격 III",
+    "description": "치명타 확률이 +10%p 증가합니다. 궁수 전문화 누적 보너스: +30%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gold_nugget"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_chance_4": {
+    "title": "정밀 사격 IV",
+    "description": "치명타 확률이 +10%p 증가합니다. 궁수 전문화 누적 보너스: +40%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:quartz"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_chance_5": {
+    "title": "정밀 사격 V",
+    "description": "치명타 확률이 +10%p 증가합니다. 궁수 전문화 누적 보너스: +50%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_chance_6": {
+    "title": "정밀 사격 VI",
+    "description": "치명타 확률이 +10%p 증가합니다. 궁수 전문화 누적 보너스: +60%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:emerald"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_chance_7": {
+    "title": "정밀 사격 VII",
+    "description": "치명타 확률이 +10%p 증가합니다. 궁수 전문화 누적 보너스: +70%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_chance_8": {
+    "title": "정밀 사격 VIII",
+    "description": "치명타 확률이 +10%p 증가합니다. 궁수 전문화 누적 보너스: +80%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_chance_9": {
+    "title": "정밀 사격 IX",
+    "description": "치명타 확률이 +10%p 증가합니다. 궁수 전문화 누적 보너스: +90%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_chance_10": {
+    "title": "정밀 사격 X",
+    "description": "치명타 확률이 +10%p 증가합니다. 궁수 전문화 누적 보너스: +100%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_damage_1": {
+    "title": "급소 타격 I",
+    "description": "치명타 피해가 +5%p 증가합니다. 궁수 전문화 누적 보너스: +5%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_damage_2": {
+    "title": "급소 타격 II",
+    "description": "치명타 피해가 +5%p 증가합니다. 궁수 전문화 누적 보너스: +10%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_axe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_damage_3": {
+    "title": "급소 타격 III",
+    "description": "치명타 피해가 +5%p 증가합니다. 궁수 전문화 누적 보너스: +15%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_axe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_damage_4": {
+    "title": "급소 타격 IV",
+    "description": "치명타 피해가 +5%p 증가합니다. 궁수 전문화 누적 보너스: +20%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_axe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_damage_5": {
+    "title": "급소 타격 V",
+    "description": "치명타 피해가 +5%p 증가합니다. 궁수 전문화 누적 보너스: +25%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_cluster"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_damage_6": {
+    "title": "급소 타격 VI",
+    "description": "치명타 피해가 +5%p 증가합니다. 궁수 전문화 누적 보너스: +30%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:pointed_dripstone"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_damage_7": {
+    "title": "급소 타격 VII",
+    "description": "치명타 피해가 +5%p 증가합니다. 궁수 전문화 누적 보너스: +35%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_damage_8": {
+    "title": "급소 타격 VIII",
+    "description": "치명타 피해가 +5%p 증가합니다. 궁수 전문화 누적 보너스: +40%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_damage_9": {
+    "title": "급소 타격 IX",
+    "description": "치명타 피해가 +5%p 증가합니다. 궁수 전문화 누적 보너스: +45%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:dragon_breath"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_damage_10": {
+    "title": "급소 타격 X",
+    "description": "치명타 피해가 +5%p 증가합니다. 궁수 전문화 누적 보너스: +50%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_axe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_pierce_1": {
+    "title": "관통 사격 I",
+    "description": "방어 관통이 +1 증가합니다. 누적 Armor Pierce: +1.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:armor_pierce",
+          "value": 1.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_pierce_2": {
+    "title": "관통 사격 II",
+    "description": "방어 관통이 +1 증가합니다. 누적 Armor Pierce: +2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_scrap"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:armor_pierce",
+          "value": 1.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "draw_mobility": {
+    "title": "유동 사격",
+    "description": "활 당김·석궁 장전 중 이동 페널티 완화 기능을 해금합니다. 현재 단계에서는 기능 판정용 태그만 부여합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_archer_draw_mobility",
+          "lock_command": "tag @s remove mago_archer_draw_mobility"
+        }
+      }
+    ]
+  }
+}

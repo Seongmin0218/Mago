@@ -1,0 +1,14 @@
+{
+  "unlocked_by_default": false,
+  "exclusive_root": false,
+  "starting_points": 0,
+  "title": "궁수",
+  "description": "활과 석궁의 화력, 장전 속도, 치명타와 방어 관통을 강화하는 전투 전문화입니다.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:bow"
+    }
+  },
+  "background": "textures/gui/advancements/backgrounds/adventure.png"
+}

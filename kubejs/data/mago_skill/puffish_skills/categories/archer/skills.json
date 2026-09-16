@@ -1,0 +1,266 @@
+{
+  "archer_start": {
+    "definition": "start",
+    "x": 0,
+    "y": -220,
+    "root": true
+  },
+  "archer_arrow_1": {
+    "definition": "arrow_damage_1",
+    "x": -224,
+    "y": -148,
+    "root": false
+  },
+  "archer_arrow_2": {
+    "definition": "arrow_damage_2",
+    "x": -224,
+    "y": -96,
+    "root": false
+  },
+  "archer_arrow_3": {
+    "definition": "arrow_damage_3",
+    "x": -224,
+    "y": -44,
+    "root": false
+  },
+  "archer_arrow_4": {
+    "definition": "arrow_damage_4",
+    "x": -224,
+    "y": 8,
+    "root": false
+  },
+  "archer_arrow_5": {
+    "definition": "arrow_damage_5",
+    "x": -224,
+    "y": 60,
+    "root": false
+  },
+  "archer_arrow_6": {
+    "definition": "arrow_damage_6",
+    "x": -224,
+    "y": 112,
+    "root": false
+  },
+  "archer_arrow_7": {
+    "definition": "arrow_damage_7",
+    "x": -224,
+    "y": 164,
+    "root": false
+  },
+  "archer_arrow_8": {
+    "definition": "arrow_damage_8",
+    "x": -224,
+    "y": 216,
+    "root": false
+  },
+  "archer_arrow_9": {
+    "definition": "arrow_damage_9",
+    "x": -224,
+    "y": 268,
+    "root": false
+  },
+  "archer_arrow_10": {
+    "definition": "arrow_damage_10",
+    "x": -224,
+    "y": 320,
+    "root": false
+  },
+  "archer_draw_1": {
+    "definition": "draw_speed_1",
+    "x": -112,
+    "y": -148,
+    "root": false
+  },
+  "archer_draw_2": {
+    "definition": "draw_speed_2",
+    "x": -112,
+    "y": -96,
+    "root": false
+  },
+  "archer_draw_3": {
+    "definition": "draw_speed_3",
+    "x": -112,
+    "y": -44,
+    "root": false
+  },
+  "archer_draw_4": {
+    "definition": "draw_speed_4",
+    "x": -112,
+    "y": 8,
+    "root": false
+  },
+  "archer_draw_5": {
+    "definition": "draw_speed_5",
+    "x": -112,
+    "y": 60,
+    "root": false
+  },
+  "archer_draw_6": {
+    "definition": "draw_speed_6",
+    "x": -112,
+    "y": 112,
+    "root": false
+  },
+  "archer_draw_7": {
+    "definition": "draw_speed_7",
+    "x": -112,
+    "y": 164,
+    "root": false
+  },
+  "archer_draw_8": {
+    "definition": "draw_speed_8",
+    "x": -112,
+    "y": 216,
+    "root": false
+  },
+  "archer_draw_9": {
+    "definition": "draw_speed_9",
+    "x": -112,
+    "y": 268,
+    "root": false
+  },
+  "archer_draw_10": {
+    "definition": "draw_speed_10",
+    "x": -112,
+    "y": 320,
+    "root": false
+  },
+  "archer_critc_1": {
+    "definition": "crit_chance_1",
+    "x": 0,
+    "y": -148,
+    "root": false
+  },
+  "archer_critc_2": {
+    "definition": "crit_chance_2",
+    "x": 0,
+    "y": -96,
+    "root": false
+  },
+  "archer_critc_3": {
+    "definition": "crit_chance_3",
+    "x": 0,
+    "y": -44,
+    "root": false
+  },
+  "archer_critc_4": {
+    "definition": "crit_chance_4",
+    "x": 0,
+    "y": 8,
+    "root": false
+  },
+  "archer_critc_5": {
+    "definition": "crit_chance_5",
+    "x": 0,
+    "y": 60,
+    "root": false
+  },
+  "archer_critc_6": {
+    "definition": "crit_chance_6",
+    "x": 0,
+    "y": 112,
+    "root": false
+  },
+  "archer_critc_7": {
+    "definition": "crit_chance_7",
+    "x": 0,
+    "y": 164,
+    "root": false
+  },
+  "archer_critc_8": {
+    "definition": "crit_chance_8",
+    "x": 0,
+    "y": 216,
+    "root": false
+  },
+  "archer_critc_9": {
+    "definition": "crit_chance_9",
+    "x": 0,
+    "y": 268,
+    "root": false
+  },
+  "archer_critc_10": {
+    "definition": "crit_chance_10",
+    "x": 0,
+    "y": 320,
+    "root": false
+  },
+  "archer_critd_1": {
+    "definition": "crit_damage_1",
+    "x": 112,
+    "y": -148,
+    "root": false
+  },
+  "archer_critd_2": {
+    "definition": "crit_damage_2",
+    "x": 112,
+    "y": -96,
+    "root": false
+  },
+  "archer_critd_3": {
+    "definition": "crit_damage_3",
+    "x": 112,
+    "y": -44,
+    "root": false
+  },
+  "archer_critd_4": {
+    "definition": "crit_damage_4",
+    "x": 112,
+    "y": 8,
+    "root": false
+  },
+  "archer_critd_5": {
+    "definition": "crit_damage_5",
+    "x": 112,
+    "y": 60,
+    "root": false
+  },
+  "archer_critd_6": {
+    "definition": "crit_damage_6",
+    "x": 112,
+    "y": 112,
+    "root": false
+  },
+  "archer_critd_7": {
+    "definition": "crit_damage_7",
+    "x": 112,
+    "y": 164,
+    "root": false
+  },
+  "archer_critd_8": {
+    "definition": "crit_damage_8",
+    "x": 112,
+    "y": 216,
+    "root": false
+  },
+  "archer_critd_9": {
+    "definition": "crit_damage_9",
+    "x": 112,
+    "y": 268,
+    "root": false
+  },
+  "archer_critd_10": {
+    "definition": "crit_damage_10",
+    "x": 112,
+    "y": 320,
+    "root": false
+  },
+  "archer_pierce_1": {
+    "definition": "armor_pierce_1",
+    "x": 224,
+    "y": -148,
+    "root": false
+  },
+  "archer_pierce_2": {
+    "definition": "armor_pierce_2",
+    "x": 224,
+    "y": -96,
+    "root": false
+  },
+  "archer_draw_mobility": {
+    "definition": "draw_mobility",
+    "x": -112,
+    "y": 372,
+    "root": false
+  }
+}

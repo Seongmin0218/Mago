@@ -1,134 +1,272 @@
 {
-  "gunner_start": {
+  "gunner_license_1": {
+    "definition": "license_1",
+    "x": 0,
+    "y": -380,
+    "root": false
+  },
+  "gunner_license_2": {
+    "definition": "license_2",
+    "x": 0,
+    "y": -200,
+    "root": false
+  },
+  "gunner_license_3": {
+    "definition": "license_3",
+    "x": 0,
+    "y": -20,
+    "root": false
+  },
+  "gunner_license_4": {
+    "definition": "license_4",
+    "x": 0,
+    "y": 160,
+    "root": false
+  },
+  "gunner_license_5": {
+    "definition": "license_5",
+    "x": 0,
+    "y": 340,
+    "root": false
+  },
+  "gunner_damage_1": {
+    "definition": "gun_damage_1",
+    "x": 144,
+    "y": -380,
+    "root": false
+  },
+  "gunner_damage_2": {
+    "definition": "gun_damage_2",
+    "x": 144,
+    "y": -200,
+    "root": false
+  },
+  "gunner_damage_3": {
+    "definition": "gun_damage_3",
+    "x": 144,
+    "y": -20,
+    "root": false
+  },
+  "gunner_damage_4": {
+    "definition": "gun_damage_4",
+    "x": 144,
+    "y": 160,
+    "root": false
+  },
+  "gunner_damage_5": {
+    "definition": "gun_damage_5",
+    "x": 144,
+    "y": 340,
+    "root": false
+  },
+  "gunner_ads_1": {
+    "definition": "ads_speed_1",
+    "x": 288,
+    "y": -380,
+    "root": false
+  },
+  "gunner_ads_2": {
+    "definition": "ads_speed_2",
+    "x": 288,
+    "y": -200,
+    "root": false
+  },
+  "gunner_ads_3": {
+    "definition": "ads_speed_3",
+    "x": 288,
+    "y": -20,
+    "root": false
+  },
+  "gunner_headshot_1": {
+    "definition": "headshot_1",
+    "x": 288,
+    "y": 160,
+    "root": false
+  },
+  "gunner_headshot_2": {
+    "definition": "headshot_2",
+    "x": 288,
+    "y": 340,
+    "root": false
+  },
+  "gunner_ammo_dummy": {
+    "definition": "ammo_save_dummy",
+    "x": 432,
+    "y": -20,
+    "root": false
+  },
+  "gunner_pistol_reload_1": {
+    "definition": "pistol_reload_1",
+    "x": -160,
+    "y": -428,
+    "root": false
+  },
+  "gunner_pistol_reload_2": {
+    "definition": "pistol_reload_2",
+    "x": -256,
+    "y": -428,
+    "root": false
+  },
+  "gunner_pistol_recoil_1": {
+    "definition": "pistol_recoil_1",
+    "x": -160,
+    "y": -332,
+    "root": false
+  },
+  "gunner_pistol_recoil_2": {
+    "definition": "pistol_recoil_2",
+    "x": -256,
+    "y": -332,
+    "root": false
+  },
+  "gunner_smg_reload_1": {
+    "definition": "smg_reload_1",
+    "x": -160,
+    "y": -248,
+    "root": false
+  },
+  "gunner_smg_reload_2": {
+    "definition": "smg_reload_2",
+    "x": -256,
+    "y": -248,
+    "root": false
+  },
+  "gunner_smg_recoil_1": {
+    "definition": "smg_recoil_1",
+    "x": -160,
+    "y": -152,
+    "root": false
+  },
+  "gunner_smg_recoil_2": {
+    "definition": "smg_recoil_2",
+    "x": -256,
+    "y": -152,
+    "root": false
+  },
+  "gunner_rifle_reload_1": {
+    "definition": "rifle_reload_1",
+    "x": -160,
+    "y": -68,
+    "root": false
+  },
+  "gunner_rifle_reload_2": {
+    "definition": "rifle_reload_2",
+    "x": -256,
+    "y": -68,
+    "root": false
+  },
+  "gunner_rifle_recoil_1": {
+    "definition": "rifle_recoil_1",
+    "x": -160,
+    "y": 28,
+    "root": false
+  },
+  "gunner_rifle_recoil_2": {
+    "definition": "rifle_recoil_2",
+    "x": -256,
+    "y": 28,
+    "root": false
+  },
+  "gunner_shotgun_reload_1": {
+    "definition": "shotgun_reload_1",
+    "x": -416,
+    "y": -68,
+    "root": false
+  },
+  "gunner_shotgun_reload_2": {
+    "definition": "shotgun_reload_2",
+    "x": -512,
+    "y": -68,
+    "root": false
+  },
+  "gunner_shotgun_recoil_1": {
+    "definition": "shotgun_recoil_1",
+    "x": -416,
+    "y": 28,
+    "root": false
+  },
+  "gunner_shotgun_recoil_2": {
+    "definition": "shotgun_recoil_2",
+    "x": -512,
+    "y": 28,
+    "root": false
+  },
+  "gunner_sniper_reload_1": {
+    "definition": "sniper_reload_1",
+    "x": -416,
+    "y": 112,
+    "root": false
+  },
+  "gunner_sniper_reload_2": {
+    "definition": "sniper_reload_2",
+    "x": -512,
+    "y": 112,
+    "root": false
+  },
+  "gunner_sniper_recoil_1": {
+    "definition": "sniper_recoil_1",
+    "x": -416,
+    "y": 208,
+    "root": false
+  },
+  "gunner_sniper_recoil_2": {
+    "definition": "sniper_recoil_2",
+    "x": -512,
+    "y": 208,
+    "root": false
+  },
+  "gunner_mg_reload_1": {
+    "definition": "mg_reload_1",
+    "x": -160,
+    "y": 112,
+    "root": false
+  },
+  "gunner_mg_reload_2": {
+    "definition": "mg_reload_2",
+    "x": -256,
+    "y": 112,
+    "root": false
+  },
+  "gunner_mg_recoil_1": {
+    "definition": "mg_recoil_1",
+    "x": -160,
+    "y": 208,
+    "root": false
+  },
+  "gunner_mg_recoil_2": {
+    "definition": "mg_recoil_2",
+    "x": -256,
+    "y": 208,
+    "root": false
+  },
+  "gunner_rpg_reload_1": {
+    "definition": "rpg_reload_1",
+    "x": -160,
+    "y": 292,
+    "root": false
+  },
+  "gunner_rpg_reload_2": {
+    "definition": "rpg_reload_2",
+    "x": -256,
+    "y": 292,
+    "root": false
+  },
+  "gunner_rpg_recoil_1": {
+    "definition": "rpg_recoil_1",
+    "x": -160,
+    "y": 388,
+    "root": false
+  },
+  "gunner_rpg_recoil_2": {
+    "definition": "rpg_recoil_2",
+    "x": -256,
+    "y": 388,
+    "root": false
+  },
+  "specialization": {
     "definition": "start",
     "x": 0,
-    "y": -320,
+    "y": -500,
     "root": true
-  },
-  "gunner_recoil_a": {
-    "definition": "recoil_control_1",
-    "x": -224,
-    "y": -256,
-    "root": false
-  },
-  "gunner_recoil_b": {
-    "definition": "recoil_control_1",
-    "x": -224,
-    "y": -192,
-    "root": false
-  },
-  "gunner_ads_a": {
-    "definition": "ads_speed_1",
-    "x": -96,
-    "y": -128,
-    "root": false
-  },
-  "gunner_recoil_c": {
-    "definition": "recoil_control_2",
-    "x": -224,
-    "y": -64,
-    "root": false
-  },
-  "gunner_recoil_d": {
-    "definition": "recoil_control_2",
-    "x": -224,
-    "y": 0,
-    "root": false
-  },
-  "gunner_ads_b": {
-    "definition": "ads_speed_2",
-    "x": -96,
-    "y": 64,
-    "root": false
-  },
-  "gunner_recoil_e": {
-    "definition": "recoil_control_3",
-    "x": -224,
-    "y": 128,
-    "root": false
-  },
-  "gunner_recoil_f": {
-    "definition": "recoil_control_3",
-    "x": -224,
-    "y": 192,
-    "root": false
-  },
-  "gunner_reload_a": {
-    "definition": "reload_speed_1",
-    "x": 224,
-    "y": -256,
-    "root": false
-  },
-  "gunner_reload_b": {
-    "definition": "reload_speed_1",
-    "x": 224,
-    "y": -192,
-    "root": false
-  },
-  "gunner_ammo_a": {
-    "definition": "ammo_save_1",
-    "x": 96,
-    "y": -128,
-    "root": false
-  },
-  "gunner_reload_c": {
-    "definition": "reload_speed_2",
-    "x": 224,
-    "y": -64,
-    "root": false
-  },
-  "gunner_reload_d": {
-    "definition": "reload_speed_2",
-    "x": 224,
-    "y": 0,
-    "root": false
-  },
-  "gunner_ammo_b": {
-    "definition": "ammo_save_2",
-    "x": 96,
-    "y": 64,
-    "root": false
-  },
-  "gunner_reload_e": {
-    "definition": "reload_speed_3",
-    "x": 224,
-    "y": 128,
-    "root": false
-  },
-  "gunner_reload_f": {
-    "definition": "reload_speed_3",
-    "x": 224,
-    "y": 192,
-    "root": false
-  },
-  "gunner_damage_a": {
-    "definition": "gun_damage_1",
-    "x": -128,
-    "y": 288,
-    "root": false
-  },
-  "gunner_headshot_a": {
-    "definition": "headshot_multiplier_1",
-    "x": 128,
-    "y": 288,
-    "root": false
-  },
-  "gunner_damage_b": {
-    "definition": "gun_damage_2",
-    "x": -64,
-    "y": 352,
-    "root": false
-  },
-  "gunner_headshot_b": {
-    "definition": "headshot_multiplier_2",
-    "x": 64,
-    "y": 352,
-    "root": false
-  },
-  "gunner_damage_c": {
-    "definition": "gun_damage_3",
-    "x": 0,
-    "y": 416,
-    "root": false
   }
 }

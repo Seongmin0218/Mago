@@ -1,9 +1,9 @@
 {
-  "unlocked_by_default": true,
+  "unlocked_by_default": false,
   "exclusive_root": false,
   "starting_points": 0,
-  "title": "총기",
-  "description": "반동 제어, 재장전 숙련, 빠른 조준, 탄약 절약, 후반 화력 강화 스킬트리",
+  "title": "거너",
+  "description": "총기 사용권을 제한하지 않습니다. License I~V를 스킬포인트로 성장시키며, 총기 특화 스탯과 제작 티어를 강화하는 전투 전문화입니다.",
   "icon": {
     "type": "item",
     "data": {

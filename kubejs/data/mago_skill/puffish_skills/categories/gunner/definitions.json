@@ -1,6 +1,7 @@
 {
   "start": {
-    "title": "총기",
+    "title": "거너 전문화",
+    "description": "거너 전문화를 활성화합니다. 총기 사용 자체에는 제한을 두지 않으며, 거너 전직 시 총기 제조 라이선스 자격도 영구 지급됩니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -8,95 +9,26 @@
       }
     },
     "cost": 0,
-    "required_skills": 0
-  },
-  "recoil_control_1": {
-    "title": "반동 제어 I",
-    "description": "총기 반동이 감소합니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:iron_ingot"
-      }
-    },
-    "cost": 1,
+    "required_skills": 0,
     "rewards": [
       {
-        "type": "puffish_skills:attribute",
+        "type": "puffish_skills:command",
         "data": {
-          "attribute": "tacz_attributes:recoil",
-          "value": -0.04,
-          "operation": "addition"
+          "unlock_command": "tag @s add mago_gunner_active",
+          "lock_command": "tag @s remove mago_gunner_active"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "tag @s add mago_gun_manufacturing_license"
         }
       }
     ]
   },
-  "recoil_control_2": {
-    "title": "반동 제어 II",
-    "description": "총기 반동이 추가로 감소합니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:copper_ingot"
-      }
-    },
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "tacz_attributes:recoil",
-          "value": -0.05,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "recoil_control_3": {
-    "title": "반동 제어 III",
-    "description": "총기 반동이 크게 감소합니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:diamond"
-      }
-    },
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "tacz_attributes:recoil",
-          "value": -0.06,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "reload_speed_1": {
-    "title": "재장전 숙련 I",
-    "description": "재장전 속도가 증가합니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:paper"
-      }
-    },
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "tacz_attributes:reload_speed",
-          "value": 0.07,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "reload_speed_2": {
-    "title": "재장전 숙련 II",
-    "description": "재장전 속도가 추가로 증가합니다.",
+  "license_1": {
+    "title": "운용 License I · Pistol",
+    "description": "거너 License I. 기초 총기 숙련과 제작 Tier I 자격의 기준이 됩니다. 일반 재료 중심.",
     "icon": {
       "type": "item",
       "data": {
@@ -106,18 +38,37 @@
     "cost": 1,
     "rewards": [
       {
-        "type": "puffish_skills:attribute",
+        "type": "puffish_skills:command",
         "data": {
-          "attribute": "tacz_attributes:reload_speed",
-          "value": 0.09,
-          "operation": "addition"
+          "unlock_command": "tag @s add mago_gunner_license_1",
+          "lock_command": "tag @s remove mago_gunner_license_1"
         }
       }
     ]
   },
-  "reload_speed_3": {
-    "title": "재장전 숙련 III",
-    "description": "재장전 속도가 크게 증가합니다.",
+  "license_2": {
+    "title": "운용 License II · SMG",
+    "description": "거너 License II. 중급 총기 숙련과 제작 Tier II 자격의 기준이 됩니다. 일반·희귀 재료 중심.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:copper_ingot"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_gunner_license_2",
+          "lock_command": "tag @s remove mago_gunner_license_2"
+        }
+      }
+    ]
+  },
+  "license_3": {
+    "title": "운용 License III · Rifle / Shotgun / 일부 SR",
+    "description": "거너 License III. 제작 Tier III부터 고급 재료와 보스 부산물이 레시피에 들어가기 시작합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -127,60 +78,57 @@
     "cost": 1,
     "rewards": [
       {
-        "type": "puffish_skills:attribute",
+        "type": "puffish_skills:command",
         "data": {
-          "attribute": "tacz_attributes:reload_speed",
-          "value": 0.11,
-          "operation": "addition"
+          "unlock_command": "tag @s add mago_gunner_license_3",
+          "lock_command": "tag @s remove mago_gunner_license_3"
         }
       }
     ]
   },
-  "ads_speed_1": {
-    "title": "빠른 조준 I",
-    "description": "조준 전환 속도가 증가합니다.",
+  "license_4": {
+    "title": "운용 License IV · MG / 고화력 SR",
+    "description": "거너 License IV. 상위 총기 제작용 고급 재료와 상위 보스 부산물 요구 단계입니다.",
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:spyglass"
+        "item": "minecraft:diamond"
       }
     },
     "cost": 1,
     "rewards": [
       {
-        "type": "puffish_skills:attribute",
+        "type": "puffish_skills:command",
         "data": {
-          "attribute": "tacz_attributes:ads_speed",
-          "value": 0.10,
-          "operation": "addition"
+          "unlock_command": "tag @s add mago_gunner_license_4",
+          "lock_command": "tag @s remove mago_gunner_license_4"
         }
       }
     ]
   },
-  "ads_speed_2": {
-    "title": "빠른 조준 II",
-    "description": "조준 전환 속도가 추가로 증가합니다.",
+  "license_5": {
+    "title": "운용 License V · Heavy",
+    "description": "거너 License V. 최상위 총기·중화기 제작용 최고급 재료와 최상위 보스 부산물 요구 단계입니다.",
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:amethyst_shard"
+        "item": "minecraft:netherite_ingot"
       }
     },
     "cost": 1,
     "rewards": [
       {
-        "type": "puffish_skills:attribute",
+        "type": "puffish_skills:command",
         "data": {
-          "attribute": "tacz_attributes:ads_speed",
-          "value": 0.15,
-          "operation": "addition"
+          "unlock_command": "tag @s add mago_gunner_license_5",
+          "lock_command": "tag @s remove mago_gunner_license_5"
         }
       }
     ]
   },
-  "ammo_save_1": {
-    "title": "탄약 절약 I",
-    "description": "발사 시 낮은 확률로 탄약을 소비하지 않습니다.",
+  "gun_damage_1": {
+    "title": "화력 증폭 1",
+    "description": "모든 TaCZ 총기 피해가 +1%p 증가합니다. 1차 밸런스 테스트값입니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -192,37 +140,16 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "tacz_attributes:ammo_save_chance",
-          "value": 0.04,
+          "attribute": "tacz_attributes:gun_damage",
+          "value": 0.01,
           "operation": "addition"
         }
       }
     ]
   },
-  "ammo_save_2": {
-    "title": "탄약 절약 II",
-    "description": "발사 시 탄약을 소비하지 않을 확률이 증가합니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:firework_star"
-      }
-    },
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "tacz_attributes:ammo_save_chance",
-          "value": 0.06,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "gun_damage_1": {
-    "title": "대구경 화력 I",
-    "description": "후반 강화: 총기 데미지가 크게 증가합니다. PVP와 보스전용 화력 노드로 설계되었습니다.",
+  "gun_damage_2": {
+    "title": "화력 증폭 2",
+    "description": "모든 TaCZ 총기 피해가 +1%p 증가합니다. 1차 밸런스 테스트값입니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -235,15 +162,15 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:gun_damage",
-          "value": 0.25,
+          "value": 0.01,
           "operation": "addition"
         }
       }
     ]
   },
-  "gun_damage_2": {
-    "title": "대구경 화력 II",
-    "description": "후반 강화: 총기 데미지가 추가로 크게 증가합니다. PVP와 보스전용 화력 노드로 설계되었습니다.",
+  "gun_damage_3": {
+    "title": "화력 증폭 3",
+    "description": "모든 TaCZ 총기 피해가 +3%p 증가합니다. 1차 밸런스 테스트값입니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -256,19 +183,19 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:gun_damage",
-          "value": 0.30,
+          "value": 0.03,
           "operation": "addition"
         }
       }
     ]
   },
-  "gun_damage_3": {
-    "title": "대구경 화력 III",
-    "description": "후반 강화: 총기 데미지가 대폭 증가합니다. PVP와 보스전용 화력 노드로 설계되었습니다.",
+  "gun_damage_4": {
+    "title": "화력 증폭 4",
+    "description": "모든 TaCZ 총기 피해가 +4%p 증가합니다. 1차 밸런스 테스트값입니다.",
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:netherite_ingot"
+        "item": "minecraft:ghast_tear"
       }
     },
     "cost": 1,
@@ -277,15 +204,99 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:gun_damage",
-          "value": 0.45,
+          "value": 0.04,
           "operation": "addition"
         }
       }
     ]
   },
-  "headshot_multiplier_1": {
-    "title": "치명적 조준 I",
-    "description": "후반 강화: 헤드샷 데미지 배율이 크게 증가합니다. PVP와 보스전용 화력 노드로 설계되었습니다.",
+  "gun_damage_5": {
+    "title": "화력 증폭 5",
+    "description": "모든 TaCZ 총기 피해가 +6%p 증가합니다. 1차 밸런스 테스트값입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:gun_damage",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ads_speed_1": {
+    "title": "빠른 조준 1",
+    "description": "ADS 전환 속도가 +5%p 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spyglass"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:ads_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ads_speed_2": {
+    "title": "빠른 조준 2",
+    "description": "ADS 전환 속도가 +5%p 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:ads_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ads_speed_3": {
+    "title": "빠른 조준 3",
+    "description": "ADS 전환 속도가 +5%p 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:ads_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "headshot_1": {
+    "title": "정밀 사격 1",
+    "description": "헤드샷 배율이 +7.5%p 증가합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -298,15 +309,15 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:headshot_multiplier",
-          "value": 0.35,
+          "value": 0.075,
           "operation": "addition"
         }
       }
     ]
   },
-  "headshot_multiplier_2": {
-    "title": "치명적 조준 II",
-    "description": "후반 강화: 헤드샷 데미지 배율이 대폭 증가합니다. PVP와 보스전용 화력 노드로 설계되었습니다.",
+  "headshot_2": {
+    "title": "정밀 사격 2",
+    "description": "헤드샷 배율이 +7.5%p 증가합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -319,7 +330,606 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:headshot_multiplier",
-          "value": 0.45,
+          "value": 0.075,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ammo_save_dummy": {
+    "title": "탄약 운용 · 준비중",
+    "description": "Ammo Save는 탄약 경제 설계가 확정될 때까지 효과를 연결하지 않습니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gunpowder"
+      }
+    },
+    "cost": 0
+  },
+  "pistol_reload_1": {
+    "title": "권총 재장전 1",
+    "description": "권총 Reload Speed가 +5%p 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:pistol_reload_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "pistol_recoil_1": {
+    "title": "권총 반동 제어 1",
+    "description": "권총 Recoil 배율이 -5%p 감소합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:pistol_recoil",
+          "value": -0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "pistol_reload_2": {
+    "title": "권총 재장전 2",
+    "description": "권총 Reload Speed가 +5%p 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:pistol_reload_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "pistol_recoil_2": {
+    "title": "권총 반동 제어 2",
+    "description": "권총 Recoil 배율이 -5%p 감소합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:pistol_recoil",
+          "value": -0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "smg_reload_1": {
+    "title": "SMG 재장전 1",
+    "description": "SMG Reload Speed가 +5%p 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:copper_block"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:smg_reload_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "smg_recoil_1": {
+    "title": "SMG 반동 제어 1",
+    "description": "SMG Recoil 배율이 -5%p 감소합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:copper_block"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:smg_recoil",
+          "value": -0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "smg_reload_2": {
+    "title": "SMG 재장전 2",
+    "description": "SMG Reload Speed가 +5%p 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:copper_block"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:smg_reload_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "smg_recoil_2": {
+    "title": "SMG 반동 제어 2",
+    "description": "SMG Recoil 배율이 -5%p 감소합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:copper_block"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:smg_recoil",
+          "value": -0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "rifle_reload_1": {
+    "title": "소총 재장전 1",
+    "description": "소총 Reload Speed가 +5%p 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_pickaxe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:rifle_reload_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "rifle_recoil_1": {
+    "title": "소총 반동 제어 1",
+    "description": "소총 Recoil 배율이 -5%p 감소합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_pickaxe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:rifle_recoil",
+          "value": -0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "rifle_reload_2": {
+    "title": "소총 재장전 2",
+    "description": "소총 Reload Speed가 +5%p 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_pickaxe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:rifle_reload_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "rifle_recoil_2": {
+    "title": "소총 반동 제어 2",
+    "description": "소총 Recoil 배율이 -5%p 감소합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_pickaxe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:rifle_recoil",
+          "value": -0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "shotgun_reload_1": {
+    "title": "산탄총 재장전 1",
+    "description": "산탄총 Reload Speed가 +5%p 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:firework_star"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:shotgun_reload_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "shotgun_recoil_1": {
+    "title": "산탄총 반동 제어 1",
+    "description": "산탄총 Recoil 배율이 -5%p 감소합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:firework_star"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:shotgun_recoil",
+          "value": -0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "shotgun_reload_2": {
+    "title": "산탄총 재장전 2",
+    "description": "산탄총 Reload Speed가 +5%p 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:firework_star"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:shotgun_reload_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "shotgun_recoil_2": {
+    "title": "산탄총 반동 제어 2",
+    "description": "산탄총 Recoil 배율이 -5%p 감소합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:firework_star"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:shotgun_recoil",
+          "value": -0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "sniper_reload_1": {
+    "title": "저격총 재장전 1",
+    "description": "저격총 Reload Speed가 +5%p 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spyglass"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:sniper_reload_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "sniper_recoil_1": {
+    "title": "저격총 반동 제어 1",
+    "description": "저격총 Recoil 배율이 -5%p 감소합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spyglass"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:sniper_recoil",
+          "value": -0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "sniper_reload_2": {
+    "title": "저격총 재장전 2",
+    "description": "저격총 Reload Speed가 +5%p 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spyglass"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:sniper_reload_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "sniper_recoil_2": {
+    "title": "저격총 반동 제어 2",
+    "description": "저격총 Recoil 배율이 -5%p 감소합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spyglass"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:sniper_recoil",
+          "value": -0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "mg_reload_1": {
+    "title": "기관총 재장전 1",
+    "description": "기관총 Reload Speed가 +5%p 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:heavy_core"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:mg_reload_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "mg_recoil_1": {
+    "title": "기관총 반동 제어 1",
+    "description": "기관총 Recoil 배율이 -5%p 감소합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:heavy_core"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:mg_recoil",
+          "value": -0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "mg_reload_2": {
+    "title": "기관총 재장전 2",
+    "description": "기관총 Reload Speed가 +5%p 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:heavy_core"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:mg_reload_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "mg_recoil_2": {
+    "title": "기관총 반동 제어 2",
+    "description": "기관총 Recoil 배율이 -5%p 감소합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:heavy_core"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:mg_recoil",
+          "value": -0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "rpg_reload_1": {
+    "title": "중화기 재장전 1",
+    "description": "중화기 Reload Speed가 +5%p 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:tnt"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:rpg_reload_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "rpg_recoil_1": {
+    "title": "중화기 반동 제어 1",
+    "description": "중화기 Recoil 배율이 -5%p 감소합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:tnt"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:rpg_recoil",
+          "value": -0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "rpg_reload_2": {
+    "title": "중화기 재장전 2",
+    "description": "중화기 Reload Speed가 +5%p 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:tnt"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:rpg_reload_speed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "rpg_recoil_2": {
+    "title": "중화기 반동 제어 2",
+    "description": "중화기 Recoil 배율이 -5%p 감소합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:tnt"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:rpg_recoil",
+          "value": -0.05,
           "operation": "addition"
         }
       }

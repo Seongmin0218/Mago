@@ -2,92 +2,180 @@
   "normal": {
     "bidirectional": [
       [
-        "gunner_start",
-        "gunner_recoil_a"
+        "specialization",
+        "gunner_license_1"
       ],
       [
-        "gunner_recoil_a",
-        "gunner_recoil_b"
+        "gunner_license_1",
+        "gunner_license_2"
       ],
       [
-        "gunner_recoil_b",
-        "gunner_ads_a"
+        "gunner_license_2",
+        "gunner_license_3"
       ],
       [
-        "gunner_ads_a",
-        "gunner_recoil_c"
+        "gunner_license_3",
+        "gunner_license_4"
       ],
       [
-        "gunner_recoil_c",
-        "gunner_recoil_d"
+        "gunner_license_4",
+        "gunner_license_5"
       ],
       [
-        "gunner_recoil_d",
-        "gunner_ads_b"
+        "gunner_license_1",
+        "gunner_damage_1"
       ],
       [
-        "gunner_ads_b",
-        "gunner_recoil_e"
+        "gunner_license_2",
+        "gunner_damage_2"
       ],
       [
-        "gunner_recoil_e",
-        "gunner_recoil_f"
+        "gunner_license_3",
+        "gunner_damage_3"
       ],
       [
-        "gunner_start",
-        "gunner_reload_a"
+        "gunner_license_4",
+        "gunner_damage_4"
       ],
       [
-        "gunner_reload_a",
-        "gunner_reload_b"
+        "gunner_license_5",
+        "gunner_damage_5"
       ],
       [
-        "gunner_reload_b",
-        "gunner_ammo_a"
+        "gunner_license_1",
+        "gunner_ads_1"
       ],
       [
-        "gunner_ammo_a",
-        "gunner_reload_c"
+        "gunner_license_2",
+        "gunner_ads_2"
       ],
       [
-        "gunner_reload_c",
-        "gunner_reload_d"
+        "gunner_license_3",
+        "gunner_ads_3"
       ],
       [
-        "gunner_reload_d",
-        "gunner_ammo_b"
+        "gunner_license_4",
+        "gunner_headshot_1"
       ],
       [
-        "gunner_ammo_b",
-        "gunner_reload_e"
+        "gunner_license_5",
+        "gunner_headshot_2"
       ],
       [
-        "gunner_reload_e",
-        "gunner_reload_f"
+        "gunner_license_2",
+        "gunner_ammo_dummy"
       ],
       [
-        "gunner_recoil_f",
-        "gunner_damage_a"
+        "gunner_license_1",
+        "gunner_pistol_reload_1"
       ],
       [
-        "gunner_reload_f",
-        "gunner_headshot_a"
+        "gunner_pistol_reload_1",
+        "gunner_pistol_reload_2"
       ],
       [
-        "gunner_damage_a",
-        "gunner_damage_b"
+        "gunner_license_1",
+        "gunner_pistol_recoil_1"
       ],
       [
-        "gunner_headshot_a",
-        "gunner_headshot_b"
+        "gunner_pistol_recoil_1",
+        "gunner_pistol_recoil_2"
       ],
       [
-        "gunner_damage_b",
-        "gunner_damage_c"
+        "gunner_license_2",
+        "gunner_smg_reload_1"
       ],
       [
-        "gunner_headshot_b",
-        "gunner_damage_c"
+        "gunner_smg_reload_1",
+        "gunner_smg_reload_2"
+      ],
+      [
+        "gunner_license_2",
+        "gunner_smg_recoil_1"
+      ],
+      [
+        "gunner_smg_recoil_1",
+        "gunner_smg_recoil_2"
+      ],
+      [
+        "gunner_license_3",
+        "gunner_rifle_reload_1"
+      ],
+      [
+        "gunner_rifle_reload_1",
+        "gunner_rifle_reload_2"
+      ],
+      [
+        "gunner_license_3",
+        "gunner_rifle_recoil_1"
+      ],
+      [
+        "gunner_rifle_recoil_1",
+        "gunner_rifle_recoil_2"
+      ],
+      [
+        "gunner_license_3",
+        "gunner_shotgun_reload_1"
+      ],
+      [
+        "gunner_shotgun_reload_1",
+        "gunner_shotgun_reload_2"
+      ],
+      [
+        "gunner_license_3",
+        "gunner_shotgun_recoil_1"
+      ],
+      [
+        "gunner_shotgun_recoil_1",
+        "gunner_shotgun_recoil_2"
+      ],
+      [
+        "gunner_license_3",
+        "gunner_sniper_reload_1"
+      ],
+      [
+        "gunner_sniper_reload_1",
+        "gunner_sniper_reload_2"
+      ],
+      [
+        "gunner_license_3",
+        "gunner_sniper_recoil_1"
+      ],
+      [
+        "gunner_sniper_recoil_1",
+        "gunner_sniper_recoil_2"
+      ],
+      [
+        "gunner_license_4",
+        "gunner_mg_reload_1"
+      ],
+      [
+        "gunner_mg_reload_1",
+        "gunner_mg_reload_2"
+      ],
+      [
+        "gunner_license_4",
+        "gunner_mg_recoil_1"
+      ],
+      [
+        "gunner_mg_recoil_1",
+        "gunner_mg_recoil_2"
+      ],
+      [
+        "gunner_license_5",
+        "gunner_rpg_reload_1"
+      ],
+      [
+        "gunner_rpg_reload_1",
+        "gunner_rpg_reload_2"
+      ],
+      [
+        "gunner_license_5",
+        "gunner_rpg_recoil_1"
+      ],
+      [
+        "gunner_rpg_recoil_1",
+        "gunner_rpg_recoil_2"
       ]
     ]
   }
