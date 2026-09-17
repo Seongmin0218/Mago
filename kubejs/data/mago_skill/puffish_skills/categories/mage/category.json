@@ -1,0 +1,14 @@
+{
+  "unlocked_by_default": false,
+  "exclusive_root": true,
+  "starting_points": 0,
+  "title": "마법사",
+  "description": "최초 기본 학파 1개를 선택하고 일반 → 고급 → 희귀 → 영웅 → 전설로 성장합니다. 희귀 이후 제2학파, 전설 이후 제3학파는 NPC/아이템으로 별도 개방합니다.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "irons_spellbooks:iron_spell_book"
+    }
+  },
+  "background": "textures/gui/advancements/backgrounds/adventure.png"
+}

@@ -1,0 +1,847 @@
+{
+  "school_fire": {
+    "title": "화염 학파",
+    "description": "화염 학파의 기본 사용권을 선택합니다. 최초 선택용 노드이며 추가 학파는 별도 시스템 권한으로 개방됩니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "cost": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_magic_school_fire",
+          "lock_command": "tag @s remove mago_magic_school_fire"
+        }
+      }
+    ]
+  },
+  "school_hydro": {
+    "title": "Hydro 학파",
+    "description": "Hydro 학파의 기본 사용권을 선택합니다. 최초 선택용 노드이며 추가 학파는 별도 시스템 권한으로 개방됩니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:water_bucket"
+      }
+    },
+    "cost": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_magic_school_hydro",
+          "lock_command": "tag @s remove mago_magic_school_hydro"
+        }
+      }
+    ]
+  },
+  "school_nature": {
+    "title": "자연 학파",
+    "description": "자연 학파의 기본 사용권을 선택합니다. 최초 선택용 노드이며 추가 학파는 별도 시스템 권한으로 개방됩니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:oak_sapling"
+      }
+    },
+    "cost": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_magic_school_nature",
+          "lock_command": "tag @s remove mago_magic_school_nature"
+        }
+      }
+    ]
+  },
+  "school_geo": {
+    "title": "Geo 학파",
+    "description": "Geo 학파의 기본 사용권을 선택합니다. 최초 선택용 노드이며 추가 학파는 별도 시스템 권한으로 개방됩니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:pointed_dripstone"
+      }
+    },
+    "cost": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_magic_school_geo",
+          "lock_command": "tag @s remove mago_magic_school_geo"
+        }
+      }
+    ]
+  },
+  "school_lightning": {
+    "title": "번개 학파",
+    "description": "번개 학파의 기본 사용권을 선택합니다. 최초 선택용 노드이며 추가 학파는 별도 시스템 권한으로 개방됩니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lightning_rod"
+      }
+    },
+    "cost": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_magic_school_lightning",
+          "lock_command": "tag @s remove mago_magic_school_lightning"
+        }
+      }
+    ]
+  },
+  "school_ice": {
+    "title": "얼음 학파",
+    "description": "얼음 학파의 기본 사용권을 선택합니다. 최초 선택용 노드이며 추가 학파는 별도 시스템 권한으로 개방됩니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:packed_ice"
+      }
+    },
+    "cost": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_magic_school_ice",
+          "lock_command": "tag @s remove mago_magic_school_ice"
+        }
+      }
+    ]
+  },
+  "school_ender": {
+    "title": "엔더 학파",
+    "description": "엔더 학파의 기본 사용권을 선택합니다. 최초 선택용 노드이며 추가 학파는 별도 시스템 권한으로 개방됩니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    "cost": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_magic_school_ender",
+          "lock_command": "tag @s remove mago_magic_school_ender"
+        }
+      }
+    ]
+  },
+  "school_holy": {
+    "title": "신성 학파",
+    "description": "신성 학파의 기본 사용권을 선택합니다. 최초 선택용 노드이며 추가 학파는 별도 시스템 권한으로 개방됩니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    "cost": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_magic_school_holy",
+          "lock_command": "tag @s remove mago_magic_school_holy"
+        }
+      }
+    ]
+  },
+  "school_summon": {
+    "title": "소환 학파",
+    "description": "소환 학파의 기본 사용권을 선택합니다. 최초 선택용 노드이며 추가 학파는 별도 시스템 권한으로 개방됩니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:totem_of_undying"
+      }
+    },
+    "cost": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_magic_school_summon",
+          "lock_command": "tag @s remove mago_magic_school_summon"
+        }
+      }
+    ]
+  },
+  "school_melody": {
+    "title": "멜로디 학파",
+    "description": "멜로디 학파의 기본 사용권을 선택합니다. 최초 선택용 노드이며 추가 학파는 별도 시스템 권한으로 개방됩니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:note_block"
+      }
+    },
+    "cost": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_magic_school_melody",
+          "lock_command": "tag @s remove mago_magic_school_melody"
+        }
+      }
+    ]
+  },
+  "school_wind": {
+    "title": "바람 학파",
+    "description": "바람 학파의 기본 사용권을 선택합니다. 최초 선택용 노드이며 추가 학파는 별도 시스템 권한으로 개방됩니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "cost": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_magic_school_wind",
+          "lock_command": "tag @s remove mago_magic_school_wind"
+        }
+      }
+    ]
+  },
+  "tier_common": {
+    "title": "일반",
+    "description": "일반 등급 주문 사용권을 해금합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_nugget"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_mage_tier_common",
+          "lock_command": "tag @s remove mago_mage_tier_common"
+        }
+      }
+    ]
+  },
+  "tier_uncommon": {
+    "title": "고급",
+    "description": "고급 등급 주문 사용권을 해금합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:copper_ingot"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_mage_tier_uncommon",
+          "lock_command": "tag @s remove mago_mage_tier_uncommon"
+        }
+      }
+    ]
+  },
+  "tier_rare": {
+    "title": "희귀",
+    "description": "희귀 등급 주문 사용권을 해금합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_mage_tier_rare",
+          "lock_command": "tag @s remove mago_mage_tier_rare"
+        }
+      }
+    ]
+  },
+  "tier_epic": {
+    "title": "영웅",
+    "description": "영웅 등급 주문 사용권을 해금합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_mage_tier_epic",
+          "lock_command": "tag @s remove mago_mage_tier_epic"
+        }
+      }
+    ]
+  },
+  "tier_legendary": {
+    "title": "전설",
+    "description": "전설 등급 주문 사용권을 해금합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_mage_tier_legendary",
+          "lock_command": "tag @s remove mago_mage_tier_legendary"
+        }
+      }
+    ]
+  },
+  "common_max_mana": {
+    "title": "일반 · 최대 마나",
+    "description": "최대 마나 +40.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:experience_bottle"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 40.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "common_mana_regen": {
+    "title": "일반 · 마나 재생",
+    "description": "마나 재생 +4%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glow_berries"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:mana_regen",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "common_cast_speed": {
+    "title": "일반 · 시전속도",
+    "description": "시전속도 +6%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cast_time_reduction",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "common_cooldown": {
+    "title": "일반 · 쿨다운 감소",
+    "description": "쿨다운 감소 +6%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "common_spell_power": {
+    "title": "일반 · 주문력",
+    "description": "주문력 +10%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_cluster"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_power",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "uncommon_max_mana": {
+    "title": "고급 · 최대 마나",
+    "description": "최대 마나 +40.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:experience_bottle"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 40.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "uncommon_mana_regen": {
+    "title": "고급 · 마나 재생",
+    "description": "마나 재생 +4%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glow_berries"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:mana_regen",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "uncommon_cast_speed": {
+    "title": "고급 · 시전속도",
+    "description": "시전속도 +6%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cast_time_reduction",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "uncommon_cooldown": {
+    "title": "고급 · 쿨다운 감소",
+    "description": "쿨다운 감소 +6%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "uncommon_spell_power": {
+    "title": "고급 · 주문력",
+    "description": "주문력 +10%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_cluster"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_power",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "rare_max_mana": {
+    "title": "희귀 · 최대 마나",
+    "description": "최대 마나 +40.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:experience_bottle"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 40.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "rare_mana_regen": {
+    "title": "희귀 · 마나 재생",
+    "description": "마나 재생 +4%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glow_berries"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:mana_regen",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "rare_cast_speed": {
+    "title": "희귀 · 시전속도",
+    "description": "시전속도 +6%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cast_time_reduction",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "rare_cooldown": {
+    "title": "희귀 · 쿨다운 감소",
+    "description": "쿨다운 감소 +6%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "rare_spell_power": {
+    "title": "희귀 · 주문력",
+    "description": "주문력 +10%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_cluster"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_power",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "epic_max_mana": {
+    "title": "영웅 · 최대 마나",
+    "description": "최대 마나 +40.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:experience_bottle"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 40.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "epic_mana_regen": {
+    "title": "영웅 · 마나 재생",
+    "description": "마나 재생 +4%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glow_berries"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:mana_regen",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "epic_cast_speed": {
+    "title": "영웅 · 시전속도",
+    "description": "시전속도 +6%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cast_time_reduction",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "epic_cooldown": {
+    "title": "영웅 · 쿨다운 감소",
+    "description": "쿨다운 감소 +6%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "epic_spell_power": {
+    "title": "영웅 · 주문력",
+    "description": "주문력 +10%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_cluster"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_power",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "legendary_max_mana": {
+    "title": "전설 · 최대 마나",
+    "description": "최대 마나 +40.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:experience_bottle"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 40.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "legendary_mana_regen": {
+    "title": "전설 · 마나 재생",
+    "description": "마나 재생 +4%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glow_berries"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:mana_regen",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "legendary_cast_speed": {
+    "title": "전설 · 시전속도",
+    "description": "시전속도 +6%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cast_time_reduction",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "legendary_cooldown": {
+    "title": "전설 · 쿨다운 감소",
+    "description": "쿨다운 감소 +6%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "legendary_spell_power": {
+    "title": "전설 · 주문력",
+    "description": "주문력 +10%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_cluster"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_power",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  }
+}

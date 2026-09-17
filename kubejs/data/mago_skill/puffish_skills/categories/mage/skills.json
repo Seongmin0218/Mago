@@ -1,0 +1,248 @@
+{
+  "school_fire": {
+    "definition": "school_fire",
+    "x": -800,
+    "y": 560,
+    "root": true
+  },
+  "school_hydro": {
+    "definition": "school_hydro",
+    "x": -640,
+    "y": 560,
+    "root": true
+  },
+  "school_nature": {
+    "definition": "school_nature",
+    "x": -480,
+    "y": 560,
+    "root": true
+  },
+  "school_geo": {
+    "definition": "school_geo",
+    "x": -320,
+    "y": 560,
+    "root": true
+  },
+  "school_lightning": {
+    "definition": "school_lightning",
+    "x": -160,
+    "y": 560,
+    "root": true
+  },
+  "school_ice": {
+    "definition": "school_ice",
+    "x": 0,
+    "y": 560,
+    "root": true
+  },
+  "school_ender": {
+    "definition": "school_ender",
+    "x": 160,
+    "y": 560,
+    "root": true
+  },
+  "school_holy": {
+    "definition": "school_holy",
+    "x": 320,
+    "y": 560,
+    "root": true
+  },
+  "school_summon": {
+    "definition": "school_summon",
+    "x": 480,
+    "y": 560,
+    "root": true
+  },
+  "school_melody": {
+    "definition": "school_melody",
+    "x": 640,
+    "y": 560,
+    "root": true
+  },
+  "school_wind": {
+    "definition": "school_wind",
+    "x": 800,
+    "y": 560,
+    "root": true
+  },
+  "tier_common": {
+    "definition": "tier_common",
+    "x": 0,
+    "y": 320,
+    "root": false
+  },
+  "common_max_mana": {
+    "definition": "common_max_mana",
+    "x": -520,
+    "y": 400,
+    "root": false
+  },
+  "common_mana_regen": {
+    "definition": "common_mana_regen",
+    "x": -260,
+    "y": 400,
+    "root": false
+  },
+  "common_cast_speed": {
+    "definition": "common_cast_speed",
+    "x": 0,
+    "y": 440,
+    "root": false
+  },
+  "common_cooldown": {
+    "definition": "common_cooldown",
+    "x": 260,
+    "y": 400,
+    "root": false
+  },
+  "common_spell_power": {
+    "definition": "common_spell_power",
+    "x": 520,
+    "y": 400,
+    "root": false
+  },
+  "tier_uncommon": {
+    "definition": "tier_uncommon",
+    "x": 0,
+    "y": 80,
+    "root": false
+  },
+  "uncommon_max_mana": {
+    "definition": "uncommon_max_mana",
+    "x": -520,
+    "y": 160,
+    "root": false
+  },
+  "uncommon_mana_regen": {
+    "definition": "uncommon_mana_regen",
+    "x": -260,
+    "y": 160,
+    "root": false
+  },
+  "uncommon_cast_speed": {
+    "definition": "uncommon_cast_speed",
+    "x": 0,
+    "y": 200,
+    "root": false
+  },
+  "uncommon_cooldown": {
+    "definition": "uncommon_cooldown",
+    "x": 260,
+    "y": 160,
+    "root": false
+  },
+  "uncommon_spell_power": {
+    "definition": "uncommon_spell_power",
+    "x": 520,
+    "y": 160,
+    "root": false
+  },
+  "tier_rare": {
+    "definition": "tier_rare",
+    "x": 0,
+    "y": -160,
+    "root": false
+  },
+  "rare_max_mana": {
+    "definition": "rare_max_mana",
+    "x": -520,
+    "y": -80,
+    "root": false
+  },
+  "rare_mana_regen": {
+    "definition": "rare_mana_regen",
+    "x": -260,
+    "y": -80,
+    "root": false
+  },
+  "rare_cast_speed": {
+    "definition": "rare_cast_speed",
+    "x": 0,
+    "y": -40,
+    "root": false
+  },
+  "rare_cooldown": {
+    "definition": "rare_cooldown",
+    "x": 260,
+    "y": -80,
+    "root": false
+  },
+  "rare_spell_power": {
+    "definition": "rare_spell_power",
+    "x": 520,
+    "y": -80,
+    "root": false
+  },
+  "tier_epic": {
+    "definition": "tier_epic",
+    "x": 0,
+    "y": -400,
+    "root": false
+  },
+  "epic_max_mana": {
+    "definition": "epic_max_mana",
+    "x": -520,
+    "y": -320,
+    "root": false
+  },
+  "epic_mana_regen": {
+    "definition": "epic_mana_regen",
+    "x": -260,
+    "y": -320,
+    "root": false
+  },
+  "epic_cast_speed": {
+    "definition": "epic_cast_speed",
+    "x": 0,
+    "y": -280,
+    "root": false
+  },
+  "epic_cooldown": {
+    "definition": "epic_cooldown",
+    "x": 260,
+    "y": -320,
+    "root": false
+  },
+  "epic_spell_power": {
+    "definition": "epic_spell_power",
+    "x": 520,
+    "y": -320,
+    "root": false
+  },
+  "tier_legendary": {
+    "definition": "tier_legendary",
+    "x": 0,
+    "y": -640,
+    "root": false
+  },
+  "legendary_max_mana": {
+    "definition": "legendary_max_mana",
+    "x": -520,
+    "y": -560,
+    "root": false
+  },
+  "legendary_mana_regen": {
+    "definition": "legendary_mana_regen",
+    "x": -260,
+    "y": -560,
+    "root": false
+  },
+  "legendary_cast_speed": {
+    "definition": "legendary_cast_speed",
+    "x": 0,
+    "y": -520,
+    "root": false
+  },
+  "legendary_cooldown": {
+    "definition": "legendary_cooldown",
+    "x": 260,
+    "y": -560,
+    "root": false
+  },
+  "legendary_spell_power": {
+    "definition": "legendary_spell_power",
+    "x": 520,
+    "y": -560,
+    "root": false
+  }
+}

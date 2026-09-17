@@ -1,5 +1,7 @@
 [
   {"version":1},
+  {"ingredient":{"id":"irons_spellbooks:fire_upgrade_orb"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:fire_rune"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"reliquified_irons_spells_and_spellbooks:ender_bow","components":{"relics:data":{"abilities":{"abilities":{"ender_bow":{"points":0,"stats":{"arrow_damage":{"initialQuality":3},"reveal_radius":{"initialQuality":9},"reveal_path_radius":{"initialQuality":6},"stun_duration":{"initialQuality":7},"bonus_per_mark":{"initialQuality":8},"bonus_duration":{},"multicast_chance":{},"max_extra_arrows":{"initialQuality":3}},"lock":{"breaks":5}}},"synergies":{}},"leveling":{},"statistic":{}}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"iceandfire:dragonbone_arrow"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"irons_spellbooks:scroll","components":{"irons_spellbooks:spell_container":{"mustEquip":false,"data":[{"id":"irons_spellbooks:fortify","index":0,"level":10,"locked":true}],"maxSpells":1,"spellWheel":false}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
