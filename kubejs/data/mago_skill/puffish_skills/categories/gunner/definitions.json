@@ -86,55 +86,14 @@
     },
     "cost": 1
   },
+
   "gun_damage_1": {
     "title": "화력 증폭 1",
-    "description": "모든 TaCZ 총기 피해가 +1%p 증가합니다. 1차 밸런스 테스트값입니다.",
+    "description": "모든 TaCZ 총기 피해가 +3%p 증가합니다.",
     "icon": {
       "type": "item",
       "data": {
         "item": "minecraft:gunpowder"
-      }
-    },
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "tacz_attributes:gun_damage",
-          "value": 0.01,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "gun_damage_2": {
-    "title": "화력 증폭 2",
-    "description": "모든 TaCZ 총기 피해가 +1%p 증가합니다. 1차 밸런스 테스트값입니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:fire_charge"
-      }
-    },
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "tacz_attributes:gun_damage",
-          "value": 0.01,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "gun_damage_3": {
-    "title": "화력 증폭 3",
-    "description": "모든 TaCZ 총기 피해가 +3%p 증가합니다. 1차 밸런스 테스트값입니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:blaze_powder"
       }
     },
     "cost": 1,
@@ -149,13 +108,14 @@
       }
     ]
   },
-  "gun_damage_4": {
-    "title": "화력 증폭 4",
-    "description": "모든 TaCZ 총기 피해가 +4%p 증가합니다. 1차 밸런스 테스트값입니다.",
+
+  "gun_damage_2": {
+    "title": "화력 증폭 2",
+    "description": "모든 TaCZ 총기 피해가 +4%p 증가합니다.",
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:ghast_tear"
+        "item": "minecraft:fire_charge"
       }
     },
     "cost": 1,
@@ -170,9 +130,54 @@
       }
     ]
   },
+
+  "gun_damage_3": {
+    "title": "화력 증폭 3",
+    "description": "모든 TaCZ 총기 피해가 +5%p 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:gun_damage",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+
+  "gun_damage_4": {
+    "title": "화력 증폭 4",
+    "description": "모든 TaCZ 총기 피해가 +8%p 증가합니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:gun_damage",
+          "value": 0.08,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+
   "gun_damage_5": {
     "title": "화력 증폭 5",
-    "description": "모든 TaCZ 총기 피해가 +6%p 증가합니다. 1차 밸런스 테스트값입니다.",
+    "description": "모든 TaCZ 총기 피해가 +10%p 증가합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -185,12 +190,13 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:gun_damage",
-          "value": 0.06,
+          "value": 0.10,
           "operation": "addition"
         }
       }
     ]
   },
+
   "ads_speed_1": {
     "title": "빠른 조준 1",
     "description": "ADS 전환 속도가 +5%p 증가합니다.",
@@ -212,9 +218,10 @@
       }
     ]
   },
+
   "ads_speed_2": {
     "title": "빠른 조준 2",
-    "description": "ADS 전환 속도가 +5%p 증가합니다.",
+    "description": "ADS 전환 속도가 +7%p 증가합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -227,15 +234,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:ads_speed",
-          "value": 0.05,
+          "value": 0.07,
           "operation": "addition"
         }
       }
     ]
   },
+
   "ads_speed_3": {
     "title": "빠른 조준 3",
-    "description": "ADS 전환 속도가 +5%p 증가합니다.",
+    "description": "ADS 전환 속도가 +8%p 증가합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -248,15 +256,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:ads_speed",
-          "value": 0.05,
+          "value": 0.08,
           "operation": "addition"
         }
       }
     ]
   },
+
   "headshot_1": {
     "title": "정밀 사격 1",
-    "description": "헤드샷 배율이 +7.5%p 증가합니다.",
+    "description": "헤드샷 배율이 +10%p 증가합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -269,15 +278,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:headshot_multiplier",
-          "value": 0.075,
+          "value": 0.10,
           "operation": "addition"
         }
       }
     ]
   },
+
   "headshot_2": {
     "title": "정밀 사격 2",
-    "description": "헤드샷 배율이 +7.5%p 증가합니다.",
+    "description": "헤드샷 배율이 +15%p 증가합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -290,12 +300,13 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:headshot_multiplier",
-          "value": 0.075,
+          "value": 0.15,
           "operation": "addition"
         }
       }
     ]
   },
+
   "ammo_save_dummy": {
     "title": "탄약 운용 · 준비중",
     "description": "Ammo Save는 탄약 경제 설계가 확정될 때까지 효과를 연결하지 않습니다.",
@@ -307,9 +318,10 @@
     },
     "cost": 0
   },
+
   "pistol_reload_1": {
     "title": "권총 재장전 1",
-    "description": "권총 Reload Speed가 +5%p 증가합니다.",
+    "description": "권총 Reload Speed가 +7.5%p 증가합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -322,15 +334,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:pistol_reload_speed",
-          "value": 0.05,
+          "value": 0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "pistol_recoil_1": {
     "title": "권총 반동 제어 1",
-    "description": "권총 Recoil 배율이 -5%p 감소합니다.",
+    "description": "권총 Recoil 배율이 -7.5%p 감소합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -343,15 +356,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:pistol_recoil",
-          "value": -0.05,
+          "value": -0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "pistol_reload_2": {
     "title": "권총 재장전 2",
-    "description": "권총 Reload Speed가 +5%p 증가합니다.",
+    "description": "권총 Reload Speed가 +7.5%p 증가합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -364,15 +378,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:pistol_reload_speed",
-          "value": 0.05,
+          "value": 0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "pistol_recoil_2": {
     "title": "권총 반동 제어 2",
-    "description": "권총 Recoil 배율이 -5%p 감소합니다.",
+    "description": "권총 Recoil 배율이 -7.5%p 감소합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -385,15 +400,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:pistol_recoil",
-          "value": -0.05,
+          "value": -0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "smg_reload_1": {
     "title": "SMG 재장전 1",
-    "description": "SMG Reload Speed가 +5%p 증가합니다.",
+    "description": "SMG Reload Speed가 +7.5%p 증가합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -406,15 +422,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:smg_reload_speed",
-          "value": 0.05,
+          "value": 0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "smg_recoil_1": {
     "title": "SMG 반동 제어 1",
-    "description": "SMG Recoil 배율이 -5%p 감소합니다.",
+    "description": "SMG Recoil 배율이 -7.5%p 감소합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -427,15 +444,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:smg_recoil",
-          "value": -0.05,
+          "value": -0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "smg_reload_2": {
     "title": "SMG 재장전 2",
-    "description": "SMG Reload Speed가 +5%p 증가합니다.",
+    "description": "SMG Reload Speed가 +7.5%p 증가합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -448,15 +466,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:smg_reload_speed",
-          "value": 0.05,
+          "value": 0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "smg_recoil_2": {
     "title": "SMG 반동 제어 2",
-    "description": "SMG Recoil 배율이 -5%p 감소합니다.",
+    "description": "SMG Recoil 배율이 -7.5%p 감소합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -469,15 +488,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:smg_recoil",
-          "value": -0.05,
+          "value": -0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "rifle_reload_1": {
     "title": "소총 재장전 1",
-    "description": "소총 Reload Speed가 +5%p 증가합니다.",
+    "description": "소총 Reload Speed가 +7.5%p 증가합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -490,15 +510,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:rifle_reload_speed",
-          "value": 0.05,
+          "value": 0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "rifle_recoil_1": {
     "title": "소총 반동 제어 1",
-    "description": "소총 Recoil 배율이 -5%p 감소합니다.",
+    "description": "소총 Recoil 배율이 -7.5%p 감소합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -511,15 +532,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:rifle_recoil",
-          "value": -0.05,
+          "value": -0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "rifle_reload_2": {
     "title": "소총 재장전 2",
-    "description": "소총 Reload Speed가 +5%p 증가합니다.",
+    "description": "소총 Reload Speed가 +7.5%p 증가합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -532,15 +554,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:rifle_reload_speed",
-          "value": 0.05,
+          "value": 0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "rifle_recoil_2": {
     "title": "소총 반동 제어 2",
-    "description": "소총 Recoil 배율이 -5%p 감소합니다.",
+    "description": "소총 Recoil 배율이 -7.5%p 감소합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -553,15 +576,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:rifle_recoil",
-          "value": -0.05,
+          "value": -0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "shotgun_reload_1": {
     "title": "산탄총 재장전 1",
-    "description": "산탄총 Reload Speed가 +5%p 증가합니다.",
+    "description": "산탄총 Reload Speed가 +7.5%p 증가합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -574,15 +598,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:shotgun_reload_speed",
-          "value": 0.05,
+          "value": 0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "shotgun_recoil_1": {
     "title": "산탄총 반동 제어 1",
-    "description": "산탄총 Recoil 배율이 -5%p 감소합니다.",
+    "description": "산탄총 Recoil 배율이 -7.5%p 감소합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -595,15 +620,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:shotgun_recoil",
-          "value": -0.05,
+          "value": -0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "shotgun_reload_2": {
     "title": "산탄총 재장전 2",
-    "description": "산탄총 Reload Speed가 +5%p 증가합니다.",
+    "description": "산탄총 Reload Speed가 +7.5%p 증가합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -616,15 +642,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:shotgun_reload_speed",
-          "value": 0.05,
+          "value": 0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "shotgun_recoil_2": {
     "title": "산탄총 반동 제어 2",
-    "description": "산탄총 Recoil 배율이 -5%p 감소합니다.",
+    "description": "산탄총 Recoil 배율이 -7.5%p 감소합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -637,15 +664,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:shotgun_recoil",
-          "value": -0.05,
+          "value": -0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "sniper_reload_1": {
     "title": "저격총 재장전 1",
-    "description": "저격총 Reload Speed가 +5%p 증가합니다.",
+    "description": "저격총 Reload Speed가 +7.5%p 증가합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -658,15 +686,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:sniper_reload_speed",
-          "value": 0.05,
+          "value": 0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "sniper_recoil_1": {
     "title": "저격총 반동 제어 1",
-    "description": "저격총 Recoil 배율이 -5%p 감소합니다.",
+    "description": "저격총 Recoil 배율이 -7.5%p 감소합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -679,15 +708,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:sniper_recoil",
-          "value": -0.05,
+          "value": -0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "sniper_reload_2": {
     "title": "저격총 재장전 2",
-    "description": "저격총 Reload Speed가 +5%p 증가합니다.",
+    "description": "저격총 Reload Speed가 +7.5%p 증가합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -700,15 +730,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:sniper_reload_speed",
-          "value": 0.05,
+          "value": 0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "sniper_recoil_2": {
     "title": "저격총 반동 제어 2",
-    "description": "저격총 Recoil 배율이 -5%p 감소합니다.",
+    "description": "저격총 Recoil 배율이 -7.5%p 감소합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -721,15 +752,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:sniper_recoil",
-          "value": -0.05,
+          "value": -0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "mg_reload_1": {
     "title": "기관총 재장전 1",
-    "description": "기관총 Reload Speed가 +5%p 증가합니다.",
+    "description": "기관총 Reload Speed가 +7.5%p 증가합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -742,15 +774,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:mg_reload_speed",
-          "value": 0.05,
+          "value": 0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "mg_recoil_1": {
     "title": "기관총 반동 제어 1",
-    "description": "기관총 Recoil 배율이 -5%p 감소합니다.",
+    "description": "기관총 Recoil 배율이 -7.5%p 감소합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -763,15 +796,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:mg_recoil",
-          "value": -0.05,
+          "value": -0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "mg_reload_2": {
     "title": "기관총 재장전 2",
-    "description": "기관총 Reload Speed가 +5%p 증가합니다.",
+    "description": "기관총 Reload Speed가 +7.5%p 증가합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -784,15 +818,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:mg_reload_speed",
-          "value": 0.05,
+          "value": 0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "mg_recoil_2": {
     "title": "기관총 반동 제어 2",
-    "description": "기관총 Recoil 배율이 -5%p 감소합니다.",
+    "description": "기관총 Recoil 배율이 -7.5%p 감소합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -805,15 +840,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:mg_recoil",
-          "value": -0.05,
+          "value": -0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "rpg_reload_1": {
     "title": "중화기 재장전 1",
-    "description": "중화기 Reload Speed가 +5%p 증가합니다.",
+    "description": "중화기 Reload Speed가 +7.5%p 증가합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -826,15 +862,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:rpg_reload_speed",
-          "value": 0.05,
+          "value": 0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "rpg_recoil_1": {
     "title": "중화기 반동 제어 1",
-    "description": "중화기 Recoil 배율이 -5%p 감소합니다.",
+    "description": "중화기 Recoil 배율이 -7.5%p 감소합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -847,15 +884,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:rpg_recoil",
-          "value": -0.05,
+          "value": -0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "rpg_reload_2": {
     "title": "중화기 재장전 2",
-    "description": "중화기 Reload Speed가 +5%p 증가합니다.",
+    "description": "중화기 Reload Speed가 +7.5%p 증가합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -868,15 +906,16 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:rpg_reload_speed",
-          "value": 0.05,
+          "value": 0.075,
           "operation": "addition"
         }
       }
     ]
   },
+
   "rpg_recoil_2": {
     "title": "중화기 반동 제어 2",
-    "description": "중화기 Recoil 배율이 -5%p 감소합니다.",
+    "description": "중화기 Recoil 배율이 -7.5%p 감소합니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -889,7 +928,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "tacz_attributes:rpg_recoil",
-          "value": -0.05,
+          "value": -0.075,
           "operation": "addition"
         }
       }
