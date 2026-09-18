@@ -1,0 +1,13 @@
+["Client-side Configurations"]
+	#Should the weapon attack effects be visible on first person mode?
+	"Is Visible?" = true
+	#Defines if your left arm must be shown during the ability casting process.
+	"Show Left Arm" = false
+	#Defines if your right arm must be shown during the ability casting process.
+	"Show Right Arm" = false
+	#Should chant messages be displayed?
+	"Enable Chant Messages" = true
+	#How solid the Keres slash and rend visuals are. 1.0 is fully opaque, 0.0 is invisible.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	"Keres Visual Opacity" = 0.5

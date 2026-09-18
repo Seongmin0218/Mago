@@ -133,13 +133,13 @@
     "curseForgeHash": 3393582203,
     "modrinthHash": "6b78726b46885cdd3ecd9fdaf3bb39f211f99c42"
   },
-  "architectury-13.0.8-neoforge.jar": {
-    "jarName": "architectury-13.0.8-neoforge.jar",
+  "architectury-13.0.11-neoforge.jar": {
+    "jarName": "architectury-13.0.11-neoforge.jar",
     "modId": "architectury",
     "name": "Architectury",
-    "version": "13.0.8",
-    "curseForgeHash": 418634412,
-    "modrinthHash": "6ca11d3cc136bf69bb8f4d56982481eb85b5100b"
+    "version": "13.0.11",
+    "curseForgeHash": 3623028036,
+    "modrinthHash": "008656a0702801174b8ec245ed7aad1921d6e9f1"
   },
   "artifacts-neoforge-13.2.1.jar": {
     "jarName": "artifacts-neoforge-13.2.1.jar",
@@ -349,6 +349,14 @@
     "curseForgeHash": 1078407160,
     "modrinthHash": "f5a93ef392c44ffb18792ea17104cb6da0d2ddf5"
   },
+  "celestisynth-1.21.1-1.3.9.jar": {
+    "jarName": "celestisynth-1.21.1-1.3.9.jar",
+    "modId": "celestisynth",
+    "name": "Celestisynth",
+    "version": "1.21.1-1.3.9",
+    "curseForgeHash": 2781213424,
+    "modrinthHash": "f34c317e9394314446813f9c9d46f16e9c0ba745"
+  },
   "charginggadgets-1.14.1.jar": {
     "jarName": "charginggadgets-1.14.1.jar",
     "modId": "charginggadgets",
@@ -356,14 +364,6 @@
     "version": "1.14.1",
     "curseForgeHash": 312239514,
     "modrinthHash": "3208ea2ca10d786895d03c2cd3a124d14393b357"
-  },
-  "chefsdelight-1.0.5-neoforge-1.21.1.jar": {
-    "jarName": "chefsdelight-1.0.5-neoforge-1.21.1.jar",
-    "modId": "chefsdelight",
-    "name": "Chefs Delight",
-    "version": "1.0.5",
-    "curseForgeHash": 172362129,
-    "modrinthHash": "2ee0923d811a15e1d9dab536a940e4ac0143a4fa"
   },
   "Chunky-NeoForge-1.4.23.jar": {
     "jarName": "Chunky-NeoForge-1.4.23.jar",
@@ -628,14 +628,6 @@
     "curseForgeHash": 2256721129,
     "modrinthHash": "9726fced4bf86c9e2c0ea09b35bc39ed3ac007b6"
   },
-  "create_rustic_structures-1.0.1-neoforge-1.21.1.jar": {
-    "jarName": "create_rustic_structures-1.0.1-neoforge-1.21.1.jar",
-    "modId": "create_rustic_structures",
-    "name": "Create: Rustic Structures",
-    "version": "1.0.1",
-    "curseForgeHash": 1838144713,
-    "modrinthHash": "f8f8dea6a23f697c3f27196627bdf77d9147b8e4"
-  },
   "create_simulated_thrusters-1.21.1-NeoForge-1.1.1.jar": {
     "jarName": "create_simulated_thrusters-1.21.1-NeoForge-1.1.1.jar",
     "modId": "create_simulated_thrusters",
@@ -650,14 +642,6 @@
     "name": "Create Oh The Biomes We ve Gone Compat",
     "curseForgeHash": 1157685908,
     "modrinthHash": "401e8b83ab79c13bf71ba6209f4c8c487c001b38"
-  },
-  "create_structures_arise-176.49.48 NeoForge 1.21.1.jar": {
-    "jarName": "create_structures_arise-176.49.48 NeoForge 1.21.1.jar",
-    "modId": "create_structures_arise",
-    "name": "Create: Structures Arise",
-    "version": "176.49.48",
-    "curseForgeHash": 3471340434,
-    "modrinthHash": "48f22eb339299d832f66d39fecee2ca26880b574"
   },
   "create_the_air_wars-4.01.jar": {
     "jarName": "create_the_air_wars-4.01.jar",
@@ -755,14 +739,6 @@
     "curseForgeHash": 1693188569,
     "modrinthHash": "c0427a7f657f583694e485186621bdeda16ca8dd"
   },
-  "createendertransmission-2.1.1-1.21.1.jar": {
-    "jarName": "createendertransmission-2.1.1-1.21.1.jar",
-    "modId": "createendertransmission",
-    "name": "Create Ender Transmission",
-    "version": "2.1.1-1.21.1",
-    "curseForgeHash": 2211549688,
-    "modrinthHash": "fbf165d068a3a9c6d24f1bcf68fb1af380ee2603"
-  },
   "createfurnitureseats-4.8.17.jar": {
     "jarName": "createfurnitureseats-4.8.17.jar",
     "modId": "createfurnitureseats",
@@ -858,22 +834,6 @@
     "version": "1.4.1",
     "curseForgeHash": 1323964125,
     "modrinthHash": "b6094adde68bd4b909bc75c64901e1f3fb99ad8f"
-  },
-  "deeperenderelytra-1.1-1.21.1.jar": {
-    "jarName": "deeperenderelytra-1.1-1.21.1.jar",
-    "modId": "deeperenderelytra",
-    "name": "Ignitium Soul Elytra Chestplate Addon",
-    "version": "1.1-1.21.1",
-    "curseForgeHash": 2727182113,
-    "modrinthHash": "204f1128486215c97b0c438fe93a0542b8235de0"
-  },
-  "Design-n-Decor-1.21.1-2.2b.jar": {
-    "jarName": "Design-n-Decor-1.21.1-2.2b.jar",
-    "modId": "dndecor",
-    "name": "Design n\u0027 Decor",
-    "version": "2.2b",
-    "curseForgeHash": 3871573007,
-    "modrinthHash": "ff5f0411a3d82e15d69b65617128f6d54e818e1b"
   },
   "Diet-1.21.1-NeoForge.jar": {
     "jarName": "Diet-1.21.1-NeoForge.jar",
@@ -2128,6 +2088,14 @@
     "curseForgeHash": 1144299219,
     "modrinthHash": "477491967d43a5fd5af1a14f35ee67342a034c09"
   },
+  "SimplyBows-neoforge-0.1.4.jar": {
+    "jarName": "SimplyBows-neoforge-0.1.4.jar",
+    "modId": "simplybows",
+    "name": "Simply Bows",
+    "version": "0.1.4",
+    "curseForgeHash": 1599019340,
+    "modrinthHash": "297383feba3332d0255028af86d12f0f96239a1a"
+  },
   "simplycataclysm-1.0.2+1.21.1+neoforge.jar": {
     "jarName": "simplycataclysm-1.0.2+1.21.1+neoforge.jar",
     "modId": "simplycataclysm",
@@ -2136,21 +2104,21 @@
     "curseForgeHash": 1381123540,
     "modrinthHash": "a2aa0f82ae3a9be2f43a4d47b3cb2201dd4e1469"
   },
-  "simplyswords-neoforge-1.63.0-1.21.1.jar": {
-    "jarName": "simplyswords-neoforge-1.63.0-1.21.1.jar",
+  "simplyswords-neoforge-1.70.2-1.21.1.jar": {
+    "jarName": "simplyswords-neoforge-1.70.2-1.21.1.jar",
     "modId": "simplyswords",
     "name": "Simply Swords",
-    "version": "1.63.0-1.21.1",
-    "curseForgeHash": 3915563349,
-    "modrinthHash": "7dd9bdbc601f8d8a8e5bbe2d2db5343321ee2fb4"
+    "version": "1.70.2-1.21.1",
+    "curseForgeHash": 603617702,
+    "modrinthHash": "05b074ff774467f1fe9fb5592151b7845c321cbc"
   },
-  "SimplyTooltips-neoforge-0.1.3.jar": {
-    "jarName": "SimplyTooltips-neoforge-0.1.3.jar",
+  "SimplyTooltips-neoforge-0.1.5.jar": {
+    "jarName": "SimplyTooltips-neoforge-0.1.5.jar",
     "modId": "simplytooltips",
     "name": "Simply Tooltips",
-    "version": "0.1.3",
-    "curseForgeHash": 1710669293,
-    "modrinthHash": "2bbc2c8b5eb0fcc7ece66e336639a4fd554fd746"
+    "version": "0.1.5",
+    "curseForgeHash": 1355545716,
+    "modrinthHash": "6227453d5b628b1009d6ec516a0da5b588849744"
   },
   "smartfeedingtroughs-neoforge-1.21.1-1.2.0.jar": {
     "jarName": "smartfeedingtroughs-neoforge-1.21.1-1.2.0.jar",
@@ -2536,14 +2504,6 @@
     "curseForgeHash": 2260293263,
     "modrinthHash": "54ab65d697b416278f0abf716a71fd18652af128"
   },
-  "update_2.jar": {
-    "jarName": "update_2.jar",
-    "modId": "frenchdelight",
-    "name": "French Delight",
-    "version": "1.0.0",
-    "curseForgeHash": 3311444242,
-    "modrinthHash": "127a1d45a72580aaf7c3e8cf2ae38aae43b96d77"
-  },
   "uranus-2.4.1-1.21.1-neoforge.jar": {
     "jarName": "uranus-2.4.1-1.21.1-neoforge.jar",
     "modId": "uranus",
@@ -2679,22 +2639,6 @@
     "version": "1.21.1-NeoForge-4.1.5",
     "curseForgeHash": 2217761040,
     "modrinthHash": "90529257dbd92558998c65178294bc7b2fd16a64"
-  },
-  "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar": {
-    "jarName": "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
-    "modId": "betterdungeons",
-    "name": "YUNG\u0027s Better Dungeons",
-    "version": "1.21.1-NeoForge-5.1.4",
-    "curseForgeHash": 3658552071,
-    "modrinthHash": "73a660c13063450e555e5e2c015ae24d606b32b4"
-  },
-  "YungsBetterEndIsland-1.21.1-NeoForge-3.1.2.jar": {
-    "jarName": "YungsBetterEndIsland-1.21.1-NeoForge-3.1.2.jar",
-    "modId": "betterendisland",
-    "name": "YUNG\u0027s Better End Island",
-    "version": "1.21.1-NeoForge-3.1.2",
-    "curseForgeHash": 725384001,
-    "modrinthHash": "832f2c17425debe74a9f267f4136f1a0f0221d19"
   },
   "YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar": {
     "jarName": "YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar",

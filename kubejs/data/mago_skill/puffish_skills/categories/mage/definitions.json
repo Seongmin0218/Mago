@@ -1,7 +1,7 @@
 {
   "school_fire": {
     "title": "화염 학파",
-    "description": "화염 학파의 기본 사용권을 선택합니다. 최초 선택용 노드이며 추가 학파는 별도 시스템 권한으로 개방됩니다.",
+    "description": "화염 학파의 최초 사용권을 선택합니다. 최초 학파 선택 후 다른 기본 학파 root는 잠기며, 제2·제3학파는 개방권/NPC 시스템으로 추가됩니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -16,12 +16,19 @@
           "unlock_command": "tag @s add mago_magic_school_fire",
           "lock_command": "tag @s remove mago_magic_school_fire"
         }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_magic_primary_fire",
+          "lock_command": "tag @s remove mago_magic_primary_fire"
+        }
       }
     ]
   },
   "school_hydro": {
     "title": "Hydro 학파",
-    "description": "Hydro 학파의 기본 사용권을 선택합니다. 최초 선택용 노드이며 추가 학파는 별도 시스템 권한으로 개방됩니다.",
+    "description": "Hydro 학파의 최초 사용권을 선택합니다. 최초 학파 선택 후 다른 기본 학파 root는 잠기며, 제2·제3학파는 개방권/NPC 시스템으로 추가됩니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -36,12 +43,19 @@
           "unlock_command": "tag @s add mago_magic_school_hydro",
           "lock_command": "tag @s remove mago_magic_school_hydro"
         }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_magic_primary_hydro",
+          "lock_command": "tag @s remove mago_magic_primary_hydro"
+        }
       }
     ]
   },
   "school_nature": {
     "title": "자연 학파",
-    "description": "자연 학파의 기본 사용권을 선택합니다. 최초 선택용 노드이며 추가 학파는 별도 시스템 권한으로 개방됩니다.",
+    "description": "자연 학파의 최초 사용권을 선택합니다. 최초 학파 선택 후 다른 기본 학파 root는 잠기며, 제2·제3학파는 개방권/NPC 시스템으로 추가됩니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -56,12 +70,19 @@
           "unlock_command": "tag @s add mago_magic_school_nature",
           "lock_command": "tag @s remove mago_magic_school_nature"
         }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_magic_primary_nature",
+          "lock_command": "tag @s remove mago_magic_primary_nature"
+        }
       }
     ]
   },
   "school_geo": {
     "title": "Geo 학파",
-    "description": "Geo 학파의 기본 사용권을 선택합니다. 최초 선택용 노드이며 추가 학파는 별도 시스템 권한으로 개방됩니다.",
+    "description": "Geo 학파의 최초 사용권을 선택합니다. 최초 학파 선택 후 다른 기본 학파 root는 잠기며, 제2·제3학파는 개방권/NPC 시스템으로 추가됩니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -76,12 +97,19 @@
           "unlock_command": "tag @s add mago_magic_school_geo",
           "lock_command": "tag @s remove mago_magic_school_geo"
         }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_magic_primary_geo",
+          "lock_command": "tag @s remove mago_magic_primary_geo"
+        }
       }
     ]
   },
   "school_lightning": {
     "title": "번개 학파",
-    "description": "번개 학파의 기본 사용권을 선택합니다. 최초 선택용 노드이며 추가 학파는 별도 시스템 권한으로 개방됩니다.",
+    "description": "번개 학파의 최초 사용권을 선택합니다. 최초 학파 선택 후 다른 기본 학파 root는 잠기며, 제2·제3학파는 개방권/NPC 시스템으로 추가됩니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -96,12 +124,19 @@
           "unlock_command": "tag @s add mago_magic_school_lightning",
           "lock_command": "tag @s remove mago_magic_school_lightning"
         }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_magic_primary_lightning",
+          "lock_command": "tag @s remove mago_magic_primary_lightning"
+        }
       }
     ]
   },
   "school_ice": {
     "title": "얼음 학파",
-    "description": "얼음 학파의 기본 사용권을 선택합니다. 최초 선택용 노드이며 추가 학파는 별도 시스템 권한으로 개방됩니다.",
+    "description": "얼음 학파의 최초 사용권을 선택합니다. 최초 학파 선택 후 다른 기본 학파 root는 잠기며, 제2·제3학파는 개방권/NPC 시스템으로 추가됩니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -116,12 +151,19 @@
           "unlock_command": "tag @s add mago_magic_school_ice",
           "lock_command": "tag @s remove mago_magic_school_ice"
         }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_magic_primary_ice",
+          "lock_command": "tag @s remove mago_magic_primary_ice"
+        }
       }
     ]
   },
   "school_ender": {
     "title": "엔더 학파",
-    "description": "엔더 학파의 기본 사용권을 선택합니다. 최초 선택용 노드이며 추가 학파는 별도 시스템 권한으로 개방됩니다.",
+    "description": "엔더 학파의 최초 사용권을 선택합니다. 최초 학파 선택 후 다른 기본 학파 root는 잠기며, 제2·제3학파는 개방권/NPC 시스템으로 추가됩니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -136,12 +178,19 @@
           "unlock_command": "tag @s add mago_magic_school_ender",
           "lock_command": "tag @s remove mago_magic_school_ender"
         }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_magic_primary_ender",
+          "lock_command": "tag @s remove mago_magic_primary_ender"
+        }
       }
     ]
   },
   "school_holy": {
     "title": "신성 학파",
-    "description": "신성 학파의 기본 사용권을 선택합니다. 최초 선택용 노드이며 추가 학파는 별도 시스템 권한으로 개방됩니다.",
+    "description": "신성 학파의 최초 사용권을 선택합니다. 최초 학파 선택 후 다른 기본 학파 root는 잠기며, 제2·제3학파는 개방권/NPC 시스템으로 추가됩니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -156,12 +205,19 @@
           "unlock_command": "tag @s add mago_magic_school_holy",
           "lock_command": "tag @s remove mago_magic_school_holy"
         }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_magic_primary_holy",
+          "lock_command": "tag @s remove mago_magic_primary_holy"
+        }
       }
     ]
   },
   "school_summon": {
     "title": "소환 학파",
-    "description": "소환 학파의 기본 사용권을 선택합니다. 최초 선택용 노드이며 추가 학파는 별도 시스템 권한으로 개방됩니다.",
+    "description": "소환 학파의 최초 사용권을 선택합니다. 최초 학파 선택 후 다른 기본 학파 root는 잠기며, 제2·제3학파는 개방권/NPC 시스템으로 추가됩니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -176,12 +232,19 @@
           "unlock_command": "tag @s add mago_magic_school_summon",
           "lock_command": "tag @s remove mago_magic_school_summon"
         }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_magic_primary_summon",
+          "lock_command": "tag @s remove mago_magic_primary_summon"
+        }
       }
     ]
   },
   "school_melody": {
     "title": "멜로디 학파",
-    "description": "멜로디 학파의 기본 사용권을 선택합니다. 최초 선택용 노드이며 추가 학파는 별도 시스템 권한으로 개방됩니다.",
+    "description": "멜로디 학파의 최초 사용권을 선택합니다. 최초 학파 선택 후 다른 기본 학파 root는 잠기며, 제2·제3학파는 개방권/NPC 시스템으로 추가됩니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -196,12 +259,19 @@
           "unlock_command": "tag @s add mago_magic_school_melody",
           "lock_command": "tag @s remove mago_magic_school_melody"
         }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_magic_primary_melody",
+          "lock_command": "tag @s remove mago_magic_primary_melody"
+        }
       }
     ]
   },
   "school_wind": {
     "title": "바람 학파",
-    "description": "바람 학파의 기본 사용권을 선택합니다. 최초 선택용 노드이며 추가 학파는 별도 시스템 권한으로 개방됩니다.",
+    "description": "바람 학파의 최초 사용권을 선택합니다. 최초 학파 선택 후 다른 기본 학파 root는 잠기며, 제2·제3학파는 개방권/NPC 시스템으로 추가됩니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -215,6 +285,13 @@
         "data": {
           "unlock_command": "tag @s add mago_magic_school_wind",
           "lock_command": "tag @s remove mago_magic_school_wind"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_magic_primary_wind",
+          "lock_command": "tag @s remove mago_magic_primary_wind"
         }
       }
     ]

@@ -1,0 +1,72 @@
+{
+  "level_limit": 30,
+  "experience_per_level": {
+    "type": "values",
+    "data": {
+      "values": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        200,
+        300,
+        300,
+        300,
+        300,
+        300,
+        300,
+        300,
+        300,
+        300,
+        300
+      ]
+    }
+  },
+  "sources": [
+    {
+      "type": "puffish_skills:deal_damage",
+      "data": {
+        "variables": {
+          "damage": {
+            "operations": [
+              {
+                "type": "get_dealt_damage"
+              }
+            ]
+          },
+          "is_melee": {
+            "operations": [
+              {
+                "type": "get_damage_source"
+              },
+              {
+                "type": "puffish_skills:is_melee"
+              }
+            ]
+          }
+        },
+        "experience": [
+          {
+            "condition": "is_melee",
+            "expression": "damage * 0.25"
+          }
+        ]
+      }
+    }
+  ]
+}

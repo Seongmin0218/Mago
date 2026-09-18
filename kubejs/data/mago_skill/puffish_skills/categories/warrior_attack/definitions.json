@@ -1,0 +1,1283 @@
+{
+  "start": {
+    "title": "공격계 전사",
+    "description": "공격계 전사 전문화의 시작점입니다. 일반 근접무기 사용 자체를 제한하지 않습니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 0,
+    "required_skills": 0,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add mago_warrior_attack_active",
+          "lock_command": "tag @s remove mago_warrior_attack_active"
+        }
+      }
+    ]
+  },
+  "attack_damage_1": {
+    "title": "근접 화력 I",
+    "description": "공격력이 약 +3.05% 증가합니다. 이 줄기만 누적 시 약 +3.0%. 특화 줄기에 진입하기 위한 공통 공격 줄기입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 0.030465311786347593,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_damage_2": {
+    "title": "근접 화력 II",
+    "description": "공격력이 약 +3.05% 증가합니다. 이 줄기만 누적 시 약 +6.2%. 특화 줄기에 진입하기 위한 공통 공격 줄기입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stone_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 0.030465311786347593,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_damage_3": {
+    "title": "근접 화력 III",
+    "description": "공격력이 약 +3.05% 증가합니다. 이 줄기만 누적 시 약 +9.4%. 특화 줄기에 진입하기 위한 공통 공격 줄기입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 0.030465311786347593,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_damage_4": {
+    "title": "근접 화력 IV",
+    "description": "공격력이 약 +3.05% 증가합니다. 이 줄기만 누적 시 약 +12.8%. 특화 줄기에 진입하기 위한 공통 공격 줄기입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 0.030465311786347593,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_damage_5": {
+    "title": "근접 화력 V",
+    "description": "공격력이 약 +3.05% 증가합니다. 이 줄기만 누적 시 약 +16.2%. 특화 줄기에 진입하기 위한 공통 공격 줄기입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 0.030465311786347593,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_damage_6": {
+    "title": "근접 화력 VI",
+    "description": "공격력이 약 +3.05% 증가합니다. 이 줄기만 누적 시 약 +19.7%. 특화 줄기에 진입하기 위한 공통 공격 줄기입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_axe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 0.030465311786347593,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_damage_7": {
+    "title": "근접 화력 VII",
+    "description": "공격력이 약 +3.05% 증가합니다. 이 줄기만 누적 시 약 +23.4%. 특화 줄기에 진입하기 위한 공통 공격 줄기입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_axe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 0.030465311786347593,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_damage_8": {
+    "title": "근접 화력 VIII",
+    "description": "공격력이 약 +3.05% 증가합니다. 이 줄기만 누적 시 약 +27.1%. 특화 줄기에 진입하기 위한 공통 공격 줄기입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 0.030465311786347593,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_damage_9": {
+    "title": "근접 화력 IX",
+    "description": "공격력이 약 +3.05% 증가합니다. 이 줄기만 누적 시 약 +31.0%. 특화 줄기에 진입하기 위한 공통 공격 줄기입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_axe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 0.030465311786347593,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_damage_10": {
+    "title": "근접 화력 X",
+    "description": "공격력이 약 +3.05% 증가합니다. 이 줄기만 누적 시 약 +35.0%. 특화 줄기에 진입하기 위한 공통 공격 줄기입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 0.030465311786347593,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "crit_chance_1": {
+    "title": "치명타 확률 I",
+    "description": "치명타 확률가 +10%p 증가합니다. 이 줄기 누적: +10%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:flint"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_chance_2": {
+    "title": "치명타 확률 II",
+    "description": "치명타 확률가 +10%p 증가합니다. 이 줄기 누적: +20%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_nugget"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_chance_3": {
+    "title": "치명타 확률 III",
+    "description": "치명타 확률가 +10%p 증가합니다. 이 줄기 누적: +30%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gold_nugget"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_chance_4": {
+    "title": "치명타 확률 IV",
+    "description": "치명타 확률가 +10%p 증가합니다. 이 줄기 누적: +40%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:quartz"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_chance_5": {
+    "title": "치명타 확률 V",
+    "description": "치명타 확률가 +10%p 증가합니다. 이 줄기 누적: +50%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_chance_6": {
+    "title": "치명타 확률 VI",
+    "description": "치명타 확률가 +10%p 증가합니다. 이 줄기 누적: +60%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:emerald"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_chance_7": {
+    "title": "치명타 확률 VII",
+    "description": "치명타 확률가 +10%p 증가합니다. 이 줄기 누적: +70%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_chance_8": {
+    "title": "치명타 확률 VIII",
+    "description": "치명타 확률가 +10%p 증가합니다. 이 줄기 누적: +80%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_chance_9": {
+    "title": "치명타 확률 IX",
+    "description": "치명타 확률가 +10%p 증가합니다. 이 줄기 누적: +90%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_chance_10": {
+    "title": "치명타 확률 X",
+    "description": "치명타 확률가 +10%p 증가합니다. 이 줄기 누적: +100%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_damage_1": {
+    "title": "치명타 피해 I",
+    "description": "치명타 피해가 +3%p 증가합니다. 이 줄기 누적: +3%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_damage_2": {
+    "title": "치명타 피해 II",
+    "description": "치명타 피해가 +3%p 증가합니다. 이 줄기 누적: +6%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_axe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_damage_3": {
+    "title": "치명타 피해 III",
+    "description": "치명타 피해가 +3%p 증가합니다. 이 줄기 누적: +9%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_axe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_damage_4": {
+    "title": "치명타 피해 IV",
+    "description": "치명타 피해가 +3%p 증가합니다. 이 줄기 누적: +12%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_axe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_damage_5": {
+    "title": "치명타 피해 V",
+    "description": "치명타 피해가 +3%p 증가합니다. 이 줄기 누적: +15%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_damage_6": {
+    "title": "치명타 피해 VI",
+    "description": "치명타 피해가 +3%p 증가합니다. 이 줄기 누적: +18%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:pointed_dripstone"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_damage_7": {
+    "title": "치명타 피해 VII",
+    "description": "치명타 피해가 +3%p 증가합니다. 이 줄기 누적: +21%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_damage_8": {
+    "title": "치명타 피해 VIII",
+    "description": "치명타 피해가 +3%p 증가합니다. 이 줄기 누적: +24%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_damage_9": {
+    "title": "치명타 피해 IX",
+    "description": "치명타 피해가 +3%p 증가합니다. 이 줄기 누적: +27%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:dragon_breath"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "crit_damage_10": {
+    "title": "치명타 피해 X",
+    "description": "치명타 피해가 +3%p 증가합니다. 이 줄기 누적: +30%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_axe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_damage",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "attack_speed_1": {
+    "title": "공격속도 I",
+    "description": "공격속도가 약 +3.05% 증가합니다. 이 줄기만 누적 시 약 +3.0%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.030465311786347593,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_speed_2": {
+    "title": "공격속도 II",
+    "description": "공격속도가 약 +3.05% 증가합니다. 이 줄기만 누적 시 약 +6.2%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.030465311786347593,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_speed_3": {
+    "title": "공격속도 III",
+    "description": "공격속도가 약 +3.05% 증가합니다. 이 줄기만 누적 시 약 +9.4%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.030465311786347593,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_speed_4": {
+    "title": "공격속도 IV",
+    "description": "공격속도가 약 +3.05% 증가합니다. 이 줄기만 누적 시 약 +12.8%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.030465311786347593,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_speed_5": {
+    "title": "공격속도 V",
+    "description": "공격속도가 약 +3.05% 증가합니다. 이 줄기만 누적 시 약 +16.2%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wind_charge"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.030465311786347593,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_speed_6": {
+    "title": "공격속도 VI",
+    "description": "공격속도가 약 +3.05% 증가합니다. 이 줄기만 누적 시 약 +19.7%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.030465311786347593,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_speed_7": {
+    "title": "공격속도 VII",
+    "description": "공격속도가 약 +3.05% 증가합니다. 이 줄기만 누적 시 약 +23.4%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:phantom_membrane"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.030465311786347593,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_speed_8": {
+    "title": "공격속도 VIII",
+    "description": "공격속도가 약 +3.05% 증가합니다. 이 줄기만 누적 시 약 +27.1%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.030465311786347593,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_speed_9": {
+    "title": "공격속도 IX",
+    "description": "공격속도가 약 +3.05% 증가합니다. 이 줄기만 누적 시 약 +31.0%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.030465311786347593,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "attack_speed_10": {
+    "title": "공격속도 X",
+    "description": "공격속도가 약 +3.05% 증가합니다. 이 줄기만 누적 시 약 +35.0%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.030465311786347593,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "armor_pierce_1": {
+    "title": "방어 관통 I",
+    "description": "Armor Pierce가 +1 증가합니다. 이 줄기 누적: +1.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:armor_pierce",
+          "value": 1.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_pierce_2": {
+    "title": "방어 관통 II",
+    "description": "Armor Pierce가 +1 증가합니다. 이 줄기 누적: +2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:copper_ingot"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:armor_pierce",
+          "value": 1.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_pierce_3": {
+    "title": "방어 관통 III",
+    "description": "Armor Pierce가 +1 증가합니다. 이 줄기 누적: +3.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:armor_pierce",
+          "value": 1.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_pierce_4": {
+    "title": "방어 관통 IV",
+    "description": "Armor Pierce가 +1 증가합니다. 이 줄기 누적: +4.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:pointed_dripstone"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:armor_pierce",
+          "value": 1.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_pierce_5": {
+    "title": "방어 관통 V",
+    "description": "Armor Pierce가 +1 증가합니다. 이 줄기 누적: +5.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:armor_pierce",
+          "value": 1.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_pierce_6": {
+    "title": "방어 관통 VI",
+    "description": "Armor Pierce가 +1 증가합니다. 이 줄기 누적: +6.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:armor_pierce",
+          "value": 1.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_pierce_7": {
+    "title": "방어 관통 VII",
+    "description": "Armor Pierce가 +1 증가합니다. 이 줄기 누적: +7.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:armor_pierce",
+          "value": 1.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_pierce_8": {
+    "title": "방어 관통 VIII",
+    "description": "Armor Pierce가 +1 증가합니다. 이 줄기 누적: +8.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_scrap"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:armor_pierce",
+          "value": 1.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_pierce_9": {
+    "title": "방어 관통 IX",
+    "description": "Armor Pierce가 +1 증가합니다. 이 줄기 누적: +9.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:armor_pierce",
+          "value": 1.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "armor_pierce_10": {
+    "title": "방어 관통 X",
+    "description": "Armor Pierce가 +1 증가합니다. 이 줄기 누적: +10.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:heavy_core"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:armor_pierce",
+          "value": 1.0,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "sweeping_1": {
+    "title": "휩쓸기 I",
+    "description": "휩쓸기 피해 비율가 +10%p 증가합니다. 이 줄기 누적: +10%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_hoe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.sweeping_damage_ratio",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "sweeping_2": {
+    "title": "휩쓸기 II",
+    "description": "휩쓸기 피해 비율가 +10%p 증가합니다. 이 줄기 누적: +20%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stone_hoe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.sweeping_damage_ratio",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "sweeping_3": {
+    "title": "휩쓸기 III",
+    "description": "휩쓸기 피해 비율가 +10%p 증가합니다. 이 줄기 누적: +30%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_hoe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.sweeping_damage_ratio",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "sweeping_4": {
+    "title": "휩쓸기 IV",
+    "description": "휩쓸기 피해 비율가 +10%p 증가합니다. 이 줄기 누적: +40%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_hoe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.sweeping_damage_ratio",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "sweeping_5": {
+    "title": "휩쓸기 V",
+    "description": "휩쓸기 피해 비율가 +10%p 증가합니다. 이 줄기 누적: +50%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_hoe"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.sweeping_damage_ratio",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "sweeping_6": {
+    "title": "휩쓸기 VI",
+    "description": "휩쓸기 피해 비율가 +10%p 증가합니다. 이 줄기 누적: +60%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.sweeping_damage_ratio",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "sweeping_7": {
+    "title": "휩쓸기 VII",
+    "description": "휩쓸기 피해 비율가 +10%p 증가합니다. 이 줄기 누적: +70%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sculk_sensor"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.sweeping_damage_ratio",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "sweeping_8": {
+    "title": "휩쓸기 VIII",
+    "description": "휩쓸기 피해 비율가 +10%p 증가합니다. 이 줄기 누적: +80%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_cluster"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.sweeping_damage_ratio",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "sweeping_9": {
+    "title": "휩쓸기 IX",
+    "description": "휩쓸기 피해 비율가 +10%p 증가합니다. 이 줄기 누적: +90%p.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.sweeping_damage_ratio",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "sweeping_10": {
+    "title": "휩쓸기 X",
+    "description": "휩쓸기 피해 비율가 +10%p 증가합니다. 이 줄기 누적: +100%p. 100% 초과분의 공격력 치환은 후속 MagoCompat 보정 대상입니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.sweeping_damage_ratio",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  }
+}

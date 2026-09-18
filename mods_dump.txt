@@ -13,7 +13,7 @@ anvilcore-10.1 Release-neoforge-1.21.1.jar
 ApothicAttributes-1.21.1-2.9.1.jar
 appleskin-neoforge-mc1.21-3.0.9.jar
 apprentice_codex-0.9.4.2+mc1.21.1.jar
-architectury-13.0.8-neoforge.jar
+architectury-13.0.11-neoforge.jar
 artifacts-neoforge-13.2.1.jar
 asterismarcanum-1.21.1-0.1.0.jar
 atlas_api-1.21.1-1.2.0.jar
@@ -40,8 +40,8 @@ cataclysm_compat_1.21.1-1.0.2.jar
 cataclysm_spellbooks-1.1.11-1.21.jar
 CBCmoreshells-1.1.5.jar
 cbc_at_Neoforge_1.21.1_0.1.4c.jar
+celestisynth-1.21.1-1.3.9.jar
 charginggadgets-1.14.1.jar
-chefsdelight-1.0.5-neoforge-1.21.1.jar
 Chunky-NeoForge-1.4.23.jar
 citadel-2.7.0-1.21.1.jar
 climbable_ropes-2.1.0.jar
@@ -74,7 +74,6 @@ createbigcannons-5.11.7+mc.1.21.1.jar
 createdeco-2.1.3.jar
 createdieselgenerators-1.21.1-1.3.14.jar
 CreateDragonsPlus-1.11.2b.jar
-createendertransmission-2.1.1-1.21.1.jar
 createfurnitureseats-4.8.17.jar
 createliquidfuel-2.1.1-1.21.1.jar
 createnuclear-1.3.2-beta.3-neoforge.jar
@@ -90,10 +89,8 @@ create_jetpack_curios-1.2.0-neoforge-1.21.1.jar
 create_ltab-4.0.3.jar
 create_pillagers_arise NeoForge 1.21.1-132.36.jar
 create_radar-0.4.9.4-1.21.1.jar
-create_rustic_structures-1.0.1-neoforge-1.21.1.jar
 create_simulated_thrusters-1.21.1-NeoForge-1.1.1.jar
 create_sophback_compat-1.0.jar
-create_structures_arise-176.49.48 NeoForge 1.21.1.jar
 create_the_air_wars-4.01.jar
 create_tweaked_controllers-1.21.1-1.2.7.jar
 create_wizardry-1.21.1-0.5.0.jar
@@ -104,8 +101,6 @@ culturaldelights-0.17.8.jar
 cupboard-1.21.1-3.8.jar
 curios-neoforge-9.5.1+1.21.1.jar
 deeperdarker-neoforge-1.21.1-1.4.1.jar
-deeperenderelytra-1.1-1.21.1.jar
-Design-n-Decor-1.21.1-2.2b.jar
 Diet-1.21.1-NeoForge.jar
 dirigo-neoforge-1.21.1-1.3.0.jar
 discerning_the_eldritch-1.4.3-1.21.jar
@@ -263,9 +258,10 @@ Searchables-neoforge-1.21.1-1.0.2.jar
 security_create-1.0.0-neoforge-1.21.1.jar
 SereneSeasons-neoforge-1.21.1-10.1.0.3.jar
 shield_generators-1.3.0.jar
+SimplyBows-neoforge-0.1.4.jar
 simplycataclysm-1.0.2+1.21.1+neoforge.jar
-simplyswords-neoforge-1.63.0-1.21.1.jar
-SimplyTooltips-neoforge-0.1.3.jar
+simplyswords-neoforge-1.70.2-1.21.1.jar
+SimplyTooltips-neoforge-0.1.5.jar
 smartfeedingtroughs-neoforge-1.21.1-1.2.0.jar
 snatched-1.2.0-neoforge-1.21.1.jar
 sodium-neoforge-0.8.12-beta.2+mc1.21.1.jar
@@ -314,7 +310,6 @@ twilight_spellbooks-1.2.0.jar
 txnilib-neoforge-1.0.24-1.21.1.jar
 t_and_t-neoforge-fabric-1.13.9+1.21.1.jar
 UniversalEnchants-v21.1.6-1.21.1-NeoForge.jar
-update_2.jar
 uranus-2.4.1-1.21.1-neoforge.jar
 villagertools-1.21.1-1.0.4.jar
 vista-neoforge-1.21.1-5.0.4.jar
@@ -332,8 +327,6 @@ ysm-2.6.5-neoforge+mc1.21.1-release.jar
 YungsApi-1.21.1-NeoForge-5.1.6.jar
 YungsBetterCaves-1.21.1-NeoForge-3.1.4.jar
 YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar
-YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar
-YungsBetterEndIsland-1.21.1-NeoForge-3.1.2.jar
 YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar
 YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar
 YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar

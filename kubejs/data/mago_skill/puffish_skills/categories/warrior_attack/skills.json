@@ -1,0 +1,368 @@
+{
+  "warrior_attack_start": {
+    "definition": "start",
+    "x": 0,
+    "y": -620,
+    "root": true
+  },
+  "warrior_attack_damage_1": {
+    "definition": "attack_damage_1",
+    "x": 0,
+    "y": -560,
+    "root": false
+  },
+  "warrior_attack_damage_2": {
+    "definition": "attack_damage_2",
+    "x": 0,
+    "y": -502,
+    "root": false
+  },
+  "warrior_attack_damage_3": {
+    "definition": "attack_damage_3",
+    "x": 0,
+    "y": -444,
+    "root": false
+  },
+  "warrior_attack_damage_4": {
+    "definition": "attack_damage_4",
+    "x": 0,
+    "y": -386,
+    "root": false
+  },
+  "warrior_attack_damage_5": {
+    "definition": "attack_damage_5",
+    "x": 0,
+    "y": -328,
+    "root": false
+  },
+  "warrior_attack_damage_6": {
+    "definition": "attack_damage_6",
+    "x": 0,
+    "y": -270,
+    "root": false
+  },
+  "warrior_attack_damage_7": {
+    "definition": "attack_damage_7",
+    "x": 0,
+    "y": -212,
+    "root": false
+  },
+  "warrior_attack_damage_8": {
+    "definition": "attack_damage_8",
+    "x": 0,
+    "y": -154,
+    "root": false
+  },
+  "warrior_attack_damage_9": {
+    "definition": "attack_damage_9",
+    "x": 0,
+    "y": -96,
+    "root": false
+  },
+  "warrior_attack_damage_10": {
+    "definition": "attack_damage_10",
+    "x": 0,
+    "y": -38,
+    "root": false
+  },
+  "warrior_crit_chance_1": {
+    "definition": "crit_chance_1",
+    "x": -480,
+    "y": 80,
+    "root": false
+  },
+  "warrior_crit_chance_2": {
+    "definition": "crit_chance_2",
+    "x": -480,
+    "y": 138,
+    "root": false
+  },
+  "warrior_crit_chance_3": {
+    "definition": "crit_chance_3",
+    "x": -480,
+    "y": 196,
+    "root": false
+  },
+  "warrior_crit_chance_4": {
+    "definition": "crit_chance_4",
+    "x": -480,
+    "y": 254,
+    "root": false
+  },
+  "warrior_crit_chance_5": {
+    "definition": "crit_chance_5",
+    "x": -480,
+    "y": 312,
+    "root": false
+  },
+  "warrior_crit_chance_6": {
+    "definition": "crit_chance_6",
+    "x": -480,
+    "y": 370,
+    "root": false
+  },
+  "warrior_crit_chance_7": {
+    "definition": "crit_chance_7",
+    "x": -480,
+    "y": 428,
+    "root": false
+  },
+  "warrior_crit_chance_8": {
+    "definition": "crit_chance_8",
+    "x": -480,
+    "y": 486,
+    "root": false
+  },
+  "warrior_crit_chance_9": {
+    "definition": "crit_chance_9",
+    "x": -480,
+    "y": 544,
+    "root": false
+  },
+  "warrior_crit_chance_10": {
+    "definition": "crit_chance_10",
+    "x": -480,
+    "y": 602,
+    "root": false
+  },
+  "warrior_crit_damage_1": {
+    "definition": "crit_damage_1",
+    "x": -240,
+    "y": 80,
+    "root": false
+  },
+  "warrior_crit_damage_2": {
+    "definition": "crit_damage_2",
+    "x": -240,
+    "y": 138,
+    "root": false
+  },
+  "warrior_crit_damage_3": {
+    "definition": "crit_damage_3",
+    "x": -240,
+    "y": 196,
+    "root": false
+  },
+  "warrior_crit_damage_4": {
+    "definition": "crit_damage_4",
+    "x": -240,
+    "y": 254,
+    "root": false
+  },
+  "warrior_crit_damage_5": {
+    "definition": "crit_damage_5",
+    "x": -240,
+    "y": 312,
+    "root": false
+  },
+  "warrior_crit_damage_6": {
+    "definition": "crit_damage_6",
+    "x": -240,
+    "y": 370,
+    "root": false
+  },
+  "warrior_crit_damage_7": {
+    "definition": "crit_damage_7",
+    "x": -240,
+    "y": 428,
+    "root": false
+  },
+  "warrior_crit_damage_8": {
+    "definition": "crit_damage_8",
+    "x": -240,
+    "y": 486,
+    "root": false
+  },
+  "warrior_crit_damage_9": {
+    "definition": "crit_damage_9",
+    "x": -240,
+    "y": 544,
+    "root": false
+  },
+  "warrior_crit_damage_10": {
+    "definition": "crit_damage_10",
+    "x": -240,
+    "y": 602,
+    "root": false
+  },
+  "warrior_attack_speed_1": {
+    "definition": "attack_speed_1",
+    "x": 0,
+    "y": 80,
+    "root": false
+  },
+  "warrior_attack_speed_2": {
+    "definition": "attack_speed_2",
+    "x": 0,
+    "y": 138,
+    "root": false
+  },
+  "warrior_attack_speed_3": {
+    "definition": "attack_speed_3",
+    "x": 0,
+    "y": 196,
+    "root": false
+  },
+  "warrior_attack_speed_4": {
+    "definition": "attack_speed_4",
+    "x": 0,
+    "y": 254,
+    "root": false
+  },
+  "warrior_attack_speed_5": {
+    "definition": "attack_speed_5",
+    "x": 0,
+    "y": 312,
+    "root": false
+  },
+  "warrior_attack_speed_6": {
+    "definition": "attack_speed_6",
+    "x": 0,
+    "y": 370,
+    "root": false
+  },
+  "warrior_attack_speed_7": {
+    "definition": "attack_speed_7",
+    "x": 0,
+    "y": 428,
+    "root": false
+  },
+  "warrior_attack_speed_8": {
+    "definition": "attack_speed_8",
+    "x": 0,
+    "y": 486,
+    "root": false
+  },
+  "warrior_attack_speed_9": {
+    "definition": "attack_speed_9",
+    "x": 0,
+    "y": 544,
+    "root": false
+  },
+  "warrior_attack_speed_10": {
+    "definition": "attack_speed_10",
+    "x": 0,
+    "y": 602,
+    "root": false
+  },
+  "warrior_armor_pierce_1": {
+    "definition": "armor_pierce_1",
+    "x": 240,
+    "y": 80,
+    "root": false
+  },
+  "warrior_armor_pierce_2": {
+    "definition": "armor_pierce_2",
+    "x": 240,
+    "y": 138,
+    "root": false
+  },
+  "warrior_armor_pierce_3": {
+    "definition": "armor_pierce_3",
+    "x": 240,
+    "y": 196,
+    "root": false
+  },
+  "warrior_armor_pierce_4": {
+    "definition": "armor_pierce_4",
+    "x": 240,
+    "y": 254,
+    "root": false
+  },
+  "warrior_armor_pierce_5": {
+    "definition": "armor_pierce_5",
+    "x": 240,
+    "y": 312,
+    "root": false
+  },
+  "warrior_armor_pierce_6": {
+    "definition": "armor_pierce_6",
+    "x": 240,
+    "y": 370,
+    "root": false
+  },
+  "warrior_armor_pierce_7": {
+    "definition": "armor_pierce_7",
+    "x": 240,
+    "y": 428,
+    "root": false
+  },
+  "warrior_armor_pierce_8": {
+    "definition": "armor_pierce_8",
+    "x": 240,
+    "y": 486,
+    "root": false
+  },
+  "warrior_armor_pierce_9": {
+    "definition": "armor_pierce_9",
+    "x": 240,
+    "y": 544,
+    "root": false
+  },
+  "warrior_armor_pierce_10": {
+    "definition": "armor_pierce_10",
+    "x": 240,
+    "y": 602,
+    "root": false
+  },
+  "warrior_sweeping_1": {
+    "definition": "sweeping_1",
+    "x": 480,
+    "y": 80,
+    "root": false
+  },
+  "warrior_sweeping_2": {
+    "definition": "sweeping_2",
+    "x": 480,
+    "y": 138,
+    "root": false
+  },
+  "warrior_sweeping_3": {
+    "definition": "sweeping_3",
+    "x": 480,
+    "y": 196,
+    "root": false
+  },
+  "warrior_sweeping_4": {
+    "definition": "sweeping_4",
+    "x": 480,
+    "y": 254,
+    "root": false
+  },
+  "warrior_sweeping_5": {
+    "definition": "sweeping_5",
+    "x": 480,
+    "y": 312,
+    "root": false
+  },
+  "warrior_sweeping_6": {
+    "definition": "sweeping_6",
+    "x": 480,
+    "y": 370,
+    "root": false
+  },
+  "warrior_sweeping_7": {
+    "definition": "sweeping_7",
+    "x": 480,
+    "y": 428,
+    "root": false
+  },
+  "warrior_sweeping_8": {
+    "definition": "sweeping_8",
+    "x": 480,
+    "y": 486,
+    "root": false
+  },
+  "warrior_sweeping_9": {
+    "definition": "sweeping_9",
+    "x": 480,
+    "y": 544,
+    "root": false
+  },
+  "warrior_sweeping_10": {
+    "definition": "sweeping_10",
+    "x": 480,
+    "y": 602,
+    "root": false
+  }
+}

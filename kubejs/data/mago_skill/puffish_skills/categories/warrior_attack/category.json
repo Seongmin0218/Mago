@@ -1,0 +1,14 @@
+{
+  "unlocked_by_default": false,
+  "exclusive_root": false,
+  "starting_points": 0,
+  "title": "전사 · 공격",
+  "description": "근접 공격력 공통 줄기를 성장시킨 뒤 치명타, 공격속도, 방어 관통, 휩쓸기 중 원하는 특화를 선택하는 공격계 전사 전문화입니다.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:netherite_sword"
+    }
+  },
+  "background": "textures/gui/advancements/backgrounds/adventure.png"
+}

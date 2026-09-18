@@ -134,11 +134,6 @@
 	#Block tags (e.g. modid:tag_name) treated as protected storage.
 	protectedStorageTags = ["townstead:protected_food_storage"]
 
-[chefsdelight_compat]
-	#When enabled, Townstead handles cook AI and profession assignment.
-	#When disabled, Chef's Delight handles cooking instead.
-	enableTownsteadCook = true
-
 [roots]
 	#Root ids to disable on this server (e.g. townstead_roots:moon_elf; entries without a namespace assume townstead_roots).
 	#Blocked roots are hidden from the picker and never rolled for naturally spawned villagers.
