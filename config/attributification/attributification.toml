@@ -135,7 +135,7 @@ operationConversion = "ADDITION_TO_MULTIPLY_BASE"
 # Source attribute
 sourceAttribute = "spell_power:water"
 # Target attribute (comma-separated for fallback)
-targetAttribute = "traveloptics:aqua_spell_power, irons_spellbooks:nature_spell_power"
+targetAttribute = "aces_spell_utils:hydro_spell_power, irons_spellbooks:nature_spell_power"
 # Virtual display multiplier
 equivalence = 3.0
 # Modifier conversion divisor (0 = use equivalence)

@@ -24,9 +24,8 @@ function shouldDumpAttribute(idText) {
 
   var relevantNamespace =
     namespace === 'cataclysm_spellbooks' ||
-    namespace === 'aces_spell_utils' ||
-    namespace === 'traveloptics'
-
+    namespace === 'aces_spell_utils'
+    
   var relevantPath =
     path.indexOf('technomancy') >= 0 ||
     path.indexOf('abyssal') >= 0

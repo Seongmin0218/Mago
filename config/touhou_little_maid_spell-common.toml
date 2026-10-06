@@ -193,7 +193,7 @@
 		#馥郁巧思随机正面效果黑名单，黑名单内的效果不会被随机赋予
 		#Fragrant Ingenuity random beneficial effect blacklist
 		#默认值与梦云水晶黑名单相同
-		fragrantIngenuityEffectBlacklist = ["irons_spellbooks:ascension", "irons_spellbooks:burning_dash", "irons_spellbooks:antigravity", "irons_spellbooks:volt_strike", "traveloptics:aqua_missiles_hover", "traveloptics:meteor_storm", "traveloptics:aerial_collapse", "traveloptics:aerial_collapse_helper", "soulsweapons:chungus_tonic_effect", "goety:fire_trail", "goety:charged", "goety:rampage", "goety:shadow_walk", "goety:fiery_aura", "goety:frosty_aura", "minecraft:invisibility", "irons_spellbooks:true_invisibility"]
+		fragrantIngenuityEffectBlacklist = ["irons_spellbooks:ascension", "irons_spellbooks:burning_dash", "irons_spellbooks:antigravity", "irons_spellbooks:volt_strike", "soulsweapons:chungus_tonic_effect", "goety:fire_trail", "goety:charged", "goety:rampage", "goety:shadow_walk", "goety:fiery_aura", "goety:frosty_aura", "minecraft:invisibility", "irons_spellbooks:true_invisibility"]
 
 	#触发机制相关饰品配置
 	#Trigger mechanism bauble configurations
@@ -262,7 +262,7 @@
 		#Dream Crystal random beneficial effect blacklist
 		#支持精确匹配和 regex: 前缀正则匹配
 		#示例: ["minecraft:bad_omen", "regex:irons_spellbooks:.*"]
-		dreamCrystalEffectBlacklist = ["irons_spellbooks:ascension", "irons_spellbooks:burning_dash", "irons_spellbooks:antigravity", "irons_spellbooks:volt_strike", "traveloptics:aqua_missiles_hover", "traveloptics:meteor_storm", "traveloptics:aerial_collapse", "traveloptics:aerial_collapse_helper", "soulsweapons:chungus_tonic_effect", "goety:fire_trail", "goety:charged", "goety:rampage", "goety:shadow_walk", "goety:fiery_aura", "goety:frosty_aura", "minecraft:invisibility", "irons_spellbooks:true_invisibility"]
+		dreamCrystalEffectBlacklist = ["irons_spellbooks:ascension", "irons_spellbooks:burning_dash", "irons_spellbooks:antigravity", "irons_spellbooks:volt_strike", "soulsweapons:chungus_tonic_effect", "goety:fire_trail", "goety:charged", "goety:rampage", "goety:shadow_walk", "goety:fiery_aura", "goety:frosty_aura", "minecraft:invisibility", "irons_spellbooks:true_invisibility"]
 		#
 		#是否启用梦云水晶随机正面效果白名单 (默认: true)
 		#Whether to enable Dream Crystal random beneficial effect whitelist

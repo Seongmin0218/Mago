@@ -5,7 +5,6 @@
 //
 // 목적:
 // - Cataclysm Spellbooks가 등록한 Attribute
-// - T.O Magic 'n Extras (traveloptics)가 등록한 Attribute
 // - namespace와 상관없이 technomancy / abyssal 이름이 들어간 Attribute
 // 를 전부 server.log에 출력한다.
 //
@@ -48,14 +47,6 @@ function magoAttrShouldInclude(id) {
   // Cataclysm Spellbooks 전체 Attribute
   if (
     namespace === 'cataclysm_spellbooks'
-  ) {
-    return true
-  }
-
-
-  // T.O Magic 'n Extras 전체 Attribute
-  if (
-    namespace === 'traveloptics'
   ) {
     return true
   }
@@ -124,7 +115,6 @@ function magoDumpMagicAttributes(ctx) {
 
 
     var cataclysmCount = 0
-    var travelOpticsCount = 0
     var otherCount = 0
 
 
@@ -155,11 +145,6 @@ function magoDumpMagicAttributes(ctx) {
         'cataclysm_spellbooks'
       ) {
         cataclysmCount++
-      } else if (
-        namespace ===
-        'traveloptics'
-      ) {
-        travelOpticsCount++
       } else {
         otherCount++
       }
@@ -183,8 +168,6 @@ function magoDumpMagicAttributes(ctx) {
       '|total=' + ids.length +
       '|cataclysm_spellbooks=' +
         cataclysmCount +
-      '|traveloptics=' +
-        travelOpticsCount +
       '|other_tech_or_abyss=' +
         otherCount
     )

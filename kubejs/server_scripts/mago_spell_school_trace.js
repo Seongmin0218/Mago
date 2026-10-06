@@ -23,7 +23,7 @@
 //   spell.getSchoolType()
 //   실제 게임에서 최종 적용되는 학파
 //
-// 특히 Lightning 및 Technomancy 관련 주문을 전부 출력한다.
+// 특히 Lightning 및 Technomancy 관련 주문을 출력한다.
 
 
 var $MagoTraceSpellRegistry = Java.loadClass(
@@ -98,9 +98,6 @@ function magoTraceSchoolId(school) {
 
 // ============================================================
 // RAW DEFAULT
-//
-// 애드온 주문 클래스가 getDefaultConfig()에서
-// 직접 선언한 schoolResource
 // ============================================================
 
 function magoTraceRawDefaultSchool(spell) {
@@ -124,9 +121,6 @@ function magoTraceRawDefaultSchool(spell) {
 
 // ============================================================
 // CONFIG MANAGER DEFAULT
-//
-// SpellConfigManager 내부에서 해당 주문에 대해
-// 보존하고 있는 기본 학파
 // ============================================================
 
 function magoTraceManagerDefaultSchool(spell) {
@@ -147,8 +141,6 @@ function magoTraceManagerDefaultSchool(spell) {
 
 // ============================================================
 // 최종 RUNTIME
-//
-// 현재 게임이 실제 사용 중인 학파
 // ============================================================
 
 function magoTraceRuntimeSchool(spell) {
@@ -194,28 +186,10 @@ function magoTraceNamespace(spellId) {
 
 
 // ============================================================
-// 우리가 특별히 추적할 Technomancy 후보
-// ============================================================
-
-function magoTraceIsImportantTechSpell(spellId) {
-
-  var important = {
-    'traveloptics:mechanized_predator': true,
-    'traveloptics:death_laser': true,
-    'traveloptics:em_pulse': true,
-    'traveloptics:rapid_laser': true
-  }
-
-  return important[String(spellId)] === true
-}
-
-
-// ============================================================
 // 출력 대상 여부
 //
 // 1. Runtime Lightning
 // 2. 어느 단계든 Technomancy
-// 3. 중요 기계 주문
 // ============================================================
 
 function magoTraceShouldPrint(
@@ -249,12 +223,6 @@ function magoTraceShouldPrint(
     return true
   }
 
-  if (
-    magoTraceIsImportantTechSpell(spellId)
-  ) {
-    return true
-  }
-
   return false
 }
 
@@ -269,7 +237,6 @@ function magoTraceDiagnosis(
   runtimeSchool
 ) {
 
-  // 세 값이 완전히 동일
   if (
     rawDefault === managerDefault &&
     managerDefault === runtimeSchool
@@ -291,8 +258,6 @@ function magoTraceDiagnosis(
   }
 
 
-  // 원본과 Manager 기본값은 같은데
-  // 최종 Runtime만 달라짐
   if (
     rawDefault === managerDefault &&
     managerDefault !== runtimeSchool
@@ -301,7 +266,6 @@ function magoTraceDiagnosis(
   }
 
 
-  // 원본과 Manager 기본값부터 다름
   if (
     rawDefault !== managerDefault
   ) {
@@ -347,8 +311,6 @@ function magoRunSchoolTrace(ctx) {
 
     var technomancyRuntimeCount = 0
 
-    var i
-
 
     magoTraceLog(
       '============================================================'
@@ -362,7 +324,7 @@ function magoRunSchoolTrace(ctx) {
 
 
     for (
-      i = 0;
+      var i = 0;
       i < spellList.length;
       i++
     ) {
@@ -440,15 +402,8 @@ function magoRunSchoolTrace(ctx) {
       printedCount++
 
 
-      var important =
-        magoTraceIsImportantTechSpell(
-          spellId
-        )
-
-
       magoTraceLog(
         'SPELL' +
-        '|important=' + important +
         '|id=' + spellId +
         '|namespace=' + namespace +
         '|class=' + className +
@@ -456,80 +411,6 @@ function magoRunSchoolTrace(ctx) {
         '|manager_default=' + managerDefault +
         '|runtime=' + runtimeSchool +
         '|diagnosis=' + diagnosis
-      )
-    }
-
-
-    // ========================================================
-    // 핵심 주문만 다시 별도 출력
-    // ========================================================
-
-    magoTraceLog(
-      '------------------------------------------------------------'
-    )
-
-    magoTraceLog(
-      'IMPORTANT_TECH_SPELLS'
-    )
-
-
-    for (
-      i = 0;
-      i < spellList.length;
-      i++
-    ) {
-
-      var importantSpell =
-        spellList[i]
-
-      var importantSpellId =
-        magoTraceSpellId(importantSpell)
-
-
-      if (
-        !magoTraceIsImportantTechSpell(
-          importantSpellId
-        )
-      ) {
-        continue
-      }
-
-
-      var importantRaw =
-        magoTraceRawDefaultSchool(
-          importantSpell
-        )
-
-      var importantManager =
-        magoTraceManagerDefaultSchool(
-          importantSpell
-        )
-
-      var importantRuntime =
-        magoTraceRuntimeSchool(
-          importantSpell
-        )
-
-
-      magoTraceLog(
-        'TECH_TARGET' +
-        '|id=' + importantSpellId +
-        '|class=' +
-          magoTraceClassName(
-            importantSpell
-          ) +
-        '|raw_default=' +
-          importantRaw +
-        '|manager_default=' +
-          importantManager +
-        '|runtime=' +
-          importantRuntime +
-        '|diagnosis=' +
-          magoTraceDiagnosis(
-            importantRaw,
-            importantManager,
-            importantRuntime
-          )
       )
     }
 
