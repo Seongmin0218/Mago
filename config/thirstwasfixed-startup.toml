@@ -1,0 +1,150 @@
+[General]
+	#Purity for water that is missing purity. This is used at several places in this mod, such as Fix Cauldrons and Drink Cauldrons
+	#This used to be an option in Thirst was Taken, but it was removed in Thirst was Reclaimed, so it has been added here.
+	# Default: 2
+	# Range: 0 ~ 3
+	"Default Purity" = 2
+	#Whether or not to set water cauldrons without a purity state to the default purity (set above) on chunk load
+	#You should only turn this on if there are already cauldrons in your world that have a purity state of 0 (invalid), otherwise there may be significant performance impact for no reason
+	#This shouldn't be needed for anything else that stores water; water cauldrons are just unusual since their purity is stored in the blockstate
+	"Fix Cauldrons" = false
+	#Whether or not to allow drinking from water cauldrons by right-clicking them with an empty hand
+	#The amount of thirst/quenchness restored is set in the Thirst config handDrinkingHydration and handDrinkingQuenched, and these values are used even if canDrinkByHand is false
+	"Drink Cauldrons" = true
+	#The purity of rain water when it fills a cauldron
+	# Default: 3
+	# Range: 0 ~ 3
+	"Rainwater Purity" = 3
+	#The purity of water when Pointed Dripstone fills a cauldron
+	# Default: 0
+	# Range: 0 ~ 3
+	"Dripstone Purity" = 0
+	#The amount of thirst required to gain a speed bonus
+	#If 0, there will be no speed bonus
+	# Default: 0
+	# Range: 0 ~ 20
+	"Thirst Bonus Requirement" = 0
+	#The amount of speed bonus to give when the Thirst Bonus Requirement is met
+	#This uses the add_multiplied_total operation, so 0.1 = 10% speed increase
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	"Thirst Bonus Value" = 0.1
+	#If true, cauldrons with water in them will have their comparator output replaced to match purity
+	#0 = Invalid/Not Set, 1 = Dirty, 4 = Purified
+	"Cauldron Comparator Purity" = false
+	#Right offset for the quench overlay. You only need this if you have AppleSkin installed and the quench overlay is not aligning with your thirst bar on your HUD for some reason
+	# Default: 0
+	# Range: -100 ~ 100
+	"Quench Overlay Right Offset" = 0
+	#Top offset for the quench overlay
+	# Default: 0
+	# Range: -100 ~ 100
+	"Quench Overlay Top Offset" = 0
+	#The duration, in ticks, of the vanilla Fire Resistance Potion
+	#Leave as default for vanilla value
+	# Default: 3600
+	# Range: 1 ~ 432000
+	"Fire Resistance Duration" = 3600
+	#The duration, in ticks, of the Long Fire Resistance Potion
+	#Leave as default for vanilla value
+	# Default: 9600
+	# Range: 1 ~ 432000
+	"Long Fire Resistance Duration" = 9600
+	#If true, water containing items (water bottles, water buckets, and water bowls) without a purity component will have the purity component added and set to max on inventory tick
+	#(Example of this: water bottles in the creative inventory that have the Purified tooltip but only have 7 components instead of the expected 8)
+	"Enforce Water Container Component" = false
+	#If true, any time a water potion is created (ultimately a water bottle), the stack will also have its purity set
+	#(technical note: this inject is in PotionContents#createItemStack, which other code can act on the return value of.)
+	"Enforce Water Potion Purity" = false
+
+["Ars Nouveau"]
+	#Whether or not the Ars Nouveau Potion Flask should restore thirst when consumed
+	"Potion Flasks Restore Thirst" = true
+	#Whether or not the Ars Nouveau Potion Flask should pick up water from water source blocks like Glass Bottles
+	#Note: Potion flasks, like regular potions, do not store purity, and are always considered 100% pure
+	"Potion Flasks Water Blocks" = true
+	#Whether or not the Ars Nouveau Potion Flask should pick up water from Cauldrons like Glass Bottles
+	"Potion Flasks Cauldron" = true
+	#If true, a potion flask's contents can be discarded by shift-right-clicking it in your off hand while your main hand is empty
+	"Empty Potion Flasks" = true
+	#The capacity of the Ars Nouveau Potion Flask
+	#This is the number of potions (or water) it can hold
+	#If left at 8, the capacity will not be touched (in case Ars Nouveau makes it configurable in the future)
+	#If you change this, you should also change Ars Nouveau's lang file (the keys ars_nouveau.page1.potion_flask and tooltip.potion_flask) to match
+	# Default: 8
+	# Range: 1 ~ 64
+	"Potion Flask Size" = 8
+	#Whether or not using the Ars Nouveau Alchemist's Crown should restore thirst
+	"Alchemist's Crown Restore Thirst" = true
+
+["Ars Elemental"]
+	#The purity of the water provided by the Everfull Urn (AKA Urn Of Endless Waters)
+	#Water that is bucketed/bottled from, or transferred to a cauldron will have this purity
+	#(In other cases, the purity will be the default purity set above)
+	# Default: 2
+	# Range: 0 ~ 3
+	"Everfull Urn Purity" = 2
+	#Whether or not water with purity can be taken from the Everfull Urn with bottles and buckets
+	#If Potion Flasks Everfull Urn is true, potion flasks will also be able to pick up water from the Everfull Urn
+	"Fill from Everfull Urn" = true
+	#Whether or not the Everfull Urn can be drunk from directly by right-clicking it with an empty hand
+	#The amount of thirst/quenchness restored is set in the Thirst config handDrinkingHydration and handDrinkingQuenched, and these values are used even if canDrinkByHand is false
+	"Drink from Everfull Urn" = true
+	#Whether or not the Flask can be filled from the Everfull Urn
+	#Requires Fill from Everfull Urn to be true
+	"Fill Flask from Everfull Urn" = true
+	#Whether or not filling a bucket/bottle/flask from the Everfull Urn consumes nearby Source
+	#Determined by "waterUrnCost" in the Ars Elemental config
+	#Requires "Fill from Everfull Urn" to be true
+	"Everfull Urn Requests Source" = true
+
+["FTB Ultimine"]
+	#The amount of thirst required to use FTB Ultimine
+	# Default: 0
+	# Range: 0 ~ 20
+	"Ultimine Requires Thirst" = 0
+
+[Supplementaries]
+	#Whether or not to apply a patch to Supplementaries faucets to allow them to propagate thirst to Cauldrons
+	#If false, faucets will simply not set the purity of the cauldron
+	"Fix Faucets" = true
+
+[ParCool]
+	#The amount of thirst required to gain a stamina recovery bonus
+	#If 0, there will be no stamina regeneration bonus
+	# Default: 0
+	# Range: 0 ~ 20
+	"Stamina Bonus Requirement" = 0
+	#The amount of stamina regeneration to give when the Stamina Bonus Requirement is met
+	#This uses the add_value operation
+	# Default: 10
+	# Range: 0 ~ 80
+	"Thirst Bonus Value" = 10
+	#The amount of thirst that the player must have to NOT incur the stamina regeneration penalty
+	#If 0, there will be no stamina regeneration penalty
+	# Default: 0
+	# Range: 0 ~ 20
+	"Stamina Penalty Requirement" = 0
+	#The amount of stamina regeneration penalty to give when the Stamina Penalty Requirement is met
+	#This uses the add_value operation
+	# Default: -10
+	# Range: -20 ~ 0
+	"Stamina Penalty Value" = -10
+
+[Millenaire]
+	#Whether or not to add thirst values for Millenaire drinks
+	"Millenaire Drinks" = true
+
+[Amendments]
+	#The chance (1 in x) of water purity increasing when a cauldron is boiling
+	#This is rolled every time the cauldron receives a random tick, ie, the value used in /gamerule random_tick_speed
+	#At the default random tick speed of 3, there is a 3/4096 or about 0.073% of any particular boiling cauldron to roll this every tick.
+	#Set to 0 to prevent Amendments boiling cauldrons from purifying water
+	# Default: 1
+	# Range: 0 ~ 5
+	"Amendments Boil Purity Chance" = 1
+
+[Moonlight]
+	#If true, Moonlight's soft fluid system (e.g., the kind Supplementaries Jars use) will be capable of merging water FluidStacks that do not have the same purity
+	#The resulting fluid takes the lower (dirtier) purity value, because dirty water contaminates clean water. Thirst mod has this same mechanic, but only for neoforge fluid tanks
+	"Soft Fluid Water Merge" = true

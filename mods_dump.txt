@@ -32,6 +32,8 @@ block_factorys_bosses-2.1.2-neo-1.21.1.jar
 bookshelf-neoforge-1.21.1-21.1.81.jar
 born_in_chaos_[Neoforge]_1.21.1_1.7.6.jar
 buildinggadgets2-1.3.9.jar
+burnt-1.10.5.2-neoforge-1.21.1.jar
+burnt_coldsweat_compat-1.0.0.jar
 butchercraft-2.6.5.jar
 c2me-neoforge-mc1.21.1-0.4.0-alpha.0.113.jar
 caelus-neoforge-7.0.1+1.21.1.jar
@@ -49,6 +51,8 @@ climbable_ropes-2.1.0.jar
 cloth-config-15.0.140-neoforge.jar
 Clumps-neoforge-1.21.1-19.0.0.1.jar
 cobweb-neoforge-1.21-1.4.0.jar
+ColdSweat-2.4.3.1.jar
+coldsweat_altitude-0.8.1.jar
 collective-1.21.1-8.39.jar
 compatapi-1.0.3.jar
 configurable-3.5.1+1.21.1-neoforge.jar
@@ -69,6 +73,7 @@ Create Aeronautics Gyroscope Stabilizers.jar
 create_aeronautics_automated_logistics-0.5.2.jar
 create_aeronautics_ftb_chunks-1.21.1-NeoForge-1.1.0.jar
 create_aeronautics_transmission_linkage-0.2.5.jar
+create_cold_sweat-1.1.2.jar
 create_connected-1.3.2-mc1.21.1.jar
 create_ironspell_recipe-1.2.1-neoforge-1.21.1.jar
 create_jetpack-forge-5.2.1.jar
@@ -141,7 +146,7 @@ ftbxaerocompat-neoforge-1.1.4.jar
 fusion-1.3.4-neoforge-mc1.21.1.jar
 fzzy_config-0.7.6+1.21+neoforge.jar
 gametechbcs_spellbooks-3.0.0-1.21.1.jar
-geckolib-neoforge-1.21.1-4.9.2.jar
+geckolib-neoforge-1.21.1-4.9.3.jar
 GlitchCore-neoforge-1.21.1-2.1.0.2.jar
 gpumemleakfix-1.21-1.8.jar
 GrimoireOfGaia4-1.21.1-6.0.0-alpha.9.jar
@@ -197,7 +202,6 @@ L_Ender's Cataclysm 1.21.1-3.31-optimaztion2.jar
 lc_claim_economy-4.4.1.jar
 legendary_monsters-2.2.2 MC 1.21.1.jar
 legendary_spellbooks-1.21.1+neo-0.3.2.jar
-legendarysurvivaloverhaul-1.21.1-2.4.5.jar
 Leiv's API_NeoForge_1.21.1 (v.1.0.0).jar
 Leiv's Config Menu_NeoForge_1.21.1 (v.1.0.0).jar
 Leiv's GUI Engine_NeoForge_1.21.1 (v.1.0.0).jar
@@ -215,9 +219,9 @@ maid_restaurant-0.2.8.jar
 maidbeacon-1.0.1.jar
 mca-neoforge-7.7.17+1.21.1.jar
 memorysettings-1.21-6.0.jar
-modernfix-neoforge-5.27.14+mc1.21.1.jar
+modernfix-neoforge-5.27.24+mc1.21.1.jar
 modnametooltip-1.21.1-neoforge-2.3.0.jar
-moonlight-neoforge-1.21.1-3.0.22.jar
+moonlight-1.21.1-3.7.1-neoforge.jar
 MouseTweaks-neoforge-mc1.21-2.26.1.jar
 mowziesmobs-1.21.1-1.8.2.jar
 multiplayer_boss_fight-neoforge1.21.1-1.0.3.jar
@@ -279,7 +283,7 @@ spiceoflife_classic-neoforge-2.12+1.21.1.jar
 Stackable Potions-neoforge-1.21.1-1.0.0.jar
 structureessentials-1.21.1-5.0.jar
 supermartijn642corelib-1.1.21-neoforge-mc1.21.jar
-supplementaries-neoforge-1.21.1-3.7.6.jar
+supplementaries-1.21.1-3.9.3-neoforge.jar
 t_and_t-neoforge-fabric-1.13.9+1.21.1.jar
 tacz-neoforge-1.21.1-1.1.8-hotfix-r2.jar
 tacz-pack-upgrader-2.1.2.jar
@@ -292,6 +296,8 @@ Teams-Friendly-Fire-neoforge-0.1.1+1.21.1.jar
 tectonic-3.0.22-neoforge-21.1.jar
 terra_curio-1.1.2.jar
 TerraBlender-neoforge-1.21.1-4.1.0.8.jar
+thirstwasfixed-2.1.6.jar
+ThirstWasReclaimed-1.21.1-3.0.6.jar
 tide-neoforge-1.21.1-2.1.jar
 tidemaid-1.2.0.jar
 tidesdelight-1.21.1-1.2.0-neoforge.jar

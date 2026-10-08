@@ -37,6 +37,8 @@
 	handDrinkingQuenched = 2
 	#Whether extra hydration will convert to quenched
 	ExtraHydrationConvertToQuenched = true
+	#Cooldown in ticks between drinking by hand attempts
+	handDrinkingCooldown = 20
 
 [World]
 	#Y level above which water has 1 more level of purification by default (i.e Mountains)
@@ -47,8 +49,6 @@
 	runningWaterPurificationAmount = 1
 
 ["Purity-related Effects"]
-	#Purity for drinks that normally have purity but for whatever reason don't have a value set
-	defaultPurity = 2
 	#Whether player should gain hydration even if they recieved a purity-related debuff
 	quenchThirstWhenDebuffed = true
 	#% of getting poisoned after drinking dirty water
@@ -67,6 +67,8 @@
 	purifiedPoisonPercentage = 0
 	#% of getting sick (hunger and nausea) after drinking purified water
 	purifiedNauseaPercentage = 0
+	#Whether water purity mechanics, display, propagation, and purity-related effects are enabled
+	enablePurity = true
 
 ["Purification levels"]
 	#How many levels of purification are added after boiling in a kettle
