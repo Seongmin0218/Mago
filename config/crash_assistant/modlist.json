@@ -1363,13 +1363,13 @@
     "curseForgeHash": 1929614935,
     "modrinthHash": "396c570357f1eb92842c23a9bb66fa847d9b79bf"
   },
-  "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar": {
-    "jarName": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+  "iris-neoforge-1.8.12+mc1.21.1.jar": {
+    "jarName": "iris-neoforge-1.8.12+mc1.21.1.jar",
     "modId": "iris",
     "name": "Iris",
-    "version": "1.8.14-beta.1+mc1.21.1",
-    "curseForgeHash": 1155826160,
-    "modrinthHash": "1bd129cf7bce65d6b1c0543045f0620c98a0f885"
+    "version": "1.8.12-snapshot+mc1.21.1-local",
+    "curseForgeHash": 2055048874,
+    "modrinthHash": "a3e6355915c7d3b2bc392724795113e51d289378"
   },
   "irons_jewelry-1.21.1-2.0.1.jar": {
     "jarName": "irons_jewelry-1.21.1-2.0.1.jar",
@@ -2559,14 +2559,6 @@
     "version": "1.0.4",
     "curseForgeHash": 2320832812,
     "modrinthHash": "c9c757794e9c0b76eccc1970ae72ed9afe16df42"
-  },
-  "vista-neoforge-1.21.1-5.0.4.jar": {
-    "jarName": "vista-neoforge-1.21.1-5.0.4.jar",
-    "modId": "vista",
-    "name": "Vista",
-    "version": "1.21.1-5.0.4",
-    "curseForgeHash": 990705011,
-    "modrinthHash": "ff247a588e8899eae21a3410fbb6493fde692f6b"
   },
   "wakes-1.21.1-NeoForge-1.3.6.jar": {
     "jarName": "wakes-1.21.1-NeoForge-1.3.6.jar",

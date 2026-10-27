@@ -3,6 +3,7 @@
 # Band id is a user-defined stable name used by commands, logs, messages, and runtime state.
 # Leave maxY unset to make a band open-ended upward.
 # These defaults are intended for a mostly vanilla-style overworld height range.
+
 # Enable extra diagnostic log entries for altitude and shelter transitions.
 debugLogging = false
 
