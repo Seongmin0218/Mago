@@ -14,13 +14,6 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "tag @s add mago_gunner_active",
-          "lock_command": "tag @s remove mago_gunner_active"
-        }
-      },
-      {
-        "type": "puffish_skills:command",
-        "data": {
           "command": "give @s kubejs:gun_manufacturing_license"
         }
       }
