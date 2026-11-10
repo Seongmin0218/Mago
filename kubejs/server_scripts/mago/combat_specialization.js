@@ -50,6 +50,18 @@
     gunner: 'mago_gunner_active'
   }
 
+  // Permanent qualification.
+  // Future boss / quest / hidden progression logic only needs to grant/remove
+  // this tag. Specialization switching must never remove it.
+  var HIDDEN_WARRIOR_QUALIFICATION_TAG =
+    'mago_hidden_warrior_qualified'
+
+  // Internal Puffish skill used only by Pufferfish Item Gating.
+  var HIDDEN_WARRIOR_GATE_SKILL =
+    'warrior_hidden_celestisynth_access'
+
+  var hiddenGateWarningSeen = {}
+
   // Runtime-only warning suppression.
   // Nothing here is persisted to player/world data.
   var warningSeen = {}
@@ -227,6 +239,106 @@
           '활성 태그 동기화 실패: ' +
           ACTIVE_TAGS[specializationId]
         )
+      }
+    }
+  }
+
+  // ---------------------------------------------------------------------------
+  // Hidden Warrior / Celestisynth access
+  // ---------------------------------------------------------------------------
+
+  function syncHiddenWarriorGateSafely(player) {
+    var name = getPlayerName(player)
+    var entries
+    var unlockState
+    var activeIds
+    var warriorCategory
+    var optionalSkill
+    var gateSkill
+    var shouldEnable
+    var currentlyUnlocked
+    var i
+
+    try {
+      entries = loadCategoryEntries()
+
+      unlockState =
+        readUnlockState(
+          player,
+          entries
+        )
+
+      activeIds =
+        getActiveIds(unlockState)
+
+      warriorCategory = null
+
+      for (i = 0; i < entries.length; i++) {
+        if (entries[i].id === 'warrior_attack') {
+          warriorCategory = entries[i].api
+          break
+        }
+      }
+
+      if (warriorCategory == null) {
+        throw new Error(
+          'warrior_attack Category를 찾을 수 없음'
+        )
+      }
+
+      optionalSkill =
+        warriorCategory.getSkill(
+          HIDDEN_WARRIOR_GATE_SKILL
+        )
+
+      if (
+        optionalSkill == null ||
+        !optionalSkill.isPresent()
+      ) {
+        throw new Error(
+          '히든 전사 게이트 스킬 누락: ' +
+          HIDDEN_WARRIOR_GATE_SKILL
+        )
+      }
+
+      gateSkill =
+        optionalSkill.get()
+
+      shouldEnable =
+        activeIds.length === 1 &&
+        activeIds[0] === 'warrior_attack' &&
+        player.getTags().contains(
+          HIDDEN_WARRIOR_QUALIFICATION_TAG
+        )
+
+      currentlyUnlocked =
+        String(
+          gateSkill.getState(player)
+        ) === 'UNLOCKED'
+
+      if (
+        shouldEnable &&
+        !currentlyUnlocked
+      ) {
+        gateSkill.unlock(player)
+      } else if (
+        !shouldEnable &&
+        currentlyUnlocked
+      ) {
+        gateSkill.lock(player)
+      }
+
+      delete hiddenGateWarningSeen[name]
+    } catch (error) {
+      if (!hiddenGateWarningSeen[name]) {
+        console.warn(
+          '[MagoCombat] ' +
+          name +
+          ': Celestisynth 히든 게이트 동기화 실패: ' +
+          getErrorText(error)
+        )
+
+        hiddenGateWarningSeen[name] = true
       }
     }
   }
@@ -1082,5 +1194,6 @@
     }
 
     refreshTagsSafely(player)
+    syncHiddenWarriorGateSafely(player)
   })
 })()

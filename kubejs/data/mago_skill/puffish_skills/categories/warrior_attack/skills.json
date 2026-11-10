@@ -365,4 +365,11 @@
     "y": 602,
     "root": false
   }
+  ,
+  "warrior_hidden_celestisynth_access": {
+    "definition": "hidden_celestisynth_access",
+    "x": 0,
+    "y": 720,
+    "root": false
+  }
 }

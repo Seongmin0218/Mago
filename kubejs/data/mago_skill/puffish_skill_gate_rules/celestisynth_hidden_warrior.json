@@ -1,0 +1,21 @@
+{
+  "items": [
+    "celestisynth:aquaflora",
+    "celestisynth:keres",
+    "celestisynth:solaris",
+    "celestisynth:crescentia",
+    "celestisynth:breezebreaker",
+    "celestisynth:poltergeist",
+    "celestisynth:frostbound"
+  ],
+  "gates": [
+    "attack",
+    "use"
+  ],
+  "skills": [
+    {
+      "category": "mago_skill:warrior_attack",
+      "skill": "warrior_hidden_celestisynth_access"
+    }
+  ]
+}

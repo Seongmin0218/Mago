@@ -1271,4 +1271,17 @@
       }
     ]
   }
+  ,
+  "hidden_celestisynth_access": {
+    "title": "Celestisynth 히든 자격",
+    "description": "Mago 내부 사용 자격 판정용 노드입니다. 직접 해금할 수 없습니다.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "celestisynth:keres"
+      }
+    },
+    "cost": 0,
+    "required_skills": 1
+  }
 }
