@@ -138,136 +138,136 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"born_in_chaos_v1:door_knight": true
-			"born_in_chaos_v1:corpse_fly": true
-			"grimoireofgaia:dullahan": true
-			"jurassicsaga:goat": true
-			"irons_spellbooks:archevoker": true
-			"irons_spellbooks:cursed_armor_stand": true
+			"tide:lapis_lanternfish": true
+			"born_in_chaos_v1:decrepit_skeleton": true
+			"born_in_chaos_v1:bonescaller": true
+			"iceandfire:hippogryph": true
 			"grimoireofgaia:mimic": true
-			"born_in_chaos_v1:nightmare_stalker": true
-			"grimoireofgaia:satyress": true
+			"mowziesmobs:ferrous_wroughtnaut": true
+			"born_in_chaos_v1:dire_hound_leader": true
 			"minecraft:cow": true
-			"born_in_chaos_v1:restless_spirit": true
-			"born_in_chaos_v1:zombie_clown": true
-			"born_in_chaos_v1:zombie_bruiser": true
-			"born_in_chaos_v1:siamese_skeletons": true
-			"tide:swordfish": true
+			"irons_spellbooks:necromancer": true
+			"iss_magicfromtheeast:jiangshi": true
 			"minecraft:parrot": true
 			"minecraft:zombie_villager": true
+			"grimoireofgaia:ant_hill": true
+			"grimoireofgaia:ant_salvager": true
 			"minecraft:wandering_trader": true
+			"irons_spellbooks:archevoker": true
+			"tide:swordfish": true
+			"cold_sweat:chameleon": true
+			"quark:shiba": true
+			"iceandfire:lightning_dragon": true
+			"tide:brook_trout": true
 			"mca:male_zombie_villager": true
-			"grimoireofgaia:minotaurus": true
-			"iceandfire:troll": true
-			"irons_spellbooks:priest": true
-			"tide:crystal_shrimp": true
-			"born_in_chaos_v1:dire_hound_leader": true
-			"jurassicsaga:basilisk": true
-			"minecraft:zombie": true
-			"touhou_little_maid:maid": true
-			"ifcintegrations:oceanide": true
-			"minecraft:armadillo": true
-			"grimoireofgaia:flesh_lich": true
-			"tide:glowfish": true
-			"iceandfire:fire_dragon": true
-			"grimoireofgaia:deathword": true
-			"jurassicsaga:ostrich": true
-			"grimoireofgaia:ender_eye": true
-			"grimoireofgaia:kobold": true
-			"born_in_chaos_v1:decrepit_skeleton": true
+			"grimoireofgaia:dullahan": true
 			"mythsandlegends:gargoyle": true
+			"crabbersdelight:crab": true
+			"born_in_chaos_v1:nightmare_stalker": true
+			"quark:toretoise": true
+			"tide:anglerfish": true
+			"jurassicsaga:tree_frog": true
+			"minecraft:zombie": true
+			"jurassicsaga:basilisk": true
+			"born_in_chaos_v1:dread_hound": true
+			"minecraft:armadillo": true
+			"iceandfire:ice_dragon": true
+			"born_in_chaos_v1:zombie_clown": true
+			"grimoireofgaia:yuki_onna": true
+			"artifacts:mimic": true
+			"born_in_chaos_v1:siamese_skeletons": true
+			"born_in_chaos_v1:skeleton_demoman": true
+			"grimoireofgaia:goblin": true
+			"ifcintegrations:dryad": true
 			"minecraft:goat": true
-			"tide:lapis_lanternfish": true
+			"iceandfire:fire_dragon": true
 			"tide:cave_eel": true
 			"minecraft:skeleton": true
-			"tide:walleye": true
-			"grimoireofgaia:creep": true
-			"grimoireofgaia:ant_hill": true
+			"born_in_chaos_v1:decaying_zombie": true
+			"tide:deep_grouper": true
+			"born_in_chaos_v1:supreme_bonescaller": true
+			"ifcintegrations:nereid": true
 			"minecraft:pufferfish": false
 			"minecraft:witch": true
-			"born_in_chaos_v1:bonescaller": true
 			"minecraft:chicken": true
+			"grimoireofgaia:deathword": true
+			"grimoireofgaia:kobold": true
 			"minecraft:tropical_fish": false
-			"ifcintegrations:dryad": true
-			"born_in_chaos_v1:supreme_bonescaller": true
 			"minecraft:wolf": true
 			"minecraft:iron_golem": true
-			"born_in_chaos_v1:baby_skeleton": true
-			"grimoireofgaia:harpy": true
+			"jurassicsaga:mosquito": true
+			"grimoireofgaia:creep": true
+			"grimoireofgaia:bone_knight": true
 			"minecraft:donkey": true
 			"pladailyboss:key_entity": true
-			"iceandfire:amphithere": true
-			"tide:bluegill": true
-			"grimoireofgaia:arachne": true
-			"jurassicsaga:mosquito": true
-			"ifcintegrations:salamander": true
-			"tide:cave_crawler": true
-			"quark:toretoise": true
-			"irons_spellbooks:necromancer": true
-			"grimoireofgaia:orc": true
-			"minecraft:spider": true
-			"ifcintegrations:naiad": true
-			"tide:iron_tetra": true
-			"grimoireofgaia:centaur": true
-			"born_in_chaos_v1:skeleton_demoman": true
-			"minecraft:cave_spider": true
-			"grimoireofgaia:cyan_flower": true
-			"minecraft:enderman": true
-			"crabbersdelight:crab": true
-			"grimoireofgaia:cyclops": true
-			"iss_magicfromtheeast:jiangshi": true
-			"iceandfire:deathworm": true
-			"ifcintegrations:sylph": true
-			"minecraft:fox": true
-			"jurassicsaga:tree_frog": true
-			"minecraft:pig": true
-			"grimoireofgaia:ant_salvager": true
-			"minecraft:creeper": true
-			"tide:anglerfish": true
-			"minecraft:slime": true
-			"quark:forgotten": true
-			"minecraft:pillager": true
-			"grimoireofgaia:yuki_onna": true
-			"minecraft:turtle": true
-			"ifcintegrations:nereid": true
-			"mowziesmobs:ferrous_wroughtnaut": true
-			"iceandfire:hippogryph": true
-			"ifcintegrations:pixie_male": true
-			"minecraft:bat": true
-			"minecraft:sheep": true
 			"tide:carp": true
-			"quark:shiba": true
-			"cold_sweat:chameleon": true
+			"grimoireofgaia:cyclops": true
+			"born_in_chaos_v1:swarmer": true
+			"grimoireofgaia:arachne": true
+			"quark:stoneling": true
+			"tide:glowfish": true
+			"grimoireofgaia:harpy": true
+			"tide:bluegill": true
+			"grimoireofgaia:centaur": true
+			"minecraft:spider": true
+			"jurassicsaga:reed_frog": true
+			"jurassicsaga:butterfly": true
+			"irons_spellbooks:priest": true
+			"tide:crystal_shrimp": true
+			"tide:rainbow_trout": true
+			"grimoireofgaia:cyan_flower": true
+			"minecraft:cave_spider": true
+			"iceandfire:amphithere": true
+			"minecraft:enderman": true
+			"grimoireofgaia:minotaurus": true
+			"minecraft:fox": true
+			"jurassicsaga:goat": true
+			"ifcintegrations:naiad": true
+			"born_in_chaos_v1:door_knight": true
+			"minecraft:pig": true
+			"grimoireofgaia:satyress": true
+			"quark:forgotten": true
+			"minecraft:creeper": true
+			"minecraft:slime": true
+			"iceandfire:troll": true
+			"born_in_chaos_v1:skeleton_thrasher": true
+			"mowziesmobs:umvuthana_raptor": true
+			"minecraft:pillager": true
+			"grimoireofgaia:flesh_lich": true
+			"minecraft:turtle": true
+			"minecraft:bat": true
+			"irons_spellbooks:cursed_armor_stand": true
+			"minecraft:sheep": true
+			"tide:smallmouth_bass": true
+			"mowziesmobs:umvuthana_follower_raptor": true
+			"born_in_chaos_v1:baby_skeleton": true
 			"minecraft:rabbit": true
+			"born_in_chaos_v1:restless_spirit": true
+			"touhou_little_maid:maid": true
+			"iceandfire:deathworm": true
 			"minecraft:axolotl": true
-			"grimoireofgaia:goblin": true
-			"iceandfire:ice_dragon": true
 			"minecraft:squid": true
 			"minecraft:trader_llama": true
-			"iceandfire:lightning_dragon": true
-			"born_in_chaos_v1:dread_hound": true
 			"minecraft:cat": true
-			"tide:smallmouth_bass": true
-			"born_in_chaos_v1:skeleton_thrasher": true
-			"born_in_chaos_v1:swarmer": true
-			"artifacts:mimic": true
-			"jurassicsaga:butterfly": true
-			"minecraft:bee": true
-			"mowziesmobs:umvuthana_follower_raptor": true
-			"tide:rainbow_trout": true
-			"tide:brook_trout": true
-			"minecraft:horse": true
-			"mowziesmobs:umvuthana_raptor": true
-			"born_in_chaos_v1:phantom_creeper": true
-			"quark:stoneling": true
+			"tide:cave_crawler": true
+			"grimoireofgaia:orc": true
 			"grimoireofgaia:banshee": true
-			"tide:deep_grouper": true
-			"grimoireofgaia:bone_knight": true
-			"minecraft:glow_squid": true
+			"ifcintegrations:pixie_male": true
+			"minecraft:bee": true
 			"jurassicsaga:bonito": true
+			"tide:iron_tetra": true
+			"ifcintegrations:sylph": true
+			"minecraft:horse": true
+			"grimoireofgaia:ender_eye": true
+			"born_in_chaos_v1:phantom_creeper": true
+			"ifcintegrations:salamander": true
+			"tide:walleye": true
+			"jurassicsaga:ostrich": true
+			"born_in_chaos_v1:corpse_fly": true
+			"born_in_chaos_v1:zombie_bruiser": true
+			"minecraft:glow_squid": true
+			"ifcintegrations:oceanide": true
 			"minecraft:vindicator": true
-			"jurassicsaga:reed_frog": true
-			"born_in_chaos_v1:decaying_zombie": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
