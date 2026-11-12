@@ -1,5 +1,5 @@
 {
-  "unlocked_by_default": true,
+  "unlocked_by_default": false,
   "exclusive_root": false,
   "starting_points": 0,
   "title": "농부",

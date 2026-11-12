@@ -1,0 +1,264 @@
+{
+  "level_limit": 18,
+
+  "experience_per_level": {
+    "type": "values",
+    "data": {
+      "values": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+
+        150,
+        150,
+        150,
+        150,
+        150,
+        150,
+
+        250,
+        250,
+        250,
+        250,
+        250,
+        250
+      ]
+    }
+  },
+
+  "sources": [
+    {
+      "type": "puffish_skills:break_block",
+      "data": {
+        "variables": {
+          "field_age_7": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "#mago_skill:farm_crop_field",
+                  "state": {
+                    "age": "7"
+                  }
+                }
+              }
+            ]
+          },
+
+          "beetroot_mature": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "minecraft:beetroots",
+                  "state": {
+                    "age": "3"
+                  }
+                }
+              }
+            ]
+          },
+
+          "sweet_berry_mature": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "minecraft:sweet_berry_bush",
+                  "state": {
+                    "age": "3"
+                  }
+                }
+              }
+            ]
+          },
+
+          "cocoa_mature": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "minecraft:cocoa",
+                  "state": {
+                    "age": "2"
+                  }
+                }
+              }
+            ]
+          },
+
+          "cave_vines_mature": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "minecraft:cave_vines",
+                  "state": {
+                    "berries": "true"
+                  }
+                }
+              }
+            ]
+          },
+
+          "cave_vines_plant_mature": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "minecraft:cave_vines_plant",
+                  "state": {
+                    "berries": "true"
+                  }
+                }
+              }
+            ]
+          },
+
+          "melon": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "minecraft:melon"
+                }
+              }
+            ]
+          },
+
+          "pumpkin": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "minecraft:pumpkin"
+                }
+              }
+            ]
+          },
+
+          "nether_wart_mature": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "minecraft:nether_wart",
+                  "state": {
+                    "age": "3"
+                  }
+                }
+              }
+            ]
+          },
+
+          "torchflower": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "minecraft:torchflower"
+                }
+              }
+            ]
+          },
+
+          "pitcher_plant": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "minecraft:pitcher_plant"
+                }
+              }
+            ]
+          }
+        },
+
+        "experience": [
+          {
+            "condition": "field_age_7",
+            "expression": "1"
+          },
+          {
+            "condition": "beetroot_mature",
+            "expression": "1"
+          },
+
+          {
+            "condition": "sweet_berry_mature",
+            "expression": "2"
+          },
+          {
+            "condition": "cocoa_mature",
+            "expression": "2"
+          },
+          {
+            "condition": "cave_vines_mature",
+            "expression": "2"
+          },
+          {
+            "condition": "cave_vines_plant_mature",
+            "expression": "2"
+          },
+          {
+            "condition": "melon",
+            "expression": "2"
+          },
+          {
+            "condition": "pumpkin",
+            "expression": "2"
+          },
+
+          {
+            "condition": "nether_wart_mature",
+            "expression": "4"
+          },
+          {
+            "condition": "torchflower",
+            "expression": "4"
+          },
+          {
+            "condition": "pitcher_plant",
+            "expression": "4"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:nether_wart",
+    "minecraft:torchflower_crop",
+    "minecraft:torchflower",
+    "minecraft:pitcher_crop",
+    "minecraft:pitcher_plant"
+  ]
+}

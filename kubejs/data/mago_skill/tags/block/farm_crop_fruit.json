@@ -1,0 +1,111 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:sweet_berry_bush",
+    "minecraft:cave_vines",
+    "minecraft:cave_vines_plant",
+    "minecraft:cocoa",
+    "minecraft:melon",
+    "minecraft:pumpkin",
+
+    {
+      "id": "farmersrespite:tea_bush",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:coffee_bush",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:coffee_stem",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:coffee_stem_middle",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:coffee_stem_double",
+      "required": false
+    },
+
+    {
+      "id": "fruitsdelight:blueberry_bush",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:cranberry_bush",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:lemon_tree",
+      "required": false
+    },
+
+    {
+      "id": "fruitsdelight:apple_leaves",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:bayberry_leaves",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:fig_leaves",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:hawberry_leaves",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:kiwi_leaves",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:lychee_leaves",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:mango_leaves",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:mangosteen_leaves",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:orange_leaves",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:peach_leaves",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:pear_leaves",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:persimmon_leaves",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:durian_leaves",
+      "required": false
+    },
+
+    {
+      "id": "fruitsdelight:durian",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:hamimelon",
+      "required": false
+    },
+    {
+      "id": "fruitsdelight:pineapple",
+      "required": false
+    }
+  ]
+}
