@@ -1,4 +1,9 @@
 [
   {"version":1},
+  {"ingredient":{"id":"kaleidoscope_cookery:tieguanyin"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kaleidoscope_cookery:biluochun"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kaleidoscope_cookery:oolong"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kaleidoscope_cookery:sakura_fubuki"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kaleidoscope_cookery:flower_tea"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:wheat"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

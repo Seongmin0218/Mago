@@ -1,0 +1,7 @@
+enablevillagertrades = true
+enableshaders = true
+# Default: 1.0
+# Range: 0.1 ~ 2.0
+shaderintensitymultiplier = 1.0
+enableparanoia = true
+enablecamerawobble = true

@@ -1,0 +1,14 @@
+# Default: 5
+# Range: 1 ~ 20
+maxlacesperitem = 5
+enabletolerance = true
+# Default: 1.0
+# Range: 0.1 ~ 5.0
+toleranceratemultiplier = 1.0
+enablewithdrawal = true
+enableoverdose = true
+# Default: 2.5
+# Range: 1.0 ~ 10.0
+overdosethreshold = 2.5
+drugdurations = ["lsd=2400", "meth=1800", "crack=600", "fentanyl=1200", "heroin=7200", "cocaine=1200", "weed=1200", "thc_cookie=3600", "shrooms=1800", "mdma=2400", "dmt=600", "lean=2000", "benzos=2400", "caffeine=1200", "adderall=2400", "benadryl=1200", "nicotine=600", "cigar=900"]
+drugeffects = ["lsd=addictives:lsd_high:0", "meth=addictives:meth_high:0", "crack=addictives:crack_high:0", "fentanyl=addictives:fentanyl_high:0", "heroin=addictives:heroin_high:1", "cocaine=addictives:cocaine_high:0", "weed=addictives:weed_high:0", "thc_cookie=addictives:weed_high:0", "shrooms=addictives:shrooms_high:0", "mdma=addictives:mdma_high:0", "dmt=addictives:dmt_high:0", "lean=addictives:lean_high:0,minecraft:confusion:0:600", "benzos=addictives:benzos_high:0", "caffeine=addictives:caffeine_high:0", "adderall=addictives:adderall_high:0", "benadryl=addictives:benadryl_high:0", "nicotine=addictives:nicotine_high:0", "cigar=addictives:cigar_high:0"]

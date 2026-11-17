@@ -29,13 +29,13 @@
     "curseForgeHash": 1417081703,
     "modrinthHash": "6cad17fe69b70ac13c2d31cd6e2cad15e21998e8"
   },
-  "addictives-3.1.4.jar": {
-    "jarName": "addictives-3.1.4.jar",
+  "addictives-4.0.5-neoforge.jar": {
+    "jarName": "addictives-4.0.5-neoforge.jar",
     "modId": "addictives",
     "name": "Create: Addictives",
-    "version": "3.1.4",
-    "curseForgeHash": 3584628715,
-    "modrinthHash": "566096fcd2db8dd30e60aa1e3b1efa01ec5f2304"
+    "version": "4.0.5",
+    "curseForgeHash": 2898157651,
+    "modrinthHash": "3a3bac3f1c4b54b8416b032f7dc32d7f838229ba"
   },
   "aeroconnectedfluidvessel-1.0.0.jar": {
     "jarName": "aeroconnectedfluidvessel-1.0.0.jar",
@@ -68,14 +68,6 @@
     "version": "1.2.11",
     "curseForgeHash": 1040639099,
     "modrinthHash": "b36e8b2abeb37a5e8cc0f885e4fad93b3b6709ec"
-  },
-  "alexscaves-2.0.2.jar": {
-    "jarName": "alexscaves-2.0.2.jar",
-    "modId": "alexscaves",
-    "name": "Alex\u0027s Caves",
-    "version": "2.0.2",
-    "curseForgeHash": 3087031510,
-    "modrinthHash": "a1e5c7b7c7eadda4c8e954acbcbaf75a7b500d53"
   },
   "alltheleaks-1.1.9+1.21.1-neoforge.jar": {
     "jarName": "alltheleaks-1.1.9+1.21.1-neoforge.jar",
@@ -1315,14 +1307,6 @@
     "curseForgeHash": 4121614865,
     "modrinthHash": "6594ea2759455f4e135b9479f807bacf4b4b0b43"
   },
-  "immersiveaddictives-5.1.4-neoforge-1.21.1.jar": {
-    "jarName": "immersiveaddictives-5.1.4-neoforge-1.21.1.jar",
-    "modId": "immersiveaddictives",
-    "name": "ImmersiveAddictives",
-    "version": "5.1.4",
-    "curseForgeHash": 4052638436,
-    "modrinthHash": "7ddd1504423389fbf379e855a0bf6e2a5ef364d0"
-  },
   "ImmersiveEngineering-1.21.1-12.4.2-194.jar": {
     "jarName": "ImmersiveEngineering-1.21.1-12.4.2-194.jar",
     "modId": "immersiveengineering",
@@ -1991,6 +1975,14 @@
     "version": "3.8.1",
     "curseForgeHash": 1188898099,
     "modrinthHash": "4f15f2b0ff054c413da31b65726211d80683ed59"
+  },
+  "registry_dump-4.0.0-neoforge.jar": {
+    "jarName": "registry_dump-4.0.0-neoforge.jar",
+    "modId": "registry_dump",
+    "name": "Registry Dump",
+    "version": "4.0.0",
+    "curseForgeHash": 1241317653,
+    "modrinthHash": "b08b76647c011ee224b1ba9875bbf00df3243d0f"
   },
   "relics-1.21.1-0.12.8.jar": {
     "jarName": "relics-1.21.1-0.12.8.jar",
