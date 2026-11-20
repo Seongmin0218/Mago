@@ -1,6 +1,48 @@
 {
   "replace": false,
   "values": [
-    "#minecraft:crops"
+    "minecraft:wheat",
+    "minecraft:carrots",
+    "minecraft:potatoes",
+    {
+      "id": "farmersdelight:cabbages",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:onions",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:lettuce_crop",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:chili_crop",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:tomato_crop",
+      "required": false
+    },
+    {
+      "id": "culturaldelights:cucumbers",
+      "required": false
+    },
+    {
+      "id": "culturaldelights:eggplants",
+      "required": false
+    },
+    {
+      "id": "extradelight:soybean_crop",
+      "required": false
+    },
+    {
+      "id": "extradelight:cucumber_crop",
+      "required": false
+    },
+    {
+      "id": "extradelight:mallow_root_crop",
+      "required": false
+    }
   ]
 }

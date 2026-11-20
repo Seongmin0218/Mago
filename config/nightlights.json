@@ -1,0 +1,11 @@
+{
+  "wallSwitchRadius": 5,
+  "lightSensorRadius": 8,
+  "lightSensorIntervalTicks": 40,
+  "lightSensorDarkThreshold": 8,
+  "emergencyLightRadius": 16,
+  "controlRadius": 3,
+  "lanternBlockFallback": true,
+  "showJoinMessage": false,
+  "showBlockInfo": true
+}

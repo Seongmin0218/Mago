@@ -83,6 +83,9 @@
   "immersiveengineering": {
     "multiblock_icon": true
   },
+  "nightlights": {
+    "block_info": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,

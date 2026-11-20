@@ -1,6 +1,5 @@
 {
   "level_limit": 18,
-
   "experience_per_level": {
     "type": "values",
     "data": {
@@ -11,14 +10,12 @@
         100,
         100,
         100,
-
         150,
         150,
         150,
         150,
         150,
         150,
-
         250,
         250,
         250,
@@ -28,7 +25,6 @@
       ]
     }
   },
-
   "sources": [
     {
       "type": "puffish_skills:break_block",
@@ -50,8 +46,7 @@
               }
             ]
           },
-
-          "beetroot_mature": {
+          "beetroot": {
             "operations": [
               {
                 "type": "get_broken_block_state"
@@ -67,8 +62,71 @@
               }
             ]
           },
-
-          "sweet_berry_mature": {
+          "fd_tomato": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "farmersdelight:tomatoes",
+                  "state": {
+                    "age": "3"
+                  }
+                }
+              }
+            ]
+          },
+          "ed_ginger": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "extradelight:ginger_crop",
+                  "state": {
+                    "age": "3"
+                  }
+                }
+              }
+            ]
+          },
+          "ed_garlic": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "extradelight:garlic_crop",
+                  "state": {
+                    "age": "3"
+                  }
+                }
+              }
+            ]
+          },
+          "ed_strawberry": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "extradelight:strawberry_crop",
+                  "state": {
+                    "age": "3"
+                  }
+                }
+              }
+            ]
+          },
+          "vanilla_sweet_berry": {
             "operations": [
               {
                 "type": "get_broken_block_state"
@@ -84,8 +142,328 @@
               }
             ]
           },
-
-          "cocoa_mature": {
+          "bwg_blueberry": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "biomeswevegone:blueberry_bush",
+                  "state": {
+                    "age": "3"
+                  }
+                }
+              }
+            ]
+          },
+          "fdl_blueberry": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "fruitsdelight:blueberry_bush",
+                  "state": {
+                    "age": "4"
+                  }
+                }
+              }
+            ]
+          },
+          "fdl_cranberry": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "fruitsdelight:cranberry_bush",
+                  "state": {
+                    "age": "4"
+                  }
+                }
+              }
+            ]
+          },
+          "ed_peanut": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "extradelight:peanut_crop",
+                  "state": {
+                    "age": "5"
+                  }
+                }
+              }
+            ]
+          },
+          "kc_tea_tree": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "kaleidoscope_cookery:tea_tree",
+                  "state": {
+                    "age": "5"
+                  }
+                }
+              }
+            ]
+          },
+          "ed_chili": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "extradelight:chili_crop",
+                  "state": {
+                    "age": "6"
+                  }
+                }
+              }
+            ]
+          },
+          "fr_tea": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "farmersrespite:tea_bush",
+                  "state": {
+                    "age": "3",
+                    "half": "lower"
+                  }
+                }
+              }
+            ]
+          },
+          "vanilla_bamboo_top": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "minecraft:bamboo",
+                  "state": {
+                    "stage": "1"
+                  }
+                }
+              }
+            ]
+          },
+          "torchflower": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "minecraft:torchflower"
+                }
+              }
+            ]
+          },
+          "pitcher_plant_lower": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "minecraft:pitcher_plant",
+                  "state": {
+                    "half": "lower"
+                  }
+                }
+              }
+            ]
+          },
+          "fd_rice_panicles": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "farmersdelight:rice_panicles",
+                  "state": {
+                    "age": "3"
+                  }
+                }
+              }
+            ]
+          },
+          "ed_corn_top": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "extradelight:corn_top",
+                  "state": {
+                    "age": "3"
+                  }
+                }
+              }
+            ]
+          },
+          "cd_corn_upper": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "culturaldelights:corn_upper",
+                  "state": {
+                    "age": "3"
+                  }
+                }
+              }
+            ]
+          },
+          "fd_tomato_on_rope": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "farmersdelight:tomatoes_on_rope",
+                  "state": {
+                    "age": "3"
+                  }
+                }
+              }
+            ]
+          },
+          "kc_rice_base": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "kaleidoscope_cookery:rice_crop",
+                  "state": {
+                    "age": "7",
+                    "location": "0"
+                  }
+                }
+              }
+            ]
+          },
+          "fdl_pineapple": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "fruitsdelight:pineapple",
+                  "state": {
+                    "age": "4"
+                  }
+                }
+              }
+            ]
+          },
+          "fdl_lemon_tree": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "fruitsdelight:lemon_tree",
+                  "state": {
+                    "age": "4",
+                    "half": "lower"
+                  }
+                }
+              }
+            ]
+          },
+          "fr_coffee_stem": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "farmersrespite:coffee_stem",
+                  "state": {
+                    "age": "2"
+                  }
+                }
+              }
+            ]
+          },
+          "fr_coffee_stem_middle": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "farmersrespite:coffee_stem_middle",
+                  "state": {
+                    "age": "2"
+                  }
+                }
+              }
+            ]
+          },
+          "fruiting_tree_leaves": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "#mago_skill:farm_crop_fruit",
+                  "state": {
+                    "type": "fruits",
+                    "persistent": "false"
+                  }
+                }
+              }
+            ]
+          },
+          "cocoa": {
             "operations": [
               {
                 "type": "get_broken_block_state"
@@ -101,8 +479,7 @@
               }
             ]
           },
-
-          "cave_vines_mature": {
+          "cave_vines": {
             "operations": [
               {
                 "type": "get_broken_block_state"
@@ -118,8 +495,7 @@
               }
             ]
           },
-
-          "cave_vines_plant_mature": {
+          "cave_vines_plant": {
             "operations": [
               {
                 "type": "get_broken_block_state"
@@ -135,7 +511,6 @@
               }
             ]
           },
-
           "melon": {
             "operations": [
               {
@@ -149,7 +524,6 @@
               }
             ]
           },
-
           "pumpkin": {
             "operations": [
               {
@@ -163,8 +537,7 @@
               }
             ]
           },
-
-          "nether_wart_mature": {
+          "nether_wart": {
             "operations": [
               {
                 "type": "get_broken_block_state"
@@ -180,8 +553,7 @@
               }
             ]
           },
-
-          "torchflower": {
+          "fdl_hamimelon": {
             "operations": [
               {
                 "type": "get_broken_block_state"
@@ -189,13 +561,12 @@
               {
                 "type": "puffish_skills:test",
                 "data": {
-                  "block": "minecraft:torchflower"
+                  "block": "fruitsdelight:hamimelon"
                 }
               }
             ]
           },
-
-          "pitcher_plant": {
+          "fdl_durian": {
             "operations": [
               {
                 "type": "get_broken_block_state"
@@ -203,37 +574,170 @@
               {
                 "type": "puffish_skills:test",
                 "data": {
-                  "block": "minecraft:pitcher_plant"
+                  "block": "fruitsdelight:durian"
+                }
+              }
+            ]
+          },
+          "sugar_cane": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "minecraft:sugar_cane"
+                }
+              }
+            ]
+          },
+          "cactus": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "minecraft:cactus"
+                }
+              }
+            ]
+          },
+          "kelp_stem": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "minecraft:kelp_plant"
                 }
               }
             ]
           }
         },
-
         "experience": [
           {
             "condition": "field_age_7",
             "expression": "1"
           },
           {
-            "condition": "beetroot_mature",
+            "condition": "beetroot",
             "expression": "1"
           },
-
           {
-            "condition": "sweet_berry_mature",
+            "condition": "fd_tomato",
+            "expression": "1"
+          },
+          {
+            "condition": "ed_ginger",
+            "expression": "1"
+          },
+          {
+            "condition": "ed_garlic",
+            "expression": "1"
+          },
+          {
+            "condition": "ed_strawberry",
+            "expression": "1"
+          },
+          {
+            "condition": "vanilla_sweet_berry",
+            "expression": "1"
+          },
+          {
+            "condition": "bwg_blueberry",
+            "expression": "1"
+          },
+          {
+            "condition": "fdl_blueberry",
+            "expression": "1"
+          },
+          {
+            "condition": "fdl_cranberry",
+            "expression": "1"
+          },
+          {
+            "condition": "ed_peanut",
+            "expression": "1"
+          },
+          {
+            "condition": "kc_tea_tree",
+            "expression": "1"
+          },
+          {
+            "condition": "ed_chili",
+            "expression": "1"
+          },
+          {
+            "condition": "fr_tea",
+            "expression": "1"
+          },
+          {
+            "condition": "vanilla_bamboo_top",
+            "expression": "1"
+          },
+          {
+            "condition": "torchflower",
+            "expression": "1"
+          },
+          {
+            "condition": "pitcher_plant_lower",
+            "expression": "1"
+          },
+          {
+            "condition": "fd_rice_panicles",
             "expression": "2"
           },
           {
-            "condition": "cocoa_mature",
+            "condition": "ed_corn_top",
             "expression": "2"
           },
           {
-            "condition": "cave_vines_mature",
+            "condition": "cd_corn_upper",
             "expression": "2"
           },
           {
-            "condition": "cave_vines_plant_mature",
+            "condition": "fd_tomato_on_rope",
+            "expression": "2"
+          },
+          {
+            "condition": "kc_rice_base",
+            "expression": "2"
+          },
+          {
+            "condition": "fdl_pineapple",
+            "expression": "2"
+          },
+          {
+            "condition": "fdl_lemon_tree",
+            "expression": "2"
+          },
+          {
+            "condition": "fr_coffee_stem",
+            "expression": "2"
+          },
+          {
+            "condition": "fr_coffee_stem_middle",
+            "expression": "2"
+          },
+          {
+            "condition": "fruiting_tree_leaves",
+            "expression": "2"
+          },
+          {
+            "condition": "cocoa",
+            "expression": "2"
+          },
+          {
+            "condition": "cave_vines",
+            "expression": "2"
+          },
+          {
+            "condition": "cave_vines_plant",
             "expression": "2"
           },
           {
@@ -244,18 +748,29 @@
             "condition": "pumpkin",
             "expression": "2"
           },
-
           {
-            "condition": "nether_wart_mature",
-            "expression": "4"
+            "condition": "nether_wart",
+            "expression": "2"
           },
           {
-            "condition": "torchflower",
-            "expression": "4"
+            "condition": "fdl_hamimelon",
+            "expression": "2"
           },
           {
-            "condition": "pitcher_plant",
-            "expression": "4"
+            "condition": "fdl_durian",
+            "expression": "2"
+          },
+          {
+            "condition": "sugar_cane",
+            "expression": "2"
+          },
+          {
+            "condition": "cactus",
+            "expression": "2"
+          },
+          {
+            "condition": "kelp_stem",
+            "expression": "2"
           }
         ]
       }
