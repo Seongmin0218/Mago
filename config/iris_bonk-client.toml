@@ -1,0 +1,8 @@
+#How mod shaders draw in a shaderpack:
+#overlay: pasted on top of the finished frame. looks like vanilla, no shaderpack lighting or effects
+#lit: drawn into the shaderpack buffers. gets its lighting and effects, taken from the surface behind
+#iris_default: whatever Iris does
+#Allowed Values: OVERLAY, LIT, IRIS_DEFAULT
+mode = "OVERLAY"
+#Uses overlay instead of lit on shaderpacks where lit can't work. There mod shaders would be invisible or broken
+litFallbackToOverlay = true

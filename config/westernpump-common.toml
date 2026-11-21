@@ -1,0 +1,17 @@
+#Maximum distance, in blocks, between the pump and an attached fuel port.
+#The hose detaches automatically if the target moves beyond this range, and a
+#nozzle carried further than this from the pump snaps back onto its cradle.
+# Default: 12
+# Range: 2 ~ 64
+maxHoseLength = 12
+#Capacity of the pump's internal fuel buffer, in mB.
+#The pump never creates fuel; this buffer is filled by an upstream Create fluid network.
+# Default: 2000
+# Range: 100 ~ 64000
+bufferCapacity = 2000
+#Maximum fuel moved into the target per tick, in mB.
+# Default: 50
+# Range: 1 ~ 4000
+transferRate = 50
+#Automatically retract the nozzle once the receiving tank is full.
+autoDetachWhenFull = false

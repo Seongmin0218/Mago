@@ -53,6 +53,14 @@
     "curseForgeHash": 2326285658,
     "modrinthHash": "a06f63bd618aa45019aa4a4bcdea26bb61e05519"
   },
+  "AeroStar-1.0.1.jar": {
+    "jarName": "AeroStar-1.0.1.jar",
+    "modId": "aerostarcomp",
+    "name": "AeroStar",
+    "version": "1.0.1",
+    "curseForgeHash": 1729752573,
+    "modrinthHash": "7c33600bd2067cf3490f6a25021bb6debfff7529"
+  },
   "aeroworks-1.2.11.jar": {
     "jarName": "aeroworks-1.2.11.jar",
     "modId": "aeroworks",
@@ -580,6 +588,14 @@
     "curseForgeHash": 2165148446,
     "modrinthHash": "39f257a8a0251a0ba838d354fffc439850db123c"
   },
+  "create_aero_radar-0.1.1-1.21.1.jar": {
+    "jarName": "create_aero_radar-0.1.1-1.21.1.jar",
+    "modId": "create_aero_radar",
+    "name": "Create Aero Radar",
+    "version": "0.1.1-1.21.1",
+    "curseForgeHash": 3971305907,
+    "modrinthHash": "1e06a12c5e257eebb2fef971b02d3593d8d51b52"
+  },
   "create_aeronautics_automated_logistics-0.5.2.jar": {
     "jarName": "create_aeronautics_automated_logistics-0.5.2.jar",
     "modId": "create_aeronautics_automated_logistics",
@@ -660,13 +676,13 @@
     "curseForgeHash": 2559225604,
     "modrinthHash": "ffc083a957c3e527d9aabf3fb851b780ef443b5a"
   },
-  "create_radar-0.4.9.4-1.21.1.jar": {
-    "jarName": "create_radar-0.4.9.4-1.21.1.jar",
+  "create_radar-5.1.1-1.21.1.jar": {
+    "jarName": "create_radar-5.1.1-1.21.1.jar",
     "modId": "create_radar",
     "name": "Create: Radars",
-    "version": "0.4.9.4-1.21.1",
-    "curseForgeHash": 2256721129,
-    "modrinthHash": "9726fced4bf86c9e2c0ea09b35bc39ed3ac007b6"
+    "version": "5.1.1-1.21.1",
+    "curseForgeHash": 2221873148,
+    "modrinthHash": "b33c9c8ae355cc42167afb0647ed72a25f391ca0"
   },
   "create_simulated_thrusters-1.21.1-NeoForge-1.1.1.jar": {
     "jarName": "create_simulated_thrusters-1.21.1-NeoForge-1.1.1.jar",
@@ -1355,6 +1371,14 @@
     "curseForgeHash": 1155826160,
     "modrinthHash": "1bd129cf7bce65d6b1c0543045f0620c98a0f885"
   },
+  "iris_bonk-1.21.1-0.1.5-neoforge.jar": {
+    "jarName": "iris_bonk-1.21.1-0.1.5-neoforge.jar",
+    "modId": "iris_bonk",
+    "name": "Iris Bonk",
+    "version": "1.21.1-0.1.5",
+    "curseForgeHash": 3977789869,
+    "modrinthHash": "d0f5ed6b74ba54d4bb509ea6901fd8f40010b330"
+  },
   "irons_jewelry-1.21.1-2.0.1.jar": {
     "jarName": "irons_jewelry-1.21.1-2.0.1.jar",
     "modId": "irons_jewelry",
@@ -1784,13 +1808,13 @@
     "curseForgeHash": 3179636749,
     "modrinthHash": "9d9897541c798d379d2b586f28a4b414dab224c7"
   },
-  "moonlight-1.21.1-3.7.1-neoforge.jar": {
-    "jarName": "moonlight-1.21.1-3.7.1-neoforge.jar",
+  "moonlight-1.21.1-3.7.2-neoforge.jar": {
+    "jarName": "moonlight-1.21.1-3.7.2-neoforge.jar",
     "modId": "moonlight",
     "name": "Moonlight Lib",
-    "version": "1.21.1-3.7.1",
-    "curseForgeHash": 3528639152,
-    "modrinthHash": "19aeef889ec098c3e852183f303de84f185e09f2"
+    "version": "1.21.1-3.7.2",
+    "curseForgeHash": 2419221823,
+    "modrinthHash": "0da45e6bc941f4b9b18dda24f8d047431ddc7226"
   },
   "MouseTweaks-neoforge-mc1.21-2.26.1.jar": {
     "jarName": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
@@ -2128,13 +2152,13 @@
     "curseForgeHash": 341671071,
     "modrinthHash": "8b9034d4c43f880b1f1ebdd3943219de0b0bc4c5"
   },
-  "shield_generators-1.3.0.jar": {
-    "jarName": "shield_generators-1.3.0.jar",
-    "modId": "shield_generators",
-    "name": "Shield Generators",
-    "version": "1.3.0",
-    "curseForgeHash": 1144299219,
-    "modrinthHash": "477491967d43a5fd5af1a14f35ee67342a034c09"
+  "shieldgrid-1.1.6.jar": {
+    "jarName": "shieldgrid-1.1.6.jar",
+    "modId": "shieldgrid",
+    "name": "ShieldGrid",
+    "version": "1.1.6",
+    "curseForgeHash": 2640401890,
+    "modrinthHash": "78919f8417cf2e33ca93e10787f4c462a77279f1"
   },
   "SimplyBows-neoforge-0.1.4.jar": {
     "jarName": "SimplyBows-neoforge-0.1.4.jar",
@@ -2560,6 +2584,38 @@
     "curseForgeHash": 3641816608,
     "modrinthHash": "2d689d2d9e5861ea0a382a459fa8fb0a3e4b5091"
   },
+  "veil-neoforge-1.21.1-4.5.2.jar": {
+    "jarName": "veil-neoforge-1.21.1-4.5.2.jar",
+    "modId": "veil",
+    "name": "Veil",
+    "version": "4.5.2",
+    "curseForgeHash": 3342193253,
+    "modrinthHash": "b9994fd16bac1f78633e17b69ea04b76c0f2654f"
+  },
+  "veil_bonk-1.21.1-0.3.2-neoforge.jar": {
+    "jarName": "veil_bonk-1.21.1-0.3.2-neoforge.jar",
+    "modId": "veil_bonk",
+    "name": "Veil Bonk",
+    "version": "1.21.1-0.3.2",
+    "curseForgeHash": 1641260056,
+    "modrinthHash": "d8d2cdb0906f7b14e15e6e4dc7a51f8d55cd9471"
+  },
+  "vista-1.21.1-5.6.9-neoforge.jar": {
+    "jarName": "vista-1.21.1-5.6.9-neoforge.jar",
+    "modId": "vista",
+    "name": "Vista",
+    "version": "1.21.1-5.6.9",
+    "curseForgeHash": 1675590159,
+    "modrinthHash": "02711c23dbfd171d33634d502bd3ccddde8a94a1"
+  },
+  "VS-Sable-HoseConnectors-0.2.2-1.21.1.jar": {
+    "jarName": "VS-Sable-HoseConnectors-0.2.2-1.21.1.jar",
+    "modId": "vsfluidlink",
+    "name": "VS Sable Hose Connectors",
+    "version": "0.2.2",
+    "curseForgeHash": 2015802578,
+    "modrinthHash": "c7bcae645d9c505b2bb68c97648008c65cd69621"
+  },
   "wakes-1.21.1-NeoForge-1.3.6.jar": {
     "jarName": "wakes-1.21.1-NeoForge-1.3.6.jar",
     "modId": "wakes",
@@ -2575,6 +2631,14 @@
     "version": "5.8.11",
     "curseForgeHash": 1248858723,
     "modrinthHash": "f337de84c2286b69b80628df2a49fea054dd8ada"
+  },
+  "westernpump-0.0.14.jar": {
+    "jarName": "westernpump-0.0.14.jar",
+    "modId": "westernpump",
+    "name": "Create: Western Pump",
+    "version": "0.0.14",
+    "curseForgeHash": 1045729433,
+    "modrinthHash": "311c7b9c101cf865e966156932b61c5c05a1e13a"
   },
   "whats-that-slot-neoforge-1.3.6+1.21.jar": {
     "jarName": "whats-that-slot-neoforge-1.3.6+1.21.jar",
