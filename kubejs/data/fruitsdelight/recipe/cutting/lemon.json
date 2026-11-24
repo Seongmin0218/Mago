@@ -1,0 +1,20 @@
+
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "c:foods/fruits/lemon"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 4,
+        "id": "fruitsdelight:lemon_slice"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knife"
+  }
+}
