@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Pray_Alpha",
+      "uniqueId": "8bcec63f-a0b8-4d51-8670-3250ff977b2a"
+    },
+    "time": 1795338607925,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/K2yHxrbfYf"
+    }
+  }
+]

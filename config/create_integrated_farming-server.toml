@@ -45,6 +45,7 @@
 	fishingNetCaptureCreatureInWater = true
 	#.
 	#The maximum size (width and height) of creatures that can be caught by the Fishing Net.
+	#Creatures of exactly this size are also captured.
 	# Default: 0.699999988079071
 	# Range: 0.009999999776482582 ~ 10.0
 	fishingNetCapturedCreatureMaxSize = 0.699999988079071

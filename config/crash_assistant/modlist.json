@@ -53,14 +53,6 @@
     "curseForgeHash": 2326285658,
     "modrinthHash": "a06f63bd618aa45019aa4a4bcdea26bb61e05519"
   },
-  "AeroStar-1.0.1.jar": {
-    "jarName": "AeroStar-1.0.1.jar",
-    "modId": "aerostarcomp",
-    "name": "AeroStar",
-    "version": "1.0.1",
-    "curseForgeHash": 1729752573,
-    "modrinthHash": "7c33600bd2067cf3490f6a25021bb6debfff7529"
-  },
   "aeroworks-1.2.11.jar": {
     "jarName": "aeroworks-1.2.11.jar",
     "modId": "aeroworks",
@@ -930,14 +922,6 @@
     "version": "1.7.0",
     "curseForgeHash": 3603844914,
     "modrinthHash": "0d2040a348a1d42907561babff9ac983c466b825"
-  },
-  "DistantHorizons-3.3.3-1.21.1.jar": {
-    "jarName": "DistantHorizons-3.3.3-1.21.1.jar",
-    "modId": "distanthorizons",
-    "name": "Distant Horizons",
-    "version": "3.3.3",
-    "curseForgeHash": 1055397107,
-    "modrinthHash": "4357b4d19fab818780c94f0e43dad1cc931634b2"
   },
   "dummmmmmy-1.21-2.0.12-neoforge.jar": {
     "jarName": "dummmmmmy-1.21-2.0.12-neoforge.jar",

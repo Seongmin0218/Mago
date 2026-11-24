@@ -142,6 +142,22 @@
               }
             ]
           },
+          "vanilla_sweet_berry_age_2": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "minecraft:sweet_berry_bush",
+                  "state": {
+                    "age": "2"
+                  }
+                }
+              }
+            ]
+          },
           "bwg_blueberry": {
             "operations": [
               {
@@ -153,6 +169,22 @@
                   "block": "biomeswevegone:blueberry_bush",
                   "state": {
                     "age": "3"
+                  }
+                }
+              }
+            ]
+          },
+          "bwg_blueberry_age_2": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "biomeswevegone:blueberry_bush",
+                  "state": {
+                    "age": "2"
                   }
                 }
               }
@@ -199,22 +231,6 @@
                 "type": "puffish_skills:test",
                 "data": {
                   "block": "extradelight:peanut_crop",
-                  "state": {
-                    "age": "5"
-                  }
-                }
-              }
-            ]
-          },
-          "kc_tea_tree": {
-            "operations": [
-              {
-                "type": "get_broken_block_state"
-              },
-              {
-                "type": "puffish_skills:test",
-                "data": {
-                  "block": "kaleidoscope_cookery:tea_tree",
                   "state": {
                     "age": "5"
                   }
@@ -325,22 +341,6 @@
                 "type": "puffish_skills:test",
                 "data": {
                   "block": "extradelight:corn_top",
-                  "state": {
-                    "age": "3"
-                  }
-                }
-              }
-            ]
-          },
-          "cd_corn_upper": {
-            "operations": [
-              {
-                "type": "get_broken_block_state"
-              },
-              {
-                "type": "puffish_skills:test",
-                "data": {
-                  "block": "culturaldelights:corn_upper",
                   "state": {
                     "age": "3"
                   }
@@ -605,6 +605,7 @@
               }
             ]
           },
+
           "kelp_stem": {
             "operations": [
               {
@@ -614,6 +615,22 @@
                 "type": "puffish_skills:test",
                 "data": {
                   "block": "minecraft:kelp_plant"
+                }
+              }
+            ]
+          },
+          "grape_ripe": {
+            "operations": [
+              {
+                "type": "get_broken_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "#mago_skill:farm_grape_crop",
+                  "state": {
+                    "age": "5"
+                  }
                 }
               }
             ]
@@ -649,7 +666,15 @@
             "expression": "1"
           },
           {
+            "condition": "vanilla_sweet_berry_age_2",
+            "expression": "1"
+          },
+          {
             "condition": "bwg_blueberry",
+            "expression": "1"
+          },
+          {
+            "condition": "bwg_blueberry_age_2",
             "expression": "1"
           },
           {
@@ -662,10 +687,6 @@
           },
           {
             "condition": "ed_peanut",
-            "expression": "1"
-          },
-          {
-            "condition": "kc_tea_tree",
             "expression": "1"
           },
           {
@@ -697,14 +718,6 @@
             "expression": "2"
           },
           {
-            "condition": "cd_corn_upper",
-            "expression": "2"
-          },
-          {
-            "condition": "fd_tomato_on_rope",
-            "expression": "2"
-          },
-          {
             "condition": "kc_rice_base",
             "expression": "2"
           },
@@ -718,11 +731,11 @@
           },
           {
             "condition": "fr_coffee_stem",
-            "expression": "2"
+            "expression": "4"
           },
           {
             "condition": "fr_coffee_stem_middle",
-            "expression": "2"
+            "expression": "4"
           },
           {
             "condition": "fruiting_tree_leaves",
@@ -770,6 +783,10 @@
           },
           {
             "condition": "kelp_stem",
+            "expression": "2"
+          },
+          {
+            "condition": "grape_ripe",
             "expression": "2"
           }
         ]

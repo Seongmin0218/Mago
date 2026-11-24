@@ -1,0 +1,26 @@
+
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "kaleidoscope_tavern:grape_crop",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_tavern:gold_grape_crop",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_tavern:ice_grape_crop",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_dim_wine:crimson_grape_crop",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_dim_wine:warped_grape_crop",
+      "required": false
+    }
+  ]
+}

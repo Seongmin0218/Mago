@@ -1,0 +1,126 @@
+#ShieldGrid server settings. File: config/shieldgrid-server.toml
+[projectiles]
+	#Normal arrow minimum shield damage at long range.
+	# Default: 2
+	# Range: 0 ~ 1000
+	arrow_min = 2
+	#Normal arrow maximum shield damage at close range.
+	# Default: 6
+	# Range: 0 ~ 1000
+	arrow_max = 6
+	#Power bow arrow minimum shield damage at long range.
+	# Default: 8
+	# Range: 0 ~ 1000
+	power_arrow_min = 8
+	#Power bow arrow maximum shield damage at close range.
+	# Default: 12
+	# Range: 0 ~ 1000
+	power_arrow_max = 12
+	#Fixed shield damage from thrown tridents.
+	# Default: 20
+	# Range: 0 ~ 1000
+	trident = 20
+	#Shield damage from thrown eggs.
+	# Default: 1
+	# Range: 0 ~ 1000
+	egg = 1
+	#Shield damage from ender pearls.
+	# Default: 0
+	# Range: 0 ~ 1000
+	ender_pearl = 0
+	#Shield damage from wind charges.
+	# Default: 5
+	# Range: 0 ~ 1000
+	wind_charge = 5
+	#Shield damage from thrown potions.
+	# Default: 10
+	# Range: 0 ~ 1000
+	potion = 10
+	#Shield damage from fishing hooks.
+	# Default: 0
+	# Range: 0 ~ 1000
+	fishing_rod = 0
+	#Shield damage from wither skulls.
+	# Default: 30
+	# Range: 0 ~ 1000
+	wither_skull = 30
+	#Shield damage from ghast fireballs.
+	# Default: 25
+	# Range: 0 ~ 1000
+	ghast_fireball = 25
+	#Shield damage from unlisted projectiles.
+	# Default: 1
+	# Range: 0 ~ 1000
+	default = 1
+
+[explosions]
+	#Shield damage from close TNT explosions.
+	# Default: 50
+	# Range: 0 ~ 1000
+	tnt_close = 50
+	#Minimum shield damage from distant TNT explosions.
+	# Default: 20
+	# Range: 0 ~ 1000
+	tnt_far_min = 20
+	#Maximum shield damage from distant TNT explosions.
+	# Default: 35
+	# Range: 0 ~ 1000
+	tnt_far_max = 35
+	#Distance in blocks for TNT to count as close.
+	# Default: 4.0
+	# Range: 0.0 ~ 32.0
+	tnt_close_distance = 4.0
+	#Shield damage from creeper explosions.
+	# Default: 40
+	# Range: 0 ~ 1000
+	creeper = 40
+	#Shield damage from charged creeper explosions.
+	# Default: 75
+	# Range: 0 ~ 1000
+	charged_creeper = 75
+	#Shield damage from unlisted explosions.
+	# Default: 1
+	# Range: 0 ~ 1000
+	default = 1
+
+	[shields.tier_1_iron]
+		#Iron shield protection size (NxNxN).
+		# Default: 9
+		# Range: 3 ~ 128
+		size = 9
+		#Iron shield maximum energy.
+		# Default: 100
+		# Range: 1 ~ 100000
+		max_energy = 100
+		#Iron shield offline recharge time in seconds.
+		# Default: 120
+		# Range: 1 ~ 3600
+		recharge_seconds = 120
+
+	[shields.tier_2_diamond]
+		#Diamond shield protection size (NxNxN).
+		# Default: 22
+		# Range: 3 ~ 128
+		size = 22
+		#Diamond shield maximum energy.
+		# Default: 500
+		# Range: 1 ~ 100000
+		max_energy = 500
+		#Diamond shield offline recharge time in seconds.
+		# Default: 120
+		# Range: 1 ~ 3600
+		recharge_seconds = 120
+
+	[shields.tier_3_netherite]
+		#Netherite shield protection size (NxNxN).
+		# Default: 32
+		# Range: 3 ~ 128
+		size = 32
+		#Netherite shield maximum energy.
+		# Default: 1000
+		# Range: 1 ~ 100000
+		max_energy = 1000
+		#Netherite shield offline recharge time in seconds.
+		# Default: 120
+		# Range: 1 ~ 3600
+		recharge_seconds = 120
