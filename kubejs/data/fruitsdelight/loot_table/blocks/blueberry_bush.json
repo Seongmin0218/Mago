@@ -1,0 +1,33 @@
+
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {"condition": "minecraft:survives_explosion"},
+        {
+          "block": "fruitsdelight:blueberry_bush",
+          "condition": "minecraft:block_state_property",
+          "properties": {"age": "4"}
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "biomeswevegone:blueberries"
+        }
+      ],
+      "functions": [
+        {
+          "enchantment": "minecraft:fortune",
+          "formula": "minecraft:uniform_bonus_count",
+          "function": "minecraft:apply_bonus",
+          "parameters": {"bonusMultiplier": 1}
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "fruitsdelight:blocks/blueberry_bush"
+}

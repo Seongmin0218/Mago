@@ -1,86 +1,46 @@
 
 /**
  * Mago Farm - Crop Unification
- *
- * 중복 농산물의 제작법 입출력을 대표 작물로 통합한다.
- *
- * - 기존 음식 및 가공 공정 유지
- * - 서로 다른 품종 및 가공 단계 보존
- * - 월드 생성과 모험 전리품은 별도 관리
- *
  * Minecraft 1.21.1 / NeoForge / KubeJS
+ *
+ * 대표 재배:
+ * FD: 토마토, 쌀
+ * ED: 옥수수, 레몬
+ * CD: 오이
+ * KC: 칠리
+ * FR: 차, 커피
+ * BWG: 블루베리
+ * FDL: 오렌지, 사과
+ *
+ * 고유 음식 및 가공 단계를 유지한다.
  */
 
 ServerEvents.recipes(event => {
   const REPLACEMENTS = [
-    // 토마토: KC -> Farmer's Delight
-    [
-      'kaleidoscope_cookery:tomato',
-      'farmersdelight:tomato'
-    ],
-    [
-      'kaleidoscope_cookery:tomato_seed',
-      'farmersdelight:tomato_seeds'
-    ],
+    ['kaleidoscope_cookery:tomato', 'farmersdelight:tomato'],
+    ['kaleidoscope_cookery:tomato_seed', 'farmersdelight:tomato_seeds'],
 
-    // 쌀: KC -> Farmer's Delight
-    [
-      'kaleidoscope_cookery:rice',
-      'farmersdelight:rice'
-    ],
-    [
-      'kaleidoscope_cookery:rice_panicle',
-      'farmersdelight:rice_panicle'
-    ],
+    ['kaleidoscope_cookery:rice', 'farmersdelight:rice'],
+    ['kaleidoscope_cookery:rice_panicle', 'farmersdelight:rice_panicle'],
 
-    // 오이: ED -> Cultural Delights
-    [
-      'extradelight:cucumber',
-      'culturaldelights:cucumber'
-    ],
+    ['extradelight:cucumber', 'culturaldelights:cucumber'],
+    ['extradelight:chili', 'kaleidoscope_cookery:red_chili'],
 
-    // 칠리: ED -> Kaleidoscope Cookery
-    [
-      'extradelight:chili',
-      'kaleidoscope_cookery:red_chili'
-    ],
+    ['fruitsdelight:blueberry', 'biomeswevegone:blueberries'],
+    ['fruitsdelight:lemon', 'extradelight:lemon'],
 
-    // 블루베리: FDL -> BWG
-    [
-      'fruitsdelight:blueberry',
-      'biomeswevegone:blueberries'
-    ],
-
-    // 레몬: FDL -> Extra Delight
-    [
-      'fruitsdelight:lemon',
-      'extradelight:lemon'
-    ],
-
-    // 오렌지: ED -> Fruits Delight
-    [
-      'extradelight:orange',
-      'fruitsdelight:orange'
-    ]
+    ['extradelight:orange', 'fruitsdelight:orange']
   ]
 
   REPLACEMENTS.forEach(pair => {
     event.replaceInput({}, pair[0], pair[1])
   })
 
-  // 중복 씨앗 제작법 제거
+  // 폐기한 중복 종자의 제작법 제거
   event.remove({
     output: 'kaleidoscope_cookery:tomato_seed'
   })
 
-    // FDL 레몬 상자 해체 등에서 ED 레몬을 반환
-  event.replaceOutput(
-    {},
-    'fruitsdelight:lemon',
-    'extradelight:lemon'
-  )
-
-  // FDL 레몬 씨앗 제작법 제거
   event.remove({
     id: 'fruitsdelight:lemon_seeds'
   })
@@ -89,75 +49,83 @@ ServerEvents.recipes(event => {
     id: 'extradelight:chili_seeds'
   })
 
-  // 중복 원재료를 생산하는 제작법 출력 변경
-  event.replaceOutput(
-    {},
-    'kaleidoscope_cookery:rice',
-    'farmersdelight:rice'
-  )
+  // 재료를 생산하는 기존 조합 및 가공 출력도 통합
+  const OUTPUTS = [
+    ['kaleidoscope_cookery:rice', 'farmersdelight:rice'],
+    ['kaleidoscope_cookery:rice_panicle', 'farmersdelight:rice_panicle'],
 
-  event.replaceOutput(
-    {},
-    'kaleidoscope_cookery:rice_panicle',
-    'farmersdelight:rice_panicle'
-  )
+    ['extradelight:chili', 'kaleidoscope_cookery:red_chili'],
 
-  event.replaceOutput(
-    {},
-    'extradelight:chili',
-    'kaleidoscope_cookery:red_chili'
-  )
-})
+    ['fruitsdelight:lemon', 'extradelight:lemon'],
+    ['fruitsdelight:blueberry', 'biomeswevegone:blueberries'],
 
-// ED 건조대 및 가공 레시피에서 KC 칠리를 사용하게 한다.
-ServerEvents.tags('item', event => {
-  event.add(
-    'c:crops/chili',
-    'kaleidoscope_cookery:red_chili'
-  )
+    ['extradelight:orange', 'fruitsdelight:orange'],
 
-  event.add(
-    'c:crops/chili',
-    'kaleidoscope_cookery:green_chili'
-  )
+    // ED 커피 체리 상자 해체 등을 FR 열매로 통합
+    ['extradelight:coffee_cherries', 'farmersrespite:coffee_berries']
+  ]
 
-  event.remove(
-    'c:crops/chili',
-    'extradelight:chili'
-  )
+  OUTPUTS.forEach(pair => {
+    event.replaceOutput({}, pair[0], pair[1])
+  })
+
 })
 
 ServerEvents.tags('item', event => {
-  // FDL 레몬 가공 레시피에 ED 레몬 사용
-  event.add(
-    'c:foods/fruits/lemon',
-    'extradelight:lemon'
-  )
+  // ED 칠리 가공
+  event.add('c:crops/chili', 'kaleidoscope_cookery:red_chili')
+  event.add('c:crops/chili', 'kaleidoscope_cookery:green_chili')
+  event.remove('c:crops/chili', 'extradelight:chili')
 
-  // 중복 레몬을 대표 과일 태그에서 제외
-  event.remove(
-    'c:foods/fruits/lemon',
-    'fruitsdelight:lemon'
-  )
+  // FDL 레몬 가공
+  event.add('c:foods/fruits/lemon', 'extradelight:lemon')
+  event.remove('c:foods/fruits/lemon', 'fruitsdelight:lemon')
+
+  // FDL 블루베리 가공
+  event.add('c:foods/fruits/blueberry', 'biomeswevegone:blueberries')
+  event.remove('c:foods/fruits/blueberry', 'fruitsdelight:blueberry')
+
+  // ED 오렌지 착즙기/도마/오렌지 상자
+  event.add('c:crops/orange', 'fruitsdelight:orange')
+  event.remove('c:crops/orange', 'extradelight:orange')
+
+  // FR 커피 열매 -> ED 건조대
+  event.add('c:crops/coffee', 'farmersrespite:coffee_berries')
+  event.remove('c:crops/coffee', 'extradelight:coffee_cherries')
+
+  // FR 식재 종자는 로스팅 완료 원두나 생두가 아니다.
+  event.remove('c:crops/coffee/green', 'farmersrespite:coffee_beans')
+  event.remove('c:crops/coffee/cooked', 'farmersrespite:coffee_beans')
 })
 
-// 중복 원재료와 씨앗의 JEI/REI/EMI 표시 숨김
+// 중복 원재료 및 묘목의 레시피 뷰어 표시만 숨김.
+// 아이템 등록 자체를 삭제하거나 기존 월드를 변환하지 않는다.
 RecipeViewerEvents.removeEntries('item', event => {
-  // 토마토
-  event.remove('kaleidoscope_cookery:tomato')
-  event.remove('kaleidoscope_cookery:tomato_seed')
+  const RETIRED = [
+    'kaleidoscope_cookery:tomato',
+    'kaleidoscope_cookery:tomato_seed',
 
-  // 쌀
-  event.remove('kaleidoscope_cookery:rice')
-  event.remove('kaleidoscope_cookery:rice_panicle')
-  event.remove('kaleidoscope_cookery:wild_rice')
+    'kaleidoscope_cookery:rice',
+    'kaleidoscope_cookery:rice_panicle',
+    'kaleidoscope_cookery:wild_rice',
 
-  // 칠리
-  event.remove('extradelight:chili')
-  event.remove('extradelight:chili_seeds')
+    'extradelight:chili',
+    'extradelight:chili_seeds',
 
-    // FDL 레몬 원재료 및 재배 경로 숨김
-  event.remove('fruitsdelight:lemon')
-  event.remove('fruitsdelight:lemon_seeds')
-  event.remove('fruitsdelight:lemon_tree')
+    'fruitsdelight:lemon',
+    'fruitsdelight:lemon_seeds',
+    'fruitsdelight:lemon_tree',
+
+    'fruitsdelight:blueberry',
+
+    'extradelight:orange',
+    'extradelight:orange_sapling',
+
+    'extradelight:apple_sapling',
+    'biomeswevegone:orchard_sapling',
+
+    'extradelight:coffee_cherries'
+  ]
+
+  RETIRED.forEach(id => event.remove(id))
 })

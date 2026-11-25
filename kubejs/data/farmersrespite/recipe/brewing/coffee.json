@@ -1,0 +1,21 @@
+{
+  "type": "farmersrespite:brewing",
+  "base": {
+    "count": 1000,
+    "fluid": "minecraft:water"
+  },
+  "cookingtime": 300,
+  "experience": 0.7,
+  "ingredients": [
+    {
+      "item": "extradelight:ground_coffee"
+    },
+    {
+      "item": "extradelight:ground_coffee"
+    }
+  ],
+  "result": {
+    "count": 1000,
+    "fluid": "farmersrespite:coffee"
+  }
+}
