@@ -67,3 +67,4 @@
 {"epoch_ms":1795596018525,"boot_id":"b764245e","stage":"COMMON_SETUP","status":"COMPLETE","details":{}}
 {"epoch_ms":1795596033834,"boot_id":"b764245e","stage":"MOD_LOAD","status":"COMPLETE","details":{}}
 {"epoch_ms":1795596410336,"boot_id":"b764245e","stage":"SERVER","status":"STARTED","details":{}}
+{"epoch_ms":1795651917439,"boot_id":"b764245e","stage":"BOOT","status":"GRACEFUL_SHUTDOWN","details":{"side":"server"}}

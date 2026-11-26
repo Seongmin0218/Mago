@@ -34,7 +34,7 @@
 		#Blocks that are blacklisted from the Green Thumb attribute, for both large crops and drop increase. Use registry names, e.g. minecraft:wheat
 		green_thumb_blacklist = ["minecraft:torchflower_crop"]
 		#Blocks that are allowed to be converted into large crops by the Green Thumb attribute. Includes all available large crops by default, remove as needed.
-		green_thumb_large_crops_allowed = ["minecraft:beetroots", "minecraft:carrots", "minecraft:potatoes"]
+		green_thumb_large_crops_allowed = []
 		#Used for crops not listed above. Multiplier for the crop drops which are affected by Green Thumb. set 1 to disable.
 		# Default: 2
 		# Range: 1 ~ 10
