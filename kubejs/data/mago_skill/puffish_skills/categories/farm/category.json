@@ -3,7 +3,7 @@
   "exclusive_root": false,
   "starting_points": 0,
   "title": "농부",
-  "description": "농사, 수확, 퇴비술, 대농장 관리 스킬트리",
+  "description": "농사, 수확, 퇴비술, 대규모 수확 및 전문 비료 생산 스킬트리",
   "icon": {
     "type": "item",
     "data": {

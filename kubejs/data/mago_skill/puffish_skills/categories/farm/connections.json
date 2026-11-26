@@ -10,10 +10,6 @@
         "farm_easy_harvest"
       ],
       [
-        "farm_start",
-        "farm_movement_speed_a"
-      ],
-      [
         "farm_anti_farmland_trampling",
         "farm_crouch_bonemeal_a"
       ],
@@ -58,28 +54,20 @@
         "farm_green_thumb_f"
       ],
       [
-        "farm_movement_speed_a",
-        "farm_movement_speed_b"
-      ],
-      [
-        "farm_movement_speed_b",
-        "farm_movement_speed_c"
-      ],
-      [
-        "farm_crouch_bonemeal_e",
-        "farm_harvest_3x3"
-      ],
-      [
         "farm_green_thumb_f",
-        "farm_harvest_3x3"
-      ],
-      [
-        "farm_movement_speed_c",
         "farm_harvest_3x3"
       ],
       [
         "farm_harvest_3x3",
         "farm_harvest_5x5"
+      ],
+      [
+        "farm_crouch_bonemeal_e",
+        "farm_fertilizer_crafting"
+      ],
+      [
+        "farm_harvest_5x5",
+        "farm_fertilizer_crafting"
       ]
     ]
   }

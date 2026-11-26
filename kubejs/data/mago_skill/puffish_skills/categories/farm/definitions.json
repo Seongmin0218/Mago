@@ -12,7 +12,7 @@
   },
   "anti_farmland_trampling": {
     "title": "가벼운 발걸음",
-    "description": "농지를 밟아도 망가뜨리지 않습니다.",
+    "description": "경작지를 밟거나 뛰어도 경작지가 파괴되지 않습니다.",
     "icon": {
       "type": "item",
       "data": {
@@ -52,72 +52,9 @@
       }
     ]
   },
-  "movement_speed_1": {
-    "title": "밭길 적응 I",
-    "description": "이동 속도가 아주 조금 증가합니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:leather_boots"
-      }
-    },
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "generic.movement_speed",
-          "value": 0.003,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "movement_speed_2": {
-    "title": "밭길 적응 II",
-    "description": "이동 속도가 소폭 증가합니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:golden_boots"
-      }
-    },
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "generic.movement_speed",
-          "value": 0.004,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "movement_speed_3": {
-    "title": "밭길 적응 III",
-    "description": "이동 속도가 추가로 증가합니다.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:iron_boots"
-      }
-    },
-    "cost": 1,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "generic.movement_speed",
-          "value": 0.005,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
   "crouch_bonemeal_1": {
     "title": "퇴비술 I",
-    "description": "웅크리기 중 주변 작물과 묘목에 낮은 확률로 뼛가루 효과를 적용합니다.",
+    "description": "웅크리기 중 주변 5×5 범위의 대상 작물과 묘목에 뼛가루 효과를 적용합니다. 성장 촉진 발동 확률 +5%p.",
     "icon": {
       "type": "item",
       "data": {
@@ -138,7 +75,7 @@
   },
   "crouch_bonemeal_2": {
     "title": "퇴비술 II",
-    "description": "웅크리기 중 주변 작물과 묘목에 뼛가루 효과를 적용할 확률이 증가합니다.",
+    "description": "성장 촉진 발동 확률 +5%p. 누적 10%.",
     "icon": {
       "type": "item",
       "data": {
@@ -159,7 +96,7 @@
   },
   "crouch_bonemeal_3": {
     "title": "퇴비술 III",
-    "description": "웅크리기 중 주변 작물과 묘목에 뼛가루 효과를 적용할 확률이 추가로 증가합니다.",
+    "description": "성장 촉진 발동 확률 +5%p. 누적 15%.",
     "icon": {
       "type": "item",
       "data": {
@@ -180,7 +117,7 @@
   },
   "crouch_bonemeal_4": {
     "title": "퇴비술 IV",
-    "description": "웅크리기 중 주변 작물과 묘목에 뼛가루 효과를 적용할 확률이 크게 증가합니다.",
+    "description": "성장 촉진 발동 확률 +5%p. 누적 20%.",
     "icon": {
       "type": "item",
       "data": {
@@ -201,7 +138,7 @@
   },
   "crouch_bonemeal_5": {
     "title": "퇴비술 V",
-    "description": "웅크리기 중 주변 작물과 묘목에 뼛가루 효과를 적용할 확률이 최대로 증가합니다.",
+    "description": "성장 촉진 발동 확률 +5%p. 누적 25%.",
     "icon": {
       "type": "item",
       "data": {
@@ -222,11 +159,11 @@
   },
   "green_thumb_1": {
     "title": "녹색 엄지 I",
-    "description": "직접 심은 작물 수확 시 추가 수확을 얻을 확률이 소폭 증가합니다. 대형 작물 생성은 서버 config에서 차단 권장.",
+    "description": "대상 작물을 심을 때 수확량이 2배로 증가하는 작물을 생성할 확률 +3%p. 누적 3%.",
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:carrot"
+        "item": "minecraft:wheat_seeds"
       }
     },
     "cost": 1,
@@ -243,7 +180,49 @@
   },
   "green_thumb_2": {
     "title": "녹색 엄지 II",
-    "description": "직접 심은 작물 수확 시 추가 수확을 얻을 확률이 증가합니다. 대형 작물 생성은 서버 config에서 차단 권장.",
+    "description": "보너스 작물 생성 확률 +3%p. 누적 6%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:beetroot"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "farmers_attributes:green_thumb",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "green_thumb_3": {
+    "title": "녹색 엄지 III",
+    "description": "보너스 작물 생성 확률 +4%p. 누적 10%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:carrot"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "farmers_attributes:green_thumb",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "green_thumb_4": {
+    "title": "녹색 엄지 IV",
+    "description": "보너스 작물 생성 확률 +4%p. 누적 14%.",
     "icon": {
       "type": "item",
       "data": {
@@ -262,9 +241,30 @@
       }
     ]
   },
-  "green_thumb_3": {
-    "title": "녹색 엄지 III",
-    "description": "직접 심은 작물 수확 시 추가 수확을 얻을 확률이 크게 증가합니다. 대형 작물 생성은 서버 config에서 차단 권장.",
+  "green_thumb_5": {
+    "title": "녹색 엄지 V",
+    "description": "보너스 작물 생성 확률 +5%p. 누적 19%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "farmers_attributes:green_thumb",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "green_thumb_6": {
+    "title": "녹색 엄지 VI",
+    "description": "보너스 작물 생성 확률 +5%p. 누적 24%.",
     "icon": {
       "type": "item",
       "data": {
@@ -285,7 +285,7 @@
   },
   "harvest_3x3": {
     "title": "풍작의 손길",
-    "description": "더미: 추후 KubeJS로 괭이 + 웅크리기 사용 시 3x3 범위 성숙 작물 수확을 연결할 예정입니다. 현재는 태그만 부여합니다.",
+    "description": "괭이를 사용하여 3×3 범위의 성숙한 작물을 수확하고 자동으로 다시 심습니다. 현재 기능 개발 예정.",
     "icon": {
       "type": "item",
       "data": {
@@ -305,7 +305,7 @@
   },
   "harvest_5x5": {
     "title": "대농장의 손길",
-    "description": "더미: 추후 KubeJS로 괭이 + 웅크리기 사용 시 5x5 범위 성숙 작물 수확을 연결할 예정입니다. 현재는 태그만 부여합니다.",
+    "description": "범위 수확의 적용 범위가 5×5로 확장됩니다. 현재 기능 개발 예정.",
     "icon": {
       "type": "item",
       "data": {
@@ -319,6 +319,28 @@
         "data": {
           "unlock_command": "tag @s add ps_farm_harvest_5x5",
           "lock_command": "tag @s remove ps_farm_harvest_5x5"
+        }
+      }
+    ]
+  },
+  "fertilizer_crafting": {
+    "title": "비료 제작술",
+    "description": "비료 제작 전용 작업대를 사용할 수 있으며 유기질 비료를 생산할 수 있습니다. 현재 기능 개발 예정.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "farmersdelight:organic_compost"
+      }
+    },
+    "cost": 1,
+    "required_skills": 2,
+    "required_spent_points": 15,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ps_farm_fertilizer",
+          "lock_command": "tag @s remove ps_farm_fertilizer"
         }
       }
     ]

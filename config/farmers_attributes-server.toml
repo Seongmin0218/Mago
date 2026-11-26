@@ -14,7 +14,7 @@
 		#Crouch Bonemeal range in blocks
 		# Default: 4
 		# Range: 0 ~ 16
-		crouchBonemealRange = 4
+		crouchBonemealRange = 2
 		#Crouch Bonemeal cooldown in ticks, only used when holding the crouch key
 		# Default: 20
 		# Range: 0 ~ 600
