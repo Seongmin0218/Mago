@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:wheat",
+    "minecraft:carrots",
+    "minecraft:potatoes",
+    "minecraft:beetroots",
+    {
+      "id": "farmersdelight:cabbages",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:onions",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_cookery:lettuce_crop",
+      "required": false
+    },
+    {
+      "id": "extradelight:ginger_crop",
+      "required": false
+    },
+    {
+      "id": "extradelight:garlic_crop",
+      "required": false
+    },
+    {
+      "id": "extradelight:soybean_crop",
+      "required": false
+    },
+    {
+      "id": "extradelight:mallow_root_crop",
+      "required": false
+    }
+  ]
+}
